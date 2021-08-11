@@ -1,4 +1,5 @@
 # For installing the Satlineh WordPress site, follow these steps:
+![image](https://user-images.githubusercontent.com/6679151/129105894-a1ce449e-1bd5-42f4-a6b1-384e135428cf.png)
 
 ## 1-download This Repo Zip Code from [here](https://github.com/Startup-Data/Satluneh-Wordpress/archive/refs/heads/master.zip)
 ## 2-Unzip it via Default www folder of your local or internet site.
