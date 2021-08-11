@@ -1,0 +1,116 @@
+body.coming-soon {
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6 url('../images/cs-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+  color: #444444;
+}
+.coming-soon #pe-main {
+  padding: 8% 30px 0;
+  text-align: center;
+  background: transparent;
+}
+.coming-soon .container-fluid {
+  max-width: 1470px;
+  display: inline-block;
+  width: 100%;
+  padding: 30px 0;
+}
+#pe-logo {
+  padding: 0 0 60px;
+}
+#pe-coming-soon {
+  padding: 0 0 30px;
+}
+#pe-coming-soon .pe-module {
+  margin: 0 0 30px;
+}
+#pe-coming-soon .pe-title {
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  position: relative;
+  margin: 0;
+  padding: 0 0 35px;
+  display: inline-block;
+  letter-spacing: 3px;
+}
+#pe-coming-soon .pe-title:after {
+  position: absolute;
+  content: '';
+  width: 308px;
+  max-width: 100%;
+  height: 18px;
+  left: 50%;
+  right: auto;
+  bottom: 0;
+  margin-left: -154px;
+  background-image: url('../images/mediatools-sep.png');
+}
+.coming-soon p {
+  margin: 5px 0;
+}
+.coming-soon .button {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid transparent;
+  color: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 18px 50px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  background: #b7853d;
+}
+.coming-soon .button:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  outline: 0;
+  color: #ffffff;
+  background: #a47737;
+}
+#countdown p {
+  display: inline-block;
+  min-width: 165px;
+  height: 165px;
+  border: 2px solid #858585;
+  margin: 0 20px 20px;
+  vertical-align: middle;
+}
+#countdown span {
+  font-size: 77px;
+  font-weight: 700;
+  color: #454545;
+  line-height: 1;
+  text-transform: uppercase;
+  display: block;
+  padding: 20px 0 0;
+}
+#countdown span.timeRefDays,
+#countdown span.timeRefHours,
+#countdown span.timeRefMinutes,
+#countdown span.timeRefSeconds {
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #b8b8b8;
+  padding: 10px 0 0;
+}

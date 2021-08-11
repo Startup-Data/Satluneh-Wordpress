@@ -1,0 +1,31 @@
+body.night {
+  background-color: #161e2e;
+}
+body.night #pe-main {
+  background: #c6c6c6;
+}
+body.night #pe-header {
+  background: #c6c6c6;
+}
+body.night #pe-top1 {
+  background: #cccccc;
+}
+body.night #pe-top2 {
+  background: #c4c4c4;
+  border-color: #a8acae;
+}
+body.night #pe-bottom1 {
+  background: #cccccc;
+}
+body.night #pe-bottom2 {
+  background: #cccccc;
+  border-color: #a8acae;
+}
+body.night #pe-copyrights,
+body.night #pe-footer {
+  background: #cccccc;
+}
+body.night #pe-offcanvas {
+  background: #292929;
+}
+/*# sourceMappingURL=http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/pe-terraclassic/maps/night-version.map */

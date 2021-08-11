@@ -1,0 +1,114 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// MENU
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// WP Menu
+// ---------------------------------------------------------------
+
+.menu {
+	ul {
+		margin: 0;
+	}
+	li {
+		display: block;
+		position: relative;
+		a {
+			display: block;
+			color: @menuFontColor;
+			font-size: @menuFontSize;
+			line-height: @base20; // 20px
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-left: 0;
+			padding-right: 0;
+			text-decoration: none;
+			&:hover,
+			&:focus {
+				color: @menuFontColorHover;
+			}
+		}
+		.current-menu-item > a {
+			color: @menuFontColorHover;
+		}
+	}
+
+	//submenu
+	> li > .sub-menu {
+		li a {
+			padding-left: 15px;
+			&:before {
+				content: '';
+				position: absolute;
+				top: 22px;
+				left: 0px;
+				height: 4px;
+				width: 3px;
+				border: 1px solid currentColor;
+				border-width: 0 0 1px 1px;
+				.transition(all 0.2s ease-in);
+			}
+			&:hover:before,
+			&:focus:before {
+				border-color: @menuFontColorHover;
+			}
+		}
+
+	}
+	.sub-menu {
+		padding-left: 10px;
+	}
+}
+
+#pe-bottom2 {
+	.menu {
+		li a {
+			font-size: @bodyFontSize*0.8125;
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Skip menu
+// ---------------------------------------------------------------
+
+.pe-skip-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: auto;
+	z-index: 999999;
+	ul.menu {
+		margin: 0;
+		> li {
+			padding: 0;
+			margin: 0;
+		}
+		> li > a {
+			color: @PEskipMenuFontColor;
+			background: @PEskipMenuBackground;
+			position: absolute;
+			top: 0;
+			left: -9999px;
+			right: auto;
+			white-space: nowrap;
+			padding: 10px;
+			border: none;
+			&:focus {
+				left: 0;
+			}
+			&:hover,
+			&:focus {
+				color: @PEskipMenuFontColorHover;
+				background: @PEskipMenuBackgroundHover;
+			}
+		}
+	}
+}

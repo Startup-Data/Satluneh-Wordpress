@@ -1,0 +1,692 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// BASE STYLES
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// Links
+// ---------------------------------------------------------------
+
+a {
+	color: @scheme;
+	text-decoration: none;
+	&:hover,
+	&:active,
+	&:focus {
+		outline: 0;
+		text-decoration: underline;
+	}
+}
+
+// ---------------------------------------------------------------
+// Selection
+// ---------------------------------------------------------------
+
+.selection(@schemeContent, @scheme);
+
+// ---------------------------------------------------------------
+// Inputs
+// ---------------------------------------------------------------
+
+.inp() {
+	line-height: 1;
+	vertical-align: middle;
+	font-size: @inputFontSize;
+	font-style: @inputFontStyle;
+	font-weight: @inputFontWeight;
+	font-family: inherit;
+	padding: @inputPadding;
+	border: @inputBorderWidth solid @inputBorderColor;
+	.border-radius(@inputBorderRadius);
+	color: @inputFontColor;
+	background: @inputBackground;
+	.placeholder(@inputFontColor);
+	max-width: 100%;
+	text-transform: @inputTextTransform;
+	.box-sizing(border-box);
+	&:focus {
+		background: @inputBackgroundFocus;
+		border-color: @inputBorderColorFocus;
+		outline: 0;
+	}
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+	.inp();
+}
+
+.terraclassifieds-search form .select2-container{
+  border: @inputBorderWidth solid @inputBorderColor;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected]{
+  background: @bodyFontColor;
+}
+
+select {
+	padding: 14px 25px 13px;
+}
+
+textarea {
+	height: auto;
+	line-height: 1.2;
+	padding: 25px;
+}
+
+// ---------------------------------------------------------------
+// Buttons
+// ---------------------------------------------------------------
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	height: auto;
+	line-height: @baseHeight;
+  border: 2px solid transparent;
+	background: @buttonBackground;
+	font-size: @buttonFontSize;
+	font-family: inherit;
+	font-weight: @buttonFontWeight;
+	padding: @buttonPaddingTop @buttonPaddingLeft;
+	color: @buttonFontColor;
+	text-transform: @buttonTextTransform;
+	.border-radius(@buttonBorderRadius);
+	.transition(all 0.2s ease-in);
+	.box-sizing(border-box);
+	//hover / focus
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: @buttonFontColorHover;
+		background: @buttonBackgroundHover;
+    border: 2px solid @buttonBackgroundHover;
+	}
+	//active
+	&:active {
+		outline: 0;
+	}
+}
+
+.btn-large {
+	padding: 20px 30px;
+	min-width: 250px;
+	.border-radius(30px);
+	text-align: center;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.cmb2-wrap input[type="button"]{
+	.btn();
+}
+
+.button {
+	a {
+		color: @buttonFontColor;
+		text-decoration: none;
+	}
+	&:hover,
+	&:focus {
+		a {
+			color: @buttonFontColorHover;
+		}
+	}
+}
+
+//header
+#pe-header {
+	.btn,
+	.button,
+	button,
+	input[type="submit"],
+	input[type="button"],
+	input[type="reset"] {
+		color: @headerButtonFontColor;
+		background: @headerButtonBackground;
+		margin-top: 21px;
+		&:hover,
+		&:focus {
+			color: @headerButtonFontColorHover;
+			background: @headerButtonBackgroundHover;
+		}
+	}
+  .cd-headline {
+      font-size: 3rem;
+      line-height: 1.2;
+      margin-bottom: 15px;
+      .cd-words-wrapper{
+        text-decoration:none;
+        padding: 0 0 0 26px;
+        strong{
+          font-weight: bold;
+        }
+        &:after{
+          display:none;
+        }
+      }
+      .cd-desc{
+        padding:0;
+      }
+  }
+}
+
+//readmore
+.readmore {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	text-transform: @readmoreTextTransform;
+	padding: @readmorePaddingTop @readmorePaddingLeft;
+	font-size: @readmoreFontSize;
+	font-family: inherit;
+	font-weight: @readmoreFontWeight;
+	line-height: @baseHeight;
+	.transition(all 0.2s ease-in);
+	color: @readmoreFontColor;
+	background: none;
+	.box-sizing(border-box);
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+		color: @readmoreFontColorHover;
+		border-color: @readmoreBorderColorHover;
+	}
+}
+
+//header
+#pe-header {
+	.readmore {
+		color: @headerReadmoreFontColor;
+		border-color: @headerReadmoreBorderColor;
+		&:hover,
+		&:focus {
+			color: @headerReadmoreFontColorHover;
+			border-color: @headerReadmoreBorderColorHover;
+		}
+	}
+	//login
+	#pe-login {
+		.readmore {
+			color: @topmenuFontColor;
+			border-color: @topmenuFontColor;
+			&:hover,
+			&:focus {
+				color: @readmoreFontColor;
+				border-color: @readmoreBorderColor;
+			}
+		}
+	}
+}
+
+.readmore.readmore-icon {
+	position: relative;
+	word-wrap: break-word;
+	span.fa {
+		margin-left: 10px;
+	}
+}
+
+.readmore.readmore-large {
+	width: 100%;
+	font-size: @bodyFontSize;
+}
+
+// ---------------------------------------------------------------
+// Breadcrumbs
+// ---------------------------------------------------------------
+
+.pe-breadcrumbs {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	> li {
+		float: left;
+		+ li {
+			padding-left: 10px;
+		}
+	}
+	> .item-current {
+		color: @breadcrumbItemActiveFontColor;
+	}
+}
+
+// ---------------------------------------------------------------
+// Pagination
+// ---------------------------------------------------------------
+
+.pe-pagination-block {
+	text-align: center;
+	margin: (@baseSpace*1.5) 0 0;
+}
+
+.pe-pagination {
+	display: inline-block;
+	vertical-align: top;
+	margin: -5px auto;
+	> li {
+		float: left;
+		margin: 10px 0 0 5px;
+		a,
+		span {
+			display: block;
+			font-size: @paginationFontSize;
+			line-height: @paginationSize;
+			min-width: @paginationSize;
+			font-weight:600;
+			padding: 13px;
+			text-decoration: none;
+			.transition(all 0.2s ease-in);
+			color: @paginationFontColor;
+			//hover / focus
+			&:hover,
+			&:focus {
+				color: @paginationFontColorHover;
+			}
+		}
+	}
+	//active
+	> li.active {
+		a,
+		span {
+			color: @paginationFontColorHover;
+		}
+	}
+	> li.start,
+	> li.end,
+	> li.next,
+	> li.prev {
+		a {
+			border: 0;
+			min-width: auto;
+			color: @scheme;
+			&:hover,
+			&:focus {
+				background: none;
+				text-decoration:underline;
+			}
+		}
+	}
+}
+
+.pe-page-links {
+	padding: (@baseSpace*2) 0 0;
+	text-align: center;
+	a,
+	> span {
+		display: inline-block;
+		font-size: @paginationFontSize;
+		height: @paginationSize;
+		line-height: @paginationSize - 4;
+		min-width: @paginationSize;
+		padding: 0 10px;
+		margin: 0 5px;
+		.border-radius(@paginationBorderRadius);
+		text-decoration: none;
+		.transition(all 0.2s ease-in);
+		color: @paginationFontColor;
+		border: 1px solid @paginationBorderColor;
+	}
+	//hover / focus
+	> span,
+	a:hover,
+	a:focus {
+		color: @paginationFontColorHover;
+		border: 1px solid @paginationBorderColorHover;
+	}
+}
+
+// ---------------------------------------------------------------
+// Table
+// ---------------------------------------------------------------
+
+table,
+.pe-table {
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+	tr + tr {
+		border-top: 1px solid @border;
+	}
+	tr:nth-child(odd) td {
+		background: @border;
+	}
+	th,
+	td {
+		padding: 8px;
+		line-height: @bodyFontLineHeight;
+		vertical-align: top;
+	}
+	// headings
+	th {
+		border-color: transparent;
+		text-align: center;
+		padding: 15px 8px;
+		background: @scheme;
+		color: @schemeContent;
+		a {
+			color: @schemeContent;
+		}
+	}
+	// Account for multiple tbody instances
+	> tbody + tbody {
+		border-top: 2px solid @border;
+	}
+}
+
+// ---------------------------------------------------------------
+// Search form
+// ---------------------------------------------------------------
+
+.pe-search-box {
+	position: relative;
+	.pe-search-input {
+		input {
+			width: 100%;
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-right: 50px;
+			line-height: 42px;
+			&:focus {
+				border-color: @scheme;
+			}
+		}
+	}
+	.button {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		line-height: 44px;
+		height: 44px;
+	}
+}
+
+//search section
+#pe-search-form {
+  margin: 0 0 @base30;
+  .pe-search-input {
+    width: 100%;
+    input {
+      width: 100%;
+      padding: 0 60px 0 20px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  .button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    .border-radius(0 @buttonBorderRadius @buttonBorderRadius 0);
+  }
+}
+
+//bar search
+#pe-search {
+  form {
+    display: block;
+    position: relative;
+    margin: 0;
+    line-height: 1;
+  }
+  .pe-search-input {
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: auto;
+    right: 30px;
+    z-index: 2;
+    input {
+      width: 260px;
+      padding: 12px 10px;
+      background: @headerBackground;
+      color: inherit;
+      line-height: 20px;
+      border-color: inherit;
+    }
+  }
+  .button {
+    background: none;
+    border: none;
+    color: inherit;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    margin:0;
+    font-size: 21px;
+    &:hover,
+    &:focus {
+      color: @scheme;
+      background: none;
+    }
+  }
+  .open{
+    + .button{
+      float:right;
+      margin-right:2px;
+    }
+  }
+
+}
+
+// ---------------------------------------------------------------
+// Back to top
+// ---------------------------------------------------------------
+
+#pe-back-top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	left: auto;
+	z-index: 999;
+	a {
+		cursor: pointer;
+		display: block;
+		position: relative;
+		height: 50px;
+		width: 50px;
+		color: @schemeInner;
+		background-color: @scheme;
+		text-decoration: none;
+		.transition(all 1s ease 0s);
+		.border-radius(0);
+		text-align: center;
+		.opacity(0.3);
+		span.fa {
+			font-size: 30px;
+			line-height: 50px;
+		}
+		&:hover,
+		&:focus {
+			.opacity(0.6);
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Font-switcher
+// ---------------------------------------------------------------
+
+.fsize(@fontFactor) {
+	font-size: @bodyFontSize * @fontFactor;
+	//layout
+	#pe-bottom2 {
+		font-size: @bodyFontSize * 0.8125 * @fontFactor;
+	}
+	#pe-main .pe-wcag-settings {
+		font-size: @bodyFontSize * 0.8125 * @fontFactor;
+	}
+	//menu
+	.menu ul li a {
+		font-size: @menuFontSize * @fontFactor;
+	}
+	#pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a,
+	#pe-logo-nav .pe-main-menu .nav-dropdown .nav-dropdown-in .menu-item a,
+	#pe-login {
+		font-size: @topmenuFontSize * @fontFactor;
+	}
+	//base
+	select,
+	textarea,
+	input[type="text"],
+	input[type="password"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="date"],
+	input[type="month"],
+	input[type="time"],
+	input[type="week"],
+	input[type="number"],
+	input[type="email"],
+	input[type="url"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="color"] {
+		font-size: @inputFontSize * @fontFactor;
+	}
+	.btn,
+	.button,
+	button,
+	input[type="submit"],
+	input[type="button"],
+	input[type="reset"] {
+		font-size: @buttonFontSize * @fontFactor;
+	}
+	.readmore {
+		font-size: @readmoreFontSize * @fontFactor;
+	}
+	//posts and pages
+	.page-header {
+		> h1,
+		> h2 {
+			font-size: @postFontSize * @fontFactor;
+		}
+	}
+	.pe-opening-hours,
+	.pe-member-contact,
+	.pe-socials,
+	.pe-author-info {
+		.pe-title {
+			font-size: @widgetFontSize * @fontFactor;
+		}
+	}
+	.pe-comments .comment-reply-title,
+	.pe-comments .comments-title {
+		font-size: @widgetFontSize * @fontFactor;
+	}
+	//widgets
+	.pe-widget,
+	.pe-widget-raw {
+		h3.pe-title {
+			font-size: @widgetFontSize * @fontFactor;
+		}
+	}
+	.widget.widget_recent_entries ul li,
+	.widget.widget_archive ul li,
+	.widget.widget_categories ul li,
+	.widget.widget_meta ul li,
+	.widget.widget_pages ul li,
+	.widget.widget_recent_comments ul li,
+	.widget.widget_rss ul li {
+		font-size: @menuFontSize * @fontFactor;
+		span {
+			font-size: round(@bodyFontSize * 0.8125 * @fontFactor);
+		}
+	}
+	#pe-bottom2 .menu li a,
+	#pe-bottom2 .widget.widget_recent_entries ul li a,
+	#pe-bottom2 .widget.widget_archive ul li a,
+	#pe-bottom2 .widget.widget_categories ul li a,
+	#pe-bottom2 .widget.widget_meta ul li a,
+	#pe-bottom2 .widget.widget_pages ul li a,
+	#pe-bottom2 .widget.widget_recent_comments ul li a,
+	#pe-bottom2 .widget.widget_rss ul li a {
+		font-size: @bodyFontSize * 0.8125 * @fontFactor;
+	}
+	//shortcodes
+	.cd-headline {
+		font-size: @postFontSize * @fontFactor;
+	}
+	.pe-anibox {
+		figure {
+			h2 {
+				font-size: @widgetFontSize * @fontFactor;
+			}
+		}
+	}
+
+}
+
+.fcontentSize(@fontFactorContent) {
+	#pe-maincontent {
+		font-size: @bodyFontSize * @fontFactorContent;
+	}
+}
+
+//prepare styles for factors
+.fsize70 {
+	.fsize(@fontFactor70);
+	.fcontentSize(@fontFactorContent70);
+}
+
+.fsize80 {
+	.fsize(@fontFactor80);
+	.fcontentSize(@fontFactorContent80);
+}
+
+.fsize90 {
+	.fsize(@fontFactor90);
+	.fcontentSize(@fontFactorContent90);
+}
+
+.fsize110 {
+	.fsize(@fontFactor110);
+	.fcontentSize(@fontFactorContent110);
+}
+
+.fsize120 {
+	.fsize(@fontFactor120);
+	.fcontentSize(@fontFactorContent120);
+}
+
+.fsize130 {
+	.fsize(@fontFactor130);
+	.fcontentSize(@fontFactorContent130);
+}

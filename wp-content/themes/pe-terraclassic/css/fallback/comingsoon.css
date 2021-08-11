@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+body.coming-soon {
+  background: #f7f7f7;
+}
+body.coming-soon #pe-main {
+  text-align: center;
+  padding: 0 0 30px;
+}
+body.coming-soon #pe-logo {
+  background: #f7f7f7;
+  color: #454545;
+  padding: 30px;
+}
+body.coming-soon p {
+  margin: 5px 0;
+}
+body.coming-soon #pe-widget {
+  padding: 60px 0;
+}
+#countdown p {
+  display: inline-block;
+  min-width: 165px;
+  height: 165px;
+  border: 5px solid #d2d7da;
+  margin: 0 20px 20px;
+  vertical-align: top;
+}
+#countdown span {
+  font-size: 75px;
+  font-weight: 700;
+  color: #454545;
+  line-height: 1;
+  display: block;
+  padding: 25px 0 0;
+}
+#countdown span.timeRefDays,
+#countdown span.timeRefHours,
+#countdown span.timeRefMinutes,
+#countdown span.timeRefSeconds {
+  font-size: 1em;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #787878;
+  padding: 10px 0 0;
+}
+#countdown + .button {
+  margin-top: 45px;
+}
+/*# sourceMappingURL=http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/pe-terraclassic/maps/comingsoon.map */

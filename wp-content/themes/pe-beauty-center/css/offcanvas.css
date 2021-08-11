@@ -1,0 +1,68 @@
+html,
+body {
+	height: 100%;
+}
+html.no-scroll {
+	width: 100%;
+	overflow-y: scroll;
+	position: fixed;
+}
+#pe-main {
+	-webkit-transition: 300ms ease all;
+	-o-transition: 300ms ease all;
+	transition: 300ms ease all;
+}
+#pe-offcanvas {
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	-webkit-transition: 300ms ease all;
+	-o-transition: 300ms ease all;
+	transition: 300ms ease all;
+}
+.admin-bar #pe-offcanvas{
+	top:32px;
+}
+.off-canvas-right.off-canvas #pe-offcanvas {
+	right: 0;
+	overflow-y: auto;
+}
+.off-canvas-left.off-canvas #pe-offcanvas {
+	left: 0;
+	overflow-y: auto;
+}
+#pe-offcanvas-toolbar {
+	background: #222222;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+}
+#pe-offcanvas-content {
+	padding: 15px;
+}
+.toggle-nav {
+	cursor: pointer;
+}
+.toggle-nav [class^="glyphicon-"],
+.toggle-nav [class*=" glyphicon-"] {
+	font-size: 21px;
+}
+.toggle-nav.menu {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.off-canvas-left #pe-offcanvas-toolbar {
+	text-align: right;
+}
+#pe-top-bar .toggle-nav.menu {
+	height: 40px;
+}
+#pe-top-bar .toggle-nav.menu [class^="glyphicon-"],
+#pe-top-bar .toggle-nav.menu [class*=" glyphicon-"] {
+	top: 0;
+}
+#pe-main-menu .toggle-nav.menu {
+	padding-top: 35px;
+}

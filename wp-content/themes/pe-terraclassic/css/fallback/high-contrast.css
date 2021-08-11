@@ -1,0 +1,4511 @@
+.wcagfocus a:hover,
+.wcagfocus a:focus,
+.wcagfocus input[type="text"]:focus,
+.wcagfocus input[type="search"]:focus,
+.wcagfocus input[type="submit"]:focus,
+.wcagfocus input[type="search"]:hover,
+.wcagfocus input[type="submit"]:hover,
+.wcagfocus textarea:focus,
+.wcagfocus *:focus {
+  outline: 2px dotted #ff0000;
+  outline-offset: -2px;
+}
+.wcagfocus .pe-testimonials .pe-custom-title {
+  padding: 4px;
+}
+*[tabindex='-1']:focus {
+  outline: none;
+}
+.pe-info,
+.pe-success,
+.pe-alert,
+.pe-warning {
+  text-align: initial;
+}
+@media reader, speech, aural {
+  *:before,
+  *:after {
+    display: none !important;
+    content: '' !important;
+    visibility: hidden;
+  }
+}
+.wcaganimation .pe-animation {
+  opacity: 1;
+}
+.wcaganimation [data-animation] {
+  animation-duration: 0s !important;
+}
+.wcaganimation [data-animation-delay] {
+  animation-delay: 0ms !important;
+}
+.wcaganimation .pe-recent-posts-outer .animated {
+  animation-duration: 0s !important;
+  animation-delay: 0ms !important;
+}
+.wcaganimation *,
+.wcaganimation *:before,
+.wcaganimation *:after {
+  transition: none !important;
+}
+body.highcontrast {
+  color: #ffffff;
+  background-color: #000000;
+}
+body.highcontrast a {
+  text-decoration: underline !important;
+}
+body.highcontrast a:hover {
+  text-decoration: underline !important;
+}
+body.highcontrast #pe-copyrights a {
+  color: #ffffff;
+}
+body.highcontrast .pe-animation {
+  opacity: 1;
+}
+body.highcontrast [data-animation] {
+  animation-duration: 0s !important;
+}
+body.highcontrast [data-animation-delay] {
+  animation-delay: 0ms !important;
+}
+body.highcontrast .pe-recent-posts-outer .animated {
+  animation-duration: 0s !important;
+  animation-delay: 0ms !important;
+}
+body.highcontrast *,
+body.highcontrast *:before,
+body.highcontrast *:after {
+  transition: none !important;
+}
+body.highcontrast .pe-theme-customizer,
+body.highcontrast .sp-container {
+  display: none;
+}
+body.highcontrast a {
+  color: #8bfffb;
+}
+body.highcontrast ::selection {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast ::-webkit-selection {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast ::-moz-selection {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast select,
+body.highcontrast textarea,
+body.highcontrast input[type="text"],
+body.highcontrast input[type="password"],
+body.highcontrast input[type="datetime"],
+body.highcontrast input[type="datetime-local"],
+body.highcontrast input[type="date"],
+body.highcontrast input[type="month"],
+body.highcontrast input[type="time"],
+body.highcontrast input[type="week"],
+body.highcontrast input[type="number"],
+body.highcontrast input[type="email"],
+body.highcontrast input[type="url"],
+body.highcontrast input[type="search"],
+body.highcontrast input[type="tel"],
+body.highcontrast input[type="color"] {
+  border-color: #ffffff;
+  color: #ffffff;
+  background: #000000;
+}
+body.highcontrast select::-webkit-input-placeholder,
+body.highcontrast textarea::-webkit-input-placeholder,
+body.highcontrast input[type="text"]::-webkit-input-placeholder,
+body.highcontrast input[type="password"]::-webkit-input-placeholder,
+body.highcontrast input[type="datetime"]::-webkit-input-placeholder,
+body.highcontrast input[type="datetime-local"]::-webkit-input-placeholder,
+body.highcontrast input[type="date"]::-webkit-input-placeholder,
+body.highcontrast input[type="month"]::-webkit-input-placeholder,
+body.highcontrast input[type="time"]::-webkit-input-placeholder,
+body.highcontrast input[type="week"]::-webkit-input-placeholder,
+body.highcontrast input[type="number"]::-webkit-input-placeholder,
+body.highcontrast input[type="email"]::-webkit-input-placeholder,
+body.highcontrast input[type="url"]::-webkit-input-placeholder,
+body.highcontrast input[type="search"]::-webkit-input-placeholder,
+body.highcontrast input[type="tel"]::-webkit-input-placeholder,
+body.highcontrast input[type="color"]::-webkit-input-placeholder {
+  color: #ffffff;
+  opacity: 1 !important;
+}
+body.highcontrast select:-moz-placeholder,
+body.highcontrast textarea:-moz-placeholder,
+body.highcontrast input[type="text"]:-moz-placeholder,
+body.highcontrast input[type="password"]:-moz-placeholder,
+body.highcontrast input[type="datetime"]:-moz-placeholder,
+body.highcontrast input[type="datetime-local"]:-moz-placeholder,
+body.highcontrast input[type="date"]:-moz-placeholder,
+body.highcontrast input[type="month"]:-moz-placeholder,
+body.highcontrast input[type="time"]:-moz-placeholder,
+body.highcontrast input[type="week"]:-moz-placeholder,
+body.highcontrast input[type="number"]:-moz-placeholder,
+body.highcontrast input[type="email"]:-moz-placeholder,
+body.highcontrast input[type="url"]:-moz-placeholder,
+body.highcontrast input[type="search"]:-moz-placeholder,
+body.highcontrast input[type="tel"]:-moz-placeholder,
+body.highcontrast input[type="color"]:-moz-placeholder {
+  color: #ffffff;
+}
+body.highcontrast select::-moz-placeholder,
+body.highcontrast textarea::-moz-placeholder,
+body.highcontrast input[type="text"]::-moz-placeholder,
+body.highcontrast input[type="password"]::-moz-placeholder,
+body.highcontrast input[type="datetime"]::-moz-placeholder,
+body.highcontrast input[type="datetime-local"]::-moz-placeholder,
+body.highcontrast input[type="date"]::-moz-placeholder,
+body.highcontrast input[type="month"]::-moz-placeholder,
+body.highcontrast input[type="time"]::-moz-placeholder,
+body.highcontrast input[type="week"]::-moz-placeholder,
+body.highcontrast input[type="number"]::-moz-placeholder,
+body.highcontrast input[type="email"]::-moz-placeholder,
+body.highcontrast input[type="url"]::-moz-placeholder,
+body.highcontrast input[type="search"]::-moz-placeholder,
+body.highcontrast input[type="tel"]::-moz-placeholder,
+body.highcontrast input[type="color"]::-moz-placeholder {
+  color: #ffffff;
+}
+body.highcontrast select:-ms-input-placeholder,
+body.highcontrast textarea:-ms-input-placeholder,
+body.highcontrast input[type="text"]:-ms-input-placeholder,
+body.highcontrast input[type="password"]:-ms-input-placeholder,
+body.highcontrast input[type="datetime"]:-ms-input-placeholder,
+body.highcontrast input[type="datetime-local"]:-ms-input-placeholder,
+body.highcontrast input[type="date"]:-ms-input-placeholder,
+body.highcontrast input[type="month"]:-ms-input-placeholder,
+body.highcontrast input[type="time"]:-ms-input-placeholder,
+body.highcontrast input[type="week"]:-ms-input-placeholder,
+body.highcontrast input[type="number"]:-ms-input-placeholder,
+body.highcontrast input[type="email"]:-ms-input-placeholder,
+body.highcontrast input[type="url"]:-ms-input-placeholder,
+body.highcontrast input[type="search"]:-ms-input-placeholder,
+body.highcontrast input[type="tel"]:-ms-input-placeholder,
+body.highcontrast input[type="color"]:-ms-input-placeholder {
+  color: #ffffff;
+}
+body.highcontrast select:focus,
+body.highcontrast textarea:focus,
+body.highcontrast input[type="text"]:focus,
+body.highcontrast input[type="password"]:focus,
+body.highcontrast input[type="datetime"]:focus,
+body.highcontrast input[type="datetime-local"]:focus,
+body.highcontrast input[type="date"]:focus,
+body.highcontrast input[type="month"]:focus,
+body.highcontrast input[type="time"]:focus,
+body.highcontrast input[type="week"]:focus,
+body.highcontrast input[type="number"]:focus,
+body.highcontrast input[type="email"]:focus,
+body.highcontrast input[type="url"]:focus,
+body.highcontrast input[type="search"]:focus,
+body.highcontrast input[type="tel"]:focus,
+body.highcontrast input[type="color"]:focus {
+  border-color: #8bfffb;
+}
+body.highcontrast .btn,
+body.highcontrast .button,
+body.highcontrast button,
+body.highcontrast input[type="submit"],
+body.highcontrast input[type="button"],
+body.highcontrast input[type="reset"] {
+  text-decoration: none;
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .btn.active,
+body.highcontrast .button.active,
+body.highcontrast button.active,
+body.highcontrast input[type="submit"].active,
+body.highcontrast input[type="button"].active,
+body.highcontrast input[type="reset"].active,
+body.highcontrast .btn:hover,
+body.highcontrast .button:hover,
+body.highcontrast button:hover,
+body.highcontrast input[type="submit"]:hover,
+body.highcontrast input[type="button"]:hover,
+body.highcontrast input[type="reset"]:hover,
+body.highcontrast .btn:focus,
+body.highcontrast .button:focus,
+body.highcontrast button:focus,
+body.highcontrast input[type="submit"]:focus,
+body.highcontrast input[type="button"]:focus,
+body.highcontrast input[type="reset"]:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast .button a {
+  color: #000000;
+}
+body.highcontrast .button.active a,
+body.highcontrast .button:hover a,
+body.highcontrast .button:focus a {
+  color: #000000;
+}
+body.highcontrast #pe-header .btn,
+body.highcontrast #pe-header .button,
+body.highcontrast #pe-header button,
+body.highcontrast #pe-header input[type="submit"],
+body.highcontrast #pe-header input[type="button"],
+body.highcontrast #pe-header input[type="reset"] {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast #pe-header .btn.active,
+body.highcontrast #pe-header .button.active,
+body.highcontrast #pe-header button.active,
+body.highcontrast #pe-header input[type="submit"].active,
+body.highcontrast #pe-header input[type="button"].active,
+body.highcontrast #pe-header input[type="reset"].active,
+body.highcontrast #pe-header .btn:hover,
+body.highcontrast #pe-header .button:hover,
+body.highcontrast #pe-header button:hover,
+body.highcontrast #pe-header input[type="submit"]:hover,
+body.highcontrast #pe-header input[type="button"]:hover,
+body.highcontrast #pe-header input[type="reset"]:hover,
+body.highcontrast #pe-header .btn:focus,
+body.highcontrast #pe-header .button:focus,
+body.highcontrast #pe-header button:focus,
+body.highcontrast #pe-header input[type="submit"]:focus,
+body.highcontrast #pe-header input[type="button"]:focus,
+body.highcontrast #pe-header input[type="reset"]:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast .readmore {
+  color: #ffffff;
+  border-color: #ffffff;
+  background: none;
+}
+body.highcontrast .readmore.active,
+body.highcontrast .readmore:hover,
+body.highcontrast .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+  background: none;
+}
+body.highcontrast #pe-header .readmore {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+body.highcontrast #pe-header .readmore:hover,
+body.highcontrast #pe-header .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast #pe-header #pe-login .readmore {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+body.highcontrast #pe-header #pe-login .readmore:hover,
+body.highcontrast #pe-header #pe-login .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast #pe-header #pe-login .btn-login {
+  color: #ffffff;
+}
+body.highcontrast .pe-breadcrumb > li a {
+  color: #ffffff;
+}
+body.highcontrast .pe-breadcrumb > .item-current {
+  color: #8bfffb;
+}
+body.highcontrast .pe-pagination > li a,
+body.highcontrast .pe-pagination > li span {
+  color: #000000;
+  border: #ffffff;
+}
+body.highcontrast .pe-pagination > li a:hover,
+body.highcontrast .pe-pagination > li span:hover,
+body.highcontrast .pe-pagination > li a:focus,
+body.highcontrast .pe-pagination > li span:focus {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast .pe-pagination > li.active a,
+body.highcontrast .pe-pagination > li.active span {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast .pe-pagination > li.start a:hover,
+body.highcontrast .pe-pagination > li.end a:hover,
+body.highcontrast .pe-pagination > li.next a:hover,
+body.highcontrast .pe-pagination > li.prev a:hover,
+body.highcontrast .pe-pagination > li.start a:focus,
+body.highcontrast .pe-pagination > li.end a:focus,
+body.highcontrast .pe-pagination > li.next a:focus,
+body.highcontrast .pe-pagination > li.prev a:focus {
+  color: #000000;
+}
+body.highcontrast .pe-page-links a,
+body.highcontrast .pe-page-links > span {
+  color: #000000;
+  border: #ffffff;
+}
+body.highcontrast .pe-page-links > span,
+body.highcontrast .pe-page-links a:hover,
+body.highcontrast .pe-page-links a:focus {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast .pe-table th {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .pe-table tr:nth-child(odd) td {
+  background: none;
+}
+body.highcontrast .pe-table tr + tr {
+  border-color: #ffffff;
+}
+body.highcontrast .pe-table > tbody + tbody {
+  border-color: #ffffff;
+}
+body.highcontrast #pe-back-top a {
+  color: #000000;
+  background-color: #ffffff;
+}
+body.highcontrast #pe-main .pe-wcag-settings {
+  border-color: #ffffff;
+}
+body.highcontrast #pe-main .pe-wcag-settings li a {
+  border-color: #ffffff;
+  color: #000000;
+  background: #ffffff;
+}
+body.highcontrast #pe-main .pe-wcag-settings li a:hover,
+body.highcontrast #pe-main .pe-wcag-settings li a:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast #pe-main {
+  background-color: #000000;
+}
+body.highcontrast.sticky-bar #pe-header {
+  padding-top: 0 !important;
+}
+body.highcontrast.sticky-bar #pe-logo-nav {
+  position: static;
+  background: #000000;
+}
+body.highcontrast #pe-logo-nav #pe-wcag {
+  background: none;
+  color: #ffffff;
+}
+body.highcontrast #pe-login:before {
+  border-color: #ffffff;
+}
+body.highcontrast #pe-top-bar,
+body.highcontrast #pe-logo-nav,
+body.highcontrast #pe-header,
+body.highcontrast #pe-top1,
+body.highcontrast #pe-top2,
+body.highcontrast #pe-top3,
+body.highcontrast #pe-bottom1,
+body.highcontrast #pe-bottom2,
+body.highcontrast #pe-footer,
+body.highcontrast #pe-copyrights {
+  color: #ffffff;
+  background: #000000;
+  border-bottom: 1px solid #ffffff;
+}
+body.highcontrast #pe-top-bar:before,
+body.highcontrast #pe-logo-nav:before,
+body.highcontrast #pe-header:before,
+body.highcontrast #pe-top1:before,
+body.highcontrast #pe-top2:before,
+body.highcontrast #pe-top3:before,
+body.highcontrast #pe-bottom1:before,
+body.highcontrast #pe-bottom2:before,
+body.highcontrast #pe-footer:before,
+body.highcontrast #pe-copyrights:before {
+  display: none;
+}
+body.highcontrast #pe-copyrights {
+  border-bottom: none;
+}
+body.highcontrast #pe-top2,
+body.highcontrast #pe-bottom2 {
+  border-color: #ffffff;
+}
+body.highcontrast .menu li a {
+  color: #ffffff;
+  border-color: #8bfffb;
+}
+body.highcontrast .menu li a:hover,
+body.highcontrast .menu li a:active,
+body.highcontrast .menu li a:focus,
+body.highcontrast .menu .current-menu-item > a {
+  color: #8bfffb;
+}
+body.highcontrast .menu > li > .sub-menu li a:hover:before,
+body.highcontrast .menu > li > .sub-menu li a:focus:before {
+  border-color: #8bfffb;
+}
+body.highcontrast .pe-skip-menu ul.menu > li > a {
+  color: #000000;
+  background: #ffffff;
+}
+body.highcontrast .pe-skip-menu ul.menu > li > a:hover,
+body.highcontrast .pe-skip-menu ul.menu > li > a:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast #pe-offcanvas,
+body.highcontrast #pe-offcanvas-button {
+  display: none !important;
+}
+body.highcontrast .pe-blog-row {
+  border-color: #ffffff;
+}
+body.highcontrast .page-header > h1,
+body.highcontrast .page-header > h2 {
+  color: #ffffff;
+}
+body.highcontrast .page-header > h1 a,
+body.highcontrast .page-header > h2 a {
+  color: #ffffff;
+}
+body.highcontrast .page-header > h1 a:hover,
+body.highcontrast .page-header > h2 a:hover {
+  color: #8bfffb;
+}
+body.highcontrast .post-meta {
+  color: #ffffff;
+}
+body.highcontrast .sticky .page-header h2 a:before {
+  color: #8bfffb;
+}
+body.highcontrast .wp-caption .wp-caption-text,
+body.highcontrast .gallery-caption .wp-caption-text {
+  background: #000000;
+  color: #ffffff;
+}
+body.highcontrast .pe-blog-row figure.effect,
+body.highcontrast .archive .pe-blog-row figure.effect {
+  overflow: visible;
+}
+body.highcontrast .pe-blog-row figure.effect figcaption,
+body.highcontrast .archive .pe-blog-row figure.effect figcaption {
+  padding: 30px 0 0;
+  position: static;
+  color: #ffffff;
+  background: none;
+  opacity: 1;
+}
+body.highcontrast .pe-blog-row figure.effect figcaption:before,
+body.highcontrast .archive .pe-blog-row figure.effect figcaption:before,
+body.highcontrast .pe-blog-row figure.effect figcaption:after,
+body.highcontrast .archive .pe-blog-row figure.effect figcaption:after {
+  display: none;
+}
+body.highcontrast .pe-blog-row figure.effect .intro,
+body.highcontrast .archive .pe-blog-row figure.effect .intro {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  padding: 0;
+}
+body.highcontrast .pe-blog-row figure.effect .pe-article-read-more .readmore,
+body.highcontrast .archive .pe-blog-row figure.effect .pe-article-read-more .readmore {
+  color: #000000;
+  background: #ffffff;
+}
+body.highcontrast .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast .pe-blog-row figure.effect .pe-article-read-more .readmore.active,
+body.highcontrast .archive .pe-blog-row figure.effect .pe-article-read-more .readmore.active {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast .pe-author-info .pe-title {
+  color: #ffffff;
+}
+body.highcontrast .pe-author-name .name {
+  color: #ffffff;
+}
+body.highcontrast .pe-post-tags ul li a:hover,
+body.highcontrast .pe-post-tags ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .post-navigation .meta-nav {
+  color: #8bfffb;
+}
+body.highcontrast .post-navigation .nav-next a:after {
+  color: #8bfffb;
+}
+body.highcontrast .post-navigation .nav-previous a:before {
+  color: #8bfffb;
+}
+body.highcontrast .post-navigation a:hover,
+body.highcontrast .post-navigation a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .pe-comments .comment-reply-title,
+body.highcontrast .pe-comments .comments-title {
+  color: #ffffff;
+}
+body.highcontrast .pe-comments .comment-reply-link {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .pe-comments .comment-reply-link:hover,
+body.highcontrast .pe-comments .comment-reply-link:focus {
+  background: #8bfffb;
+}
+body.highcontrast .pe-opening-hours .pe-title,
+body.highcontrast .pe-member-contact .pe-title,
+body.highcontrast .pe-socials .pe-title {
+  color: #ffffff;
+}
+body.highcontrast .pe-error-page > h1,
+body.highcontrast .pe-error-page > h2 {
+  color: #ffffff;
+}
+body.highcontrast .pe-tabs .pe-tab-links li a {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+body.highcontrast .pe-tabs .pe-tab-links li a:hover,
+body.highcontrast .pe-tabs .pe-tab-links li a:focus {
+  color: #ffffff;
+  border-color: #8bfffb;
+}
+body.highcontrast .pe-tabs .pe-tab-links li.active a {
+  color: #ffffff;
+  border-color: #8bfffb;
+}
+body.highcontrast .pe-tabs.pe-clean .pe-tab-links {
+  border-color: #8bfffb;
+}
+body.highcontrast .pe-tabs.pe-clean .pe-tab-links li a {
+  color: #ffffff;
+}
+body.highcontrast .pe-tabs.pe-clean .pe-tab-links li a:hover,
+body.highcontrast .pe-tabs.pe-clean .pe-tab-links li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .pe-tabs.pe-clean .pe-tab-links li.active a {
+  color: #8bfffb;
+}
+body.highcontrast .pe-accordion-container .pe-accordion .accordion-in {
+  border: 1px solid #ffffff;
+  background: #000000;
+  color: #ffffff;
+}
+body.highcontrast .pe-accordion-container .pe-accordion-heading a {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+body.highcontrast .pe-accordion-container .pe-accordion-heading a:after {
+  color: #ffffff;
+}
+body.highcontrast .pe-accordion-container .pe-accordion-heading a:hover,
+body.highcontrast .pe-accordion-container .pe-accordion-heading a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .pe-accordion-container .pe-accordion-heading.active a {
+  color: #8bfffb;
+}
+body.highcontrast .pe-gallery-item .pe-gallery-caption {
+  background: #000000;
+}
+body.highcontrast .pe-icontext .pe-icon {
+  color: #ffffff;
+}
+body.highcontrast .pe-icontext .pe-label a:hover,
+body.highcontrast .pe-icontext .pe-label a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .pe-table-group tr td:first-child {
+  color: #8bfffb;
+}
+body.highcontrast .pe-pricing .title {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .pe-pricing .price {
+  background: #ffffff;
+}
+body.highcontrast .pe-pricing .price span {
+  color: #000000;
+}
+body.highcontrast .pe-pricing .content {
+  background: none;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+body.highcontrast .pe-pricing .bottom {
+  background: none;
+  border: 1px solid #ffffff;
+}
+body.highcontrast .pe-anibox figure {
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure figcaption {
+  color: #ffffff;
+}
+body.highcontrast .pe-anibox figure figcaption a {
+  color: #ffffff !important;
+}
+body.highcontrast .pe-anibox figure.effect-sadie figcaption:before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 75%);
+}
+body.highcontrast .pe-anibox figure.effect-sadie h2 {
+  color: #ffffff !important;
+  background: #000000;
+  padding: 10px;
+}
+body.highcontrast .pe-anibox figure.effect-sadie p {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-julia {
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-julia h2 {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-julia p {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-julia p a {
+  background: none;
+}
+body.highcontrast .pe-anibox figure.effect-goliath {
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-goliath h2 {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-goliath p {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-marley {
+  background: #000000;
+}
+body.highcontrast .pe-anibox figure.effect-marley h2 {
+  color: #ffffff !important;
+  background: #000000;
+  padding: 10px;
+}
+body.highcontrast .pe-anibox figure.effect-marley p {
+  color: #ffffff !important;
+  background: #000000;
+}
+body.highcontrast .pe-testimonials .pe-custom-text {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .pe-testimonials .pe-custom-text:after {
+  border-color: transparent #ffffff transparent transparent;
+}
+body.highcontrast .pe-testimonials .pe-custom-title {
+  color: #ffffff;
+}
+body.highcontrast .pe-testimonials.clean .pe-custom-text {
+  background: none;
+  color: #ffffff;
+}
+body.highcontrast .right .pe-testimonials .pe-custom-text:after,
+body.highcontrast .pe-testimonials.right .pe-custom-text:after {
+  border-color: #ffffff transparent transparent transparent;
+}
+body.highcontrast .pe-testimonials.clean {
+  border-left: 5px solid #ffffff;
+}
+body.highcontrast .pe-testimonials.right.clean {
+  border-right: 5px solid #ffffff;
+}
+body.highcontrast .pe-counter .pe-icon {
+  color: #ffffff;
+}
+body.highcontrast .pe-counter .pe-count {
+  color: #ffffff;
+}
+body.highcontrast .pe-counter .pe-title:after {
+  background: #ffffff;
+}
+body.highcontrast .mfp-modal-content {
+  color: #000000;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a {
+  color: #ffffff;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a:after,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a:after {
+  display: none;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.current-menu-item > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.current-menu-item > a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-dropdown .nav-dropdown-in,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-dropdown .nav-dropdown-in {
+  background: #ffffff;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item a {
+  color: #000000;
+}
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+body.highcontrast #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a {
+  color: #8bfffb;
+  background: #000000;
+  box-shadow: 0 0 0 5px #000000;
+}
+body.highcontrast .pe-typo-title {
+  background: none;
+}
+body.highcontrast ul:not([class]) li:before,
+body.highcontrast ul.pe-dark li:before,
+body.highcontrast ul.pe-light li:before,
+body.highcontrast #pe-header ul:not([class]) li:before,
+body.highcontrast #pe-header ul.pe-light li:before {
+  color: #8bfffb;
+}
+body.highcontrast ul.pe-dark li:before {
+  color: #ffffff;
+}
+body.highcontrast pre {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+body.highcontrast .pe-color {
+  color: #8bfffb;
+}
+body.highcontrast .pe-info,
+body.highcontrast .pe-success,
+body.highcontrast .pe-alert,
+body.highcontrast .pe-warning {
+  text-align: inherit;
+  color: #ffffff;
+  background: #000000;
+}
+body.highcontrast .pe-info a,
+body.highcontrast .pe-success a,
+body.highcontrast .pe-alert a,
+body.highcontrast .pe-warning a {
+  color: #ffffff;
+}
+body.highcontrast .pe-block span {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast .pe-block.second span {
+  background: #8bfffb;
+  color: #000000;
+}
+body.highcontrast p.pebadge,
+body.highcontrast span.pebadge {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/badge.png");
+}
+body.highcontrast p.pecalendar,
+body.highcontrast span.pecalendar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/calendar.png");
+}
+body.highcontrast p.pechat,
+body.highcontrast span.pechat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/chat.png");
+}
+body.highcontrast p.pecheck,
+body.highcontrast span.pecheck {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/check.png");
+}
+body.highcontrast p.pecloud,
+body.highcontrast span.pecloud {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/cloud.png");
+}
+body.highcontrast p.pedirection,
+body.highcontrast span.pedirection {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/direction.png");
+}
+body.highcontrast p.pedivide,
+body.highcontrast span.pedivide {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/divide.png");
+}
+body.highcontrast p.peerror,
+body.highcontrast span.peerror {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/error.png");
+}
+body.highcontrast p.pefire,
+body.highcontrast span.pefire {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/fire.png");
+}
+body.highcontrast p.peflag,
+body.highcontrast span.peflag {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/flag.png");
+}
+body.highcontrast p.peheart,
+body.highcontrast span.peheart {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/heart.png");
+}
+body.highcontrast p.pehome,
+body.highcontrast span.pehome {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/home.png");
+}
+body.highcontrast p.peinfo,
+body.highcontrast span.peinfo {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/info.png");
+}
+body.highcontrast p.pelist,
+body.highcontrast span.pelist {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/list.png");
+}
+body.highcontrast p.pemail,
+body.highcontrast span.pemail {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/mail.png");
+}
+body.highcontrast p.pepeople,
+body.highcontrast span.pepeople {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/people.png");
+}
+body.highcontrast p.pestar,
+body.highcontrast span.pestar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/star.png");
+}
+body.highcontrast p.pestat,
+body.highcontrast span.pestat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/stat.png");
+}
+body.highcontrast .quote-left,
+body.highcontrast .quote-right {
+  border-color: #ffffff;
+}
+body.highcontrast .quote-left span.fa,
+body.highcontrast .quote-right span.fa,
+body.highcontrast .quote-left span[class^='fa'],
+body.highcontrast .quote-right span[class^='fa'] {
+  color: #ffffff;
+}
+body.highcontrast .quote-left {
+  border-color: #ffffff;
+}
+body.highcontrast .quote-right {
+  border-color: #ffffff;
+}
+body.highcontrast .pe-widget h1.pe-title,
+body.highcontrast .pe-widget h2.pe-title,
+body.highcontrast .pe-widget h3.pe-title,
+body.highcontrast .pe-widget h4.pe-title,
+body.highcontrast .pe-widget h5.pe-title,
+body.highcontrast .pe-widget h6.pe-title,
+body.highcontrast .pe-widget p.pe-title {
+  color: #ffffff;
+}
+body.highcontrast #pe-header .pe-widget h1.pe-title,
+body.highcontrast #pe-top1 .pe-widget h1.pe-title,
+body.highcontrast #pe-top2 .pe-widget h1.pe-title,
+body.highcontrast #pe-top3 .pe-widget h1.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h1.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h1.pe-title,
+body.highcontrast #pe-footer .pe-widget h1.pe-title,
+body.highcontrast #pe-header .pe-widget h2.pe-title,
+body.highcontrast #pe-top1 .pe-widget h2.pe-title,
+body.highcontrast #pe-top2 .pe-widget h2.pe-title,
+body.highcontrast #pe-top3 .pe-widget h2.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h2.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h2.pe-title,
+body.highcontrast #pe-footer .pe-widget h2.pe-title,
+body.highcontrast #pe-header .pe-widget h3.pe-title,
+body.highcontrast #pe-top1 .pe-widget h3.pe-title,
+body.highcontrast #pe-top2 .pe-widget h3.pe-title,
+body.highcontrast #pe-top3 .pe-widget h3.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h3.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h3.pe-title,
+body.highcontrast #pe-footer .pe-widget h3.pe-title,
+body.highcontrast #pe-header .pe-widget h4.pe-title,
+body.highcontrast #pe-top1 .pe-widget h4.pe-title,
+body.highcontrast #pe-top2 .pe-widget h4.pe-title,
+body.highcontrast #pe-top3 .pe-widget h4.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h4.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h4.pe-title,
+body.highcontrast #pe-footer .pe-widget h4.pe-title,
+body.highcontrast #pe-header .pe-widget h5.pe-title,
+body.highcontrast #pe-top1 .pe-widget h5.pe-title,
+body.highcontrast #pe-top2 .pe-widget h5.pe-title,
+body.highcontrast #pe-top3 .pe-widget h5.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h5.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h5.pe-title,
+body.highcontrast #pe-footer .pe-widget h5.pe-title,
+body.highcontrast #pe-header .pe-widget h6.pe-title,
+body.highcontrast #pe-top1 .pe-widget h6.pe-title,
+body.highcontrast #pe-top2 .pe-widget h6.pe-title,
+body.highcontrast #pe-top3 .pe-widget h6.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget h6.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget h6.pe-title,
+body.highcontrast #pe-footer .pe-widget h6.pe-title,
+body.highcontrast #pe-header .pe-widget p.pe-title,
+body.highcontrast #pe-top1 .pe-widget p.pe-title,
+body.highcontrast #pe-top2 .pe-widget p.pe-title,
+body.highcontrast #pe-top3 .pe-widget p.pe-title,
+body.highcontrast #pe-bottom1 .pe-widget p.pe-title,
+body.highcontrast #pe-bottom2 .pe-widget p.pe-title,
+body.highcontrast #pe-footer .pe-widget p.pe-title {
+  color: #ffffff;
+}
+body.highcontrast .pe-social-icons a {
+  opacity: 1;
+  text-decoration: none !important;
+}
+body.highcontrast .pe-social-icons a:hover span.fa,
+body.highcontrast .pe-social-icons a:focus span.fa {
+  background: #8bfffb;
+  color: #000000;
+}
+body.highcontrast .pe-social-icons a span.fa {
+  background: #ffffff;
+  color: #000000;
+}
+body.highcontrast #pe-header .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-top1 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-top2 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-top3 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-bottom1 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-bottom2 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-footer .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast #pe-offcanvas .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast .rev_slider_wrapper .tp-caption {
+  color: #ffffff !important;
+  background: #000000 !important;
+}
+body.highcontrast .rev_slider_wrapper .tp-caption.rev-btn {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+body.highcontrast .rev_slider_wrapper .tp-caption.rev-btn:hover,
+body.highcontrast .rev_slider_wrapper .tp-caption.rev-btn:focus {
+  background: #8bfffb !important;
+}
+body.highcontrast .rev_slider_wrapper .tp-bgimg {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+}
+body.highcontrast .rev_slider_wrapper .tparrows:before {
+  color: #ffffff !important;
+}
+body.highcontrast .rev_slider_wrapper .tp-leftarrow,
+body.highcontrast .rev_slider_wrapper .tp-rightarrow {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+body.highcontrast .widget.widget_recent_entries ul li,
+body.highcontrast .widget.widget_archive ul li,
+body.highcontrast .widget.widget_categories ul li,
+body.highcontrast .widget.widget_meta ul li,
+body.highcontrast .widget.widget_pages ul li,
+body.highcontrast .widget.widget_recent_comments ul li,
+body.highcontrast .widget.widget_rss ul li {
+  color: #ffffff;
+}
+body.highcontrast .widget.widget_recent_entries ul li a,
+body.highcontrast .widget.widget_archive ul li a,
+body.highcontrast .widget.widget_categories ul li a,
+body.highcontrast .widget.widget_meta ul li a,
+body.highcontrast .widget.widget_pages ul li a,
+body.highcontrast .widget.widget_recent_comments ul li a,
+body.highcontrast .widget.widget_rss ul li a {
+  color: #ffffff;
+}
+body.highcontrast .widget.widget_recent_entries ul li a:hover,
+body.highcontrast .widget.widget_archive ul li a:hover,
+body.highcontrast .widget.widget_categories ul li a:hover,
+body.highcontrast .widget.widget_meta ul li a:hover,
+body.highcontrast .widget.widget_pages ul li a:hover,
+body.highcontrast .widget.widget_recent_comments ul li a:hover,
+body.highcontrast .widget.widget_rss ul li a:hover,
+body.highcontrast .widget.widget_recent_entries ul li a:focus,
+body.highcontrast .widget.widget_archive ul li a:focus,
+body.highcontrast .widget.widget_categories ul li a:focus,
+body.highcontrast .widget.widget_meta ul li a:focus,
+body.highcontrast .widget.widget_pages ul li a:focus,
+body.highcontrast .widget.widget_recent_comments ul li a:focus,
+body.highcontrast .widget.widget_rss ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast .widget.widget_recent_entries ul li span,
+body.highcontrast .widget.widget_archive ul li span,
+body.highcontrast .widget.widget_categories ul li span,
+body.highcontrast .widget.widget_meta ul li span,
+body.highcontrast .widget.widget_pages ul li span,
+body.highcontrast .widget.widget_recent_comments ul li span,
+body.highcontrast .widget.widget_rss ul li span {
+  color: #ffffff;
+}
+body.highcontrast #pe-header .widget.widget_recent_entries ul li,
+body.highcontrast #pe-top1 .widget.widget_recent_entries ul li,
+body.highcontrast #pe-top2 .widget.widget_recent_entries ul li,
+body.highcontrast #pe-top3 .widget.widget_recent_entries ul li,
+body.highcontrast #pe-bottom1 .widget.widget_recent_entries ul li,
+body.highcontrast #pe-bottom2 .widget.widget_recent_entries ul li,
+body.highcontrast #pe-footer .widget.widget_recent_entries ul li,
+body.highcontrast #pe-header .widget.widget_archive ul li,
+body.highcontrast #pe-top1 .widget.widget_archive ul li,
+body.highcontrast #pe-top2 .widget.widget_archive ul li,
+body.highcontrast #pe-top3 .widget.widget_archive ul li,
+body.highcontrast #pe-bottom1 .widget.widget_archive ul li,
+body.highcontrast #pe-bottom2 .widget.widget_archive ul li,
+body.highcontrast #pe-footer .widget.widget_archive ul li,
+body.highcontrast #pe-header .widget.widget_categories ul li,
+body.highcontrast #pe-top1 .widget.widget_categories ul li,
+body.highcontrast #pe-top2 .widget.widget_categories ul li,
+body.highcontrast #pe-top3 .widget.widget_categories ul li,
+body.highcontrast #pe-bottom1 .widget.widget_categories ul li,
+body.highcontrast #pe-bottom2 .widget.widget_categories ul li,
+body.highcontrast #pe-footer .widget.widget_categories ul li,
+body.highcontrast #pe-header .widget.widget_meta ul li,
+body.highcontrast #pe-top1 .widget.widget_meta ul li,
+body.highcontrast #pe-top2 .widget.widget_meta ul li,
+body.highcontrast #pe-top3 .widget.widget_meta ul li,
+body.highcontrast #pe-bottom1 .widget.widget_meta ul li,
+body.highcontrast #pe-bottom2 .widget.widget_meta ul li,
+body.highcontrast #pe-footer .widget.widget_meta ul li,
+body.highcontrast #pe-header .widget.widget_pages ul li,
+body.highcontrast #pe-top1 .widget.widget_pages ul li,
+body.highcontrast #pe-top2 .widget.widget_pages ul li,
+body.highcontrast #pe-top3 .widget.widget_pages ul li,
+body.highcontrast #pe-bottom1 .widget.widget_pages ul li,
+body.highcontrast #pe-bottom2 .widget.widget_pages ul li,
+body.highcontrast #pe-footer .widget.widget_pages ul li,
+body.highcontrast #pe-header .widget.widget_recent_comments ul li,
+body.highcontrast #pe-top1 .widget.widget_recent_comments ul li,
+body.highcontrast #pe-top2 .widget.widget_recent_comments ul li,
+body.highcontrast #pe-top3 .widget.widget_recent_comments ul li,
+body.highcontrast #pe-bottom1 .widget.widget_recent_comments ul li,
+body.highcontrast #pe-bottom2 .widget.widget_recent_comments ul li,
+body.highcontrast #pe-footer .widget.widget_recent_comments ul li,
+body.highcontrast #pe-header .widget.widget_rss ul li,
+body.highcontrast #pe-top1 .widget.widget_rss ul li,
+body.highcontrast #pe-top2 .widget.widget_rss ul li,
+body.highcontrast #pe-top3 .widget.widget_rss ul li,
+body.highcontrast #pe-bottom1 .widget.widget_rss ul li,
+body.highcontrast #pe-bottom2 .widget.widget_rss ul li,
+body.highcontrast #pe-footer .widget.widget_rss ul li {
+  color: #ffffff;
+}
+body.highcontrast #pe-header .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-top1 .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-top2 .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-top3 .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-footer .widget.widget_recent_entries ul li a,
+body.highcontrast #pe-header .widget.widget_archive ul li a,
+body.highcontrast #pe-top1 .widget.widget_archive ul li a,
+body.highcontrast #pe-top2 .widget.widget_archive ul li a,
+body.highcontrast #pe-top3 .widget.widget_archive ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_archive ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_archive ul li a,
+body.highcontrast #pe-footer .widget.widget_archive ul li a,
+body.highcontrast #pe-header .widget.widget_categories ul li a,
+body.highcontrast #pe-top1 .widget.widget_categories ul li a,
+body.highcontrast #pe-top2 .widget.widget_categories ul li a,
+body.highcontrast #pe-top3 .widget.widget_categories ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_categories ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_categories ul li a,
+body.highcontrast #pe-footer .widget.widget_categories ul li a,
+body.highcontrast #pe-header .widget.widget_meta ul li a,
+body.highcontrast #pe-top1 .widget.widget_meta ul li a,
+body.highcontrast #pe-top2 .widget.widget_meta ul li a,
+body.highcontrast #pe-top3 .widget.widget_meta ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_meta ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_meta ul li a,
+body.highcontrast #pe-footer .widget.widget_meta ul li a,
+body.highcontrast #pe-header .widget.widget_pages ul li a,
+body.highcontrast #pe-top1 .widget.widget_pages ul li a,
+body.highcontrast #pe-top2 .widget.widget_pages ul li a,
+body.highcontrast #pe-top3 .widget.widget_pages ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_pages ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_pages ul li a,
+body.highcontrast #pe-footer .widget.widget_pages ul li a,
+body.highcontrast #pe-header .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-top1 .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-top2 .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-top3 .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-footer .widget.widget_recent_comments ul li a,
+body.highcontrast #pe-header .widget.widget_rss ul li a,
+body.highcontrast #pe-top1 .widget.widget_rss ul li a,
+body.highcontrast #pe-top2 .widget.widget_rss ul li a,
+body.highcontrast #pe-top3 .widget.widget_rss ul li a,
+body.highcontrast #pe-bottom1 .widget.widget_rss ul li a,
+body.highcontrast #pe-bottom2 .widget.widget_rss ul li a,
+body.highcontrast #pe-footer .widget.widget_rss ul li a {
+  color: #ffffff;
+}
+body.highcontrast #pe-header .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_recent_entries ul li a:hover,
+body.highcontrast #pe-header .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_archive ul li a:hover,
+body.highcontrast #pe-header .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_categories ul li a:hover,
+body.highcontrast #pe-header .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_meta ul li a:hover,
+body.highcontrast #pe-header .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_pages ul li a:hover,
+body.highcontrast #pe-header .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_recent_comments ul li a:hover,
+body.highcontrast #pe-header .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-top1 .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-top2 .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-top3 .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-bottom1 .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-bottom2 .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-footer .widget.widget_rss ul li a:hover,
+body.highcontrast #pe-header .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_recent_entries ul li a:focus,
+body.highcontrast #pe-header .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_archive ul li a:focus,
+body.highcontrast #pe-header .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_categories ul li a:focus,
+body.highcontrast #pe-header .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_meta ul li a:focus,
+body.highcontrast #pe-header .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_pages ul li a:focus,
+body.highcontrast #pe-header .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_recent_comments ul li a:focus,
+body.highcontrast #pe-header .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-top1 .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-top2 .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-top3 .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-bottom1 .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-bottom2 .widget.widget_rss ul li a:focus,
+body.highcontrast #pe-footer .widget.widget_rss ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast #pe-header .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-top1 .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-top2 .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-top3 .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-footer .widget.widget_recent_entries ul li span,
+body.highcontrast #pe-header .widget.widget_archive ul li span,
+body.highcontrast #pe-top1 .widget.widget_archive ul li span,
+body.highcontrast #pe-top2 .widget.widget_archive ul li span,
+body.highcontrast #pe-top3 .widget.widget_archive ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_archive ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_archive ul li span,
+body.highcontrast #pe-footer .widget.widget_archive ul li span,
+body.highcontrast #pe-header .widget.widget_categories ul li span,
+body.highcontrast #pe-top1 .widget.widget_categories ul li span,
+body.highcontrast #pe-top2 .widget.widget_categories ul li span,
+body.highcontrast #pe-top3 .widget.widget_categories ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_categories ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_categories ul li span,
+body.highcontrast #pe-footer .widget.widget_categories ul li span,
+body.highcontrast #pe-header .widget.widget_meta ul li span,
+body.highcontrast #pe-top1 .widget.widget_meta ul li span,
+body.highcontrast #pe-top2 .widget.widget_meta ul li span,
+body.highcontrast #pe-top3 .widget.widget_meta ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_meta ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_meta ul li span,
+body.highcontrast #pe-footer .widget.widget_meta ul li span,
+body.highcontrast #pe-header .widget.widget_pages ul li span,
+body.highcontrast #pe-top1 .widget.widget_pages ul li span,
+body.highcontrast #pe-top2 .widget.widget_pages ul li span,
+body.highcontrast #pe-top3 .widget.widget_pages ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_pages ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_pages ul li span,
+body.highcontrast #pe-footer .widget.widget_pages ul li span,
+body.highcontrast #pe-header .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-top1 .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-top2 .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-top3 .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-footer .widget.widget_recent_comments ul li span,
+body.highcontrast #pe-header .widget.widget_rss ul li span,
+body.highcontrast #pe-top1 .widget.widget_rss ul li span,
+body.highcontrast #pe-top2 .widget.widget_rss ul li span,
+body.highcontrast #pe-top3 .widget.widget_rss ul li span,
+body.highcontrast #pe-bottom1 .widget.widget_rss ul li span,
+body.highcontrast #pe-bottom2 .widget.widget_rss ul li span,
+body.highcontrast #pe-footer .widget.widget_rss ul li span {
+  color: #ffffff;
+}
+body.highcontrast .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+  color: inherit;
+}
+body.highcontrast .widget_tag_cloud .tagcloud a:hover,
+body.highcontrast .widget_tag_cloud .tagcloud a:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast #pe-header .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-top1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-top2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-bottom1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-bottom2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-footer .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast #pe-offcanvas .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast .pe-short-info .pe-buttons .pull-left {
+  color: #ffffff;
+}
+body.highcontrast .pe-short-info .pe-buttons .pull-left span {
+  border: 1px solid #ffffff;
+}
+body.highcontrast #pe-main .pe-widget-members .pe-members a {
+  text-decoration: none !important;
+}
+body.highcontrast #pe-main .pe-widget-members .pe-members h3.title {
+  color: #ffffff;
+}
+body.highcontrast .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link,
+body.highcontrast .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:hover,
+body.highcontrast .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:focus {
+  color: #000000;
+  background: #ffffff;
+}
+body.highcontrast .pe-widget-img-carousel .flipster__button {
+  background: #000000;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+body.highcontrast .pe_login_popup_widget .btn-login {
+  color: #8bfffb;
+}
+body.highcontrast .pe_login_popup_widget .btn-login:hover,
+body.highcontrast .pe_login_popup_widget .btn-login:focus {
+  color: #8bfffb;
+}
+body.highcontrast #pe-login .pe_login_popup_widget .btn-login {
+  color: #8bfffb;
+}
+body.highcontrast #pe-login .pe_login_popup_widget .btn-login:hover,
+body.highcontrast #pe-login .pe_login_popup_widget .btn-login:focus {
+  color: #8bfffb;
+}
+body.highcontrast #pe-main .pe-best-features .pe-icon span {
+  color: #8bfffb;
+}
+body.highcontrast #pe-main .pe-best-features .pe-title {
+  color: #ffffff;
+}
+body.highcontrast #pe-main .pe-best-features .pe-title a:hover {
+  color: #8bfffb;
+}
+body.highcontrast #pe-main .pe-testimonial-carousel .pe-custom-title {
+  color: #ffffff;
+}
+body.highcontrast #pe-main .pe-testimonial-carousel .pe-custom-title a:hover {
+  color: #8bfffb;
+}
+body.highcontrast #pe-main .pe-testimonial-carousel .pe-indicators li {
+  border: 1px solid #ffffff;
+}
+body.highcontrast #pe-main .pe-testimonial-carousel .pe-indicators li:hover {
+  background: #8bfffb;
+}
+body.highcontrast #pe-main .pe-testimonial-carousel .pe-indicators li.active {
+  border-color: #8bfffb;
+}
+body.highcontrast .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu {
+  background: #ffffff;
+}
+body.highcontrast .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a {
+  color: #000000;
+}
+body.highcontrast .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:hover,
+body.highcontrast .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:focus {
+  color: #8bfffb;
+  background: #000000;
+}
+body.highcontrast .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu .menu-item + .menu-item {
+  border-top: 1px solid #ffffff;
+}
+body.highcontrast .pe-widget.pe-color-box1 .pe-widget-in,
+body.highcontrast .pe-widget.pe-color-box2 .pe-widget-in,
+body.highcontrast .pe-widget.pe-color-box3 .pe-widget-in,
+body.highcontrast .pe-widget.pe-color-box4 .pe-widget-in {
+  padding: 0;
+  background: none;
+  color: #ffffff;
+}
+body.highcontrast .pe-widget.pe-color-box1 .pe-widget-in .pe-title,
+body.highcontrast .pe-widget.pe-color-box2 .pe-widget-in .pe-title,
+body.highcontrast .pe-widget.pe-color-box3 .pe-widget-in .pe-title,
+body.highcontrast .pe-widget.pe-color-box4 .pe-widget-in .pe-title {
+  color: #ffffff !important;
+}
+body.highcontrast .pe-post-tags ul li a {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+body.highcontrast .pe-blog-row figure.effect:hover .intro:before,
+body.highcontrast .pe-blog-row figure.effect:hover .intro:after {
+  display: none;
+}
+body.highcontrast .pe-testimonials.clean .pe-custom-subtitle {
+  opacity: 1;
+}
+body.highcontrast .pe-recent-posts-outer ul.thumbnails .caption .pe-creation-date {
+  color: #ffffff;
+}
+body.highcontrast .pe-recent-posts-outer ul.thumbnails .pe-recent-posts-title-tag a {
+  color: #ffffff;
+}
+body.highcontrast blockquote {
+  border-color: #ffffff;
+}
+body.highcontrast #pe-bar-right {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+body.highcontrast #pe-main-menu-header {
+  display: none;
+}
+body.highcontrast2 {
+  color: #ffff00;
+  background-color: #000000;
+}
+body.highcontrast2 a {
+  text-decoration: underline !important;
+}
+body.highcontrast2 a:hover {
+  text-decoration: underline !important;
+}
+body.highcontrast2 #pe-copyrights a {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-animation {
+  opacity: 1;
+}
+body.highcontrast2 [data-animation] {
+  animation-duration: 0s !important;
+}
+body.highcontrast2 [data-animation-delay] {
+  animation-delay: 0ms !important;
+}
+body.highcontrast2 .pe-recent-posts-outer .animated {
+  animation-duration: 0s !important;
+  animation-delay: 0ms !important;
+}
+body.highcontrast2 *,
+body.highcontrast2 *:before,
+body.highcontrast2 *:after {
+  transition: none !important;
+}
+body.highcontrast2 .pe-theme-customizer,
+body.highcontrast2 .sp-container {
+  display: none;
+}
+body.highcontrast2 a {
+  color: #8bfffb;
+}
+body.highcontrast2 ::selection {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 ::-webkit-selection {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 ::-moz-selection {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 select,
+body.highcontrast2 textarea,
+body.highcontrast2 input[type="text"],
+body.highcontrast2 input[type="password"],
+body.highcontrast2 input[type="datetime"],
+body.highcontrast2 input[type="datetime-local"],
+body.highcontrast2 input[type="date"],
+body.highcontrast2 input[type="month"],
+body.highcontrast2 input[type="time"],
+body.highcontrast2 input[type="week"],
+body.highcontrast2 input[type="number"],
+body.highcontrast2 input[type="email"],
+body.highcontrast2 input[type="url"],
+body.highcontrast2 input[type="search"],
+body.highcontrast2 input[type="tel"],
+body.highcontrast2 input[type="color"] {
+  border-color: #ffff00;
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast2 select::-webkit-input-placeholder,
+body.highcontrast2 textarea::-webkit-input-placeholder,
+body.highcontrast2 input[type="text"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="password"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="datetime"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="datetime-local"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="date"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="month"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="time"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="week"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="number"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="email"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="url"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="search"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="tel"]::-webkit-input-placeholder,
+body.highcontrast2 input[type="color"]::-webkit-input-placeholder {
+  color: #ffff00;
+  opacity: 1 !important;
+}
+body.highcontrast2 select:-moz-placeholder,
+body.highcontrast2 textarea:-moz-placeholder,
+body.highcontrast2 input[type="text"]:-moz-placeholder,
+body.highcontrast2 input[type="password"]:-moz-placeholder,
+body.highcontrast2 input[type="datetime"]:-moz-placeholder,
+body.highcontrast2 input[type="datetime-local"]:-moz-placeholder,
+body.highcontrast2 input[type="date"]:-moz-placeholder,
+body.highcontrast2 input[type="month"]:-moz-placeholder,
+body.highcontrast2 input[type="time"]:-moz-placeholder,
+body.highcontrast2 input[type="week"]:-moz-placeholder,
+body.highcontrast2 input[type="number"]:-moz-placeholder,
+body.highcontrast2 input[type="email"]:-moz-placeholder,
+body.highcontrast2 input[type="url"]:-moz-placeholder,
+body.highcontrast2 input[type="search"]:-moz-placeholder,
+body.highcontrast2 input[type="tel"]:-moz-placeholder,
+body.highcontrast2 input[type="color"]:-moz-placeholder {
+  color: #ffff00;
+}
+body.highcontrast2 select::-moz-placeholder,
+body.highcontrast2 textarea::-moz-placeholder,
+body.highcontrast2 input[type="text"]::-moz-placeholder,
+body.highcontrast2 input[type="password"]::-moz-placeholder,
+body.highcontrast2 input[type="datetime"]::-moz-placeholder,
+body.highcontrast2 input[type="datetime-local"]::-moz-placeholder,
+body.highcontrast2 input[type="date"]::-moz-placeholder,
+body.highcontrast2 input[type="month"]::-moz-placeholder,
+body.highcontrast2 input[type="time"]::-moz-placeholder,
+body.highcontrast2 input[type="week"]::-moz-placeholder,
+body.highcontrast2 input[type="number"]::-moz-placeholder,
+body.highcontrast2 input[type="email"]::-moz-placeholder,
+body.highcontrast2 input[type="url"]::-moz-placeholder,
+body.highcontrast2 input[type="search"]::-moz-placeholder,
+body.highcontrast2 input[type="tel"]::-moz-placeholder,
+body.highcontrast2 input[type="color"]::-moz-placeholder {
+  color: #ffff00;
+}
+body.highcontrast2 select:-ms-input-placeholder,
+body.highcontrast2 textarea:-ms-input-placeholder,
+body.highcontrast2 input[type="text"]:-ms-input-placeholder,
+body.highcontrast2 input[type="password"]:-ms-input-placeholder,
+body.highcontrast2 input[type="datetime"]:-ms-input-placeholder,
+body.highcontrast2 input[type="datetime-local"]:-ms-input-placeholder,
+body.highcontrast2 input[type="date"]:-ms-input-placeholder,
+body.highcontrast2 input[type="month"]:-ms-input-placeholder,
+body.highcontrast2 input[type="time"]:-ms-input-placeholder,
+body.highcontrast2 input[type="week"]:-ms-input-placeholder,
+body.highcontrast2 input[type="number"]:-ms-input-placeholder,
+body.highcontrast2 input[type="email"]:-ms-input-placeholder,
+body.highcontrast2 input[type="url"]:-ms-input-placeholder,
+body.highcontrast2 input[type="search"]:-ms-input-placeholder,
+body.highcontrast2 input[type="tel"]:-ms-input-placeholder,
+body.highcontrast2 input[type="color"]:-ms-input-placeholder {
+  color: #ffff00;
+}
+body.highcontrast2 select:focus,
+body.highcontrast2 textarea:focus,
+body.highcontrast2 input[type="text"]:focus,
+body.highcontrast2 input[type="password"]:focus,
+body.highcontrast2 input[type="datetime"]:focus,
+body.highcontrast2 input[type="datetime-local"]:focus,
+body.highcontrast2 input[type="date"]:focus,
+body.highcontrast2 input[type="month"]:focus,
+body.highcontrast2 input[type="time"]:focus,
+body.highcontrast2 input[type="week"]:focus,
+body.highcontrast2 input[type="number"]:focus,
+body.highcontrast2 input[type="email"]:focus,
+body.highcontrast2 input[type="url"]:focus,
+body.highcontrast2 input[type="search"]:focus,
+body.highcontrast2 input[type="tel"]:focus,
+body.highcontrast2 input[type="color"]:focus {
+  border-color: #8bfffb;
+}
+body.highcontrast2 .btn,
+body.highcontrast2 .button,
+body.highcontrast2 button,
+body.highcontrast2 input[type="submit"],
+body.highcontrast2 input[type="button"],
+body.highcontrast2 input[type="reset"] {
+  text-decoration: none;
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .btn.active,
+body.highcontrast2 .button.active,
+body.highcontrast2 button.active,
+body.highcontrast2 input[type="submit"].active,
+body.highcontrast2 input[type="button"].active,
+body.highcontrast2 input[type="reset"].active,
+body.highcontrast2 .btn:hover,
+body.highcontrast2 .button:hover,
+body.highcontrast2 button:hover,
+body.highcontrast2 input[type="submit"]:hover,
+body.highcontrast2 input[type="button"]:hover,
+body.highcontrast2 input[type="reset"]:hover,
+body.highcontrast2 .btn:focus,
+body.highcontrast2 .button:focus,
+body.highcontrast2 button:focus,
+body.highcontrast2 input[type="submit"]:focus,
+body.highcontrast2 input[type="button"]:focus,
+body.highcontrast2 input[type="reset"]:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast2 .button a {
+  color: #000000;
+}
+body.highcontrast2 .button.active a,
+body.highcontrast2 .button:hover a,
+body.highcontrast2 .button:focus a {
+  color: #000000;
+}
+body.highcontrast2 #pe-header .btn,
+body.highcontrast2 #pe-header .button,
+body.highcontrast2 #pe-header button,
+body.highcontrast2 #pe-header input[type="submit"],
+body.highcontrast2 #pe-header input[type="button"],
+body.highcontrast2 #pe-header input[type="reset"] {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 #pe-header .btn.active,
+body.highcontrast2 #pe-header .button.active,
+body.highcontrast2 #pe-header button.active,
+body.highcontrast2 #pe-header input[type="submit"].active,
+body.highcontrast2 #pe-header input[type="button"].active,
+body.highcontrast2 #pe-header input[type="reset"].active,
+body.highcontrast2 #pe-header .btn:hover,
+body.highcontrast2 #pe-header .button:hover,
+body.highcontrast2 #pe-header button:hover,
+body.highcontrast2 #pe-header input[type="submit"]:hover,
+body.highcontrast2 #pe-header input[type="button"]:hover,
+body.highcontrast2 #pe-header input[type="reset"]:hover,
+body.highcontrast2 #pe-header .btn:focus,
+body.highcontrast2 #pe-header .button:focus,
+body.highcontrast2 #pe-header button:focus,
+body.highcontrast2 #pe-header input[type="submit"]:focus,
+body.highcontrast2 #pe-header input[type="button"]:focus,
+body.highcontrast2 #pe-header input[type="reset"]:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast2 .readmore {
+  color: #ffff00;
+  border-color: #ffff00;
+  background: none;
+}
+body.highcontrast2 .readmore.active,
+body.highcontrast2 .readmore:hover,
+body.highcontrast2 .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+  background: none;
+}
+body.highcontrast2 #pe-header .readmore {
+  color: #ffff00;
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-header .readmore:hover,
+body.highcontrast2 #pe-header .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast2 #pe-header #pe-login .readmore {
+  color: #ffff00;
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-header #pe-login .readmore:hover,
+body.highcontrast2 #pe-header #pe-login .readmore:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast2 #pe-header #pe-login .btn-login {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-breadcrumb > li a {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-breadcrumb > .item-current {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-pagination > li a,
+body.highcontrast2 .pe-pagination > li span {
+  color: #000000;
+  border: #ffff00;
+}
+body.highcontrast2 .pe-pagination > li a:hover,
+body.highcontrast2 .pe-pagination > li span:hover,
+body.highcontrast2 .pe-pagination > li a:focus,
+body.highcontrast2 .pe-pagination > li span:focus {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast2 .pe-pagination > li.active a,
+body.highcontrast2 .pe-pagination > li.active span {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast2 .pe-pagination > li.start a:hover,
+body.highcontrast2 .pe-pagination > li.end a:hover,
+body.highcontrast2 .pe-pagination > li.next a:hover,
+body.highcontrast2 .pe-pagination > li.prev a:hover,
+body.highcontrast2 .pe-pagination > li.start a:focus,
+body.highcontrast2 .pe-pagination > li.end a:focus,
+body.highcontrast2 .pe-pagination > li.next a:focus,
+body.highcontrast2 .pe-pagination > li.prev a:focus {
+  color: #000000;
+}
+body.highcontrast2 .pe-page-links a,
+body.highcontrast2 .pe-page-links > span {
+  color: #000000;
+  border: #ffff00;
+}
+body.highcontrast2 .pe-page-links > span,
+body.highcontrast2 .pe-page-links a:hover,
+body.highcontrast2 .pe-page-links a:focus {
+  color: #000000;
+  border: #8bfffb;
+}
+body.highcontrast2 .pe-table th {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .pe-table tr:nth-child(odd) td {
+  background: none;
+}
+body.highcontrast2 .pe-table tr + tr {
+  border-color: #ffff00;
+}
+body.highcontrast2 .pe-table > tbody + tbody {
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-back-top a {
+  color: #000000;
+  background-color: #ffff00;
+}
+body.highcontrast2 #pe-main .pe-wcag-settings {
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-main .pe-wcag-settings li a {
+  border-color: #ffff00;
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast2 #pe-main .pe-wcag-settings li a:hover,
+body.highcontrast2 #pe-main .pe-wcag-settings li a:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast2 #pe-main {
+  background-color: #000000;
+}
+body.highcontrast2.sticky-bar #pe-header {
+  padding-top: 0 !important;
+}
+body.highcontrast2.sticky-bar #pe-logo-nav {
+  position: static;
+  background: #000000;
+}
+body.highcontrast2 #pe-logo-nav #pe-wcag {
+  background: none;
+  color: #ffff00;
+}
+body.highcontrast2 #pe-login:before {
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-top-bar,
+body.highcontrast2 #pe-logo-nav,
+body.highcontrast2 #pe-header,
+body.highcontrast2 #pe-top1,
+body.highcontrast2 #pe-top2,
+body.highcontrast2 #pe-top3,
+body.highcontrast2 #pe-bottom1,
+body.highcontrast2 #pe-bottom2,
+body.highcontrast2 #pe-footer,
+body.highcontrast2 #pe-copyrights {
+  color: #ffff00;
+  background: #000000;
+  border-bottom: 1px solid #ffff00;
+}
+body.highcontrast2 #pe-top-bar:before,
+body.highcontrast2 #pe-logo-nav:before,
+body.highcontrast2 #pe-header:before,
+body.highcontrast2 #pe-top1:before,
+body.highcontrast2 #pe-top2:before,
+body.highcontrast2 #pe-top3:before,
+body.highcontrast2 #pe-bottom1:before,
+body.highcontrast2 #pe-bottom2:before,
+body.highcontrast2 #pe-footer:before,
+body.highcontrast2 #pe-copyrights:before {
+  display: none;
+}
+body.highcontrast2 #pe-copyrights {
+  border-bottom: none;
+}
+body.highcontrast2 #pe-top2,
+body.highcontrast2 #pe-bottom2 {
+  border-color: #ffff00;
+}
+body.highcontrast2 .menu li a {
+  color: #ffff00;
+  border-color: #8bfffb;
+}
+body.highcontrast2 .menu li a:hover,
+body.highcontrast2 .menu li a:active,
+body.highcontrast2 .menu li a:focus,
+body.highcontrast2 .menu .current-menu-item > a {
+  color: #8bfffb;
+}
+body.highcontrast2 .menu > li > .sub-menu li a:hover:before,
+body.highcontrast2 .menu > li > .sub-menu li a:focus:before {
+  border-color: #8bfffb;
+}
+body.highcontrast2 .pe-skip-menu ul.menu > li > a {
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast2 .pe-skip-menu ul.menu > li > a:hover,
+body.highcontrast2 .pe-skip-menu ul.menu > li > a:focus {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast2 #pe-offcanvas,
+body.highcontrast2 #pe-offcanvas-button {
+  display: none !important;
+}
+body.highcontrast2 .pe-blog-row {
+  border-color: #ffff00;
+}
+body.highcontrast2 .page-header > h1,
+body.highcontrast2 .page-header > h2 {
+  color: #ffff00;
+}
+body.highcontrast2 .page-header > h1 a,
+body.highcontrast2 .page-header > h2 a {
+  color: #ffff00;
+}
+body.highcontrast2 .page-header > h1 a:hover,
+body.highcontrast2 .page-header > h2 a:hover {
+  color: #8bfffb;
+}
+body.highcontrast2 .post-meta {
+  color: #ffff00;
+}
+body.highcontrast2 .sticky .page-header h2 a:before {
+  color: #8bfffb;
+}
+body.highcontrast2 .wp-caption .wp-caption-text,
+body.highcontrast2 .gallery-caption .wp-caption-text {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-blog-row figure.effect,
+body.highcontrast2 .archive .pe-blog-row figure.effect {
+  overflow: visible;
+}
+body.highcontrast2 .pe-blog-row figure.effect figcaption,
+body.highcontrast2 .archive .pe-blog-row figure.effect figcaption {
+  padding: 30px 0 0;
+  position: static;
+  color: #ffff00;
+  background: none;
+  opacity: 1;
+}
+body.highcontrast2 .pe-blog-row figure.effect figcaption:before,
+body.highcontrast2 .archive .pe-blog-row figure.effect figcaption:before,
+body.highcontrast2 .pe-blog-row figure.effect figcaption:after,
+body.highcontrast2 .archive .pe-blog-row figure.effect figcaption:after {
+  display: none;
+}
+body.highcontrast2 .pe-blog-row figure.effect .intro,
+body.highcontrast2 .archive .pe-blog-row figure.effect .intro {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  padding: 0;
+}
+body.highcontrast2 .pe-blog-row figure.effect .pe-article-read-more .readmore,
+body.highcontrast2 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore {
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast2 .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast2 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast2 .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast2 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast2 .pe-blog-row figure.effect .pe-article-read-more .readmore.active,
+body.highcontrast2 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore.active {
+  color: #000000;
+  background: #8bfffb;
+}
+body.highcontrast2 .pe-author-info .pe-title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-author-name .name {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-post-tags ul li a:hover,
+body.highcontrast2 .pe-post-tags ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .post-navigation .meta-nav {
+  color: #8bfffb;
+}
+body.highcontrast2 .post-navigation .nav-next a:after {
+  color: #8bfffb;
+}
+body.highcontrast2 .post-navigation .nav-previous a:before {
+  color: #8bfffb;
+}
+body.highcontrast2 .post-navigation a:hover,
+body.highcontrast2 .post-navigation a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-comments .comment-reply-title,
+body.highcontrast2 .pe-comments .comments-title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-comments .comment-reply-link {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .pe-comments .comment-reply-link:hover,
+body.highcontrast2 .pe-comments .comment-reply-link:focus {
+  background: #8bfffb;
+}
+body.highcontrast2 .pe-opening-hours .pe-title,
+body.highcontrast2 .pe-member-contact .pe-title,
+body.highcontrast2 .pe-socials .pe-title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-error-page > h1,
+body.highcontrast2 .pe-error-page > h2 {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-tabs .pe-tab-links li a {
+  border-color: #ffff00;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-tabs .pe-tab-links li a:hover,
+body.highcontrast2 .pe-tabs .pe-tab-links li a:focus {
+  color: #ffff00;
+  border-color: #8bfffb;
+}
+body.highcontrast2 .pe-tabs .pe-tab-links li.active a {
+  color: #ffff00;
+  border-color: #8bfffb;
+}
+body.highcontrast2 .pe-tabs.pe-clean .pe-tab-links {
+  border-color: #8bfffb;
+}
+body.highcontrast2 .pe-tabs.pe-clean .pe-tab-links li a {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-tabs.pe-clean .pe-tab-links li a:hover,
+body.highcontrast2 .pe-tabs.pe-clean .pe-tab-links li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-tabs.pe-clean .pe-tab-links li.active a {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-accordion-container .pe-accordion .accordion-in {
+  border: 1px solid #ffff00;
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-accordion-container .pe-accordion-heading a {
+  color: #ffff00;
+  border-color: #ffff00;
+}
+body.highcontrast2 .pe-accordion-container .pe-accordion-heading a:after {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-accordion-container .pe-accordion-heading a:hover,
+body.highcontrast2 .pe-accordion-container .pe-accordion-heading a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-accordion-container .pe-accordion-heading.active a {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-gallery-item .pe-gallery-caption {
+  background: #000000;
+}
+body.highcontrast2 .pe-icontext .pe-icon {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-icontext .pe-label a:hover,
+body.highcontrast2 .pe-icontext .pe-label a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-table-group tr td:first-child {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-pricing .title {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .pe-pricing .price {
+  background: #ffff00;
+}
+body.highcontrast2 .pe-pricing .price span {
+  color: #000000;
+}
+body.highcontrast2 .pe-pricing .content {
+  background: none;
+  border-color: #ffff00;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-pricing .bottom {
+  background: none;
+  border: 1px solid #ffff00;
+}
+body.highcontrast2 .pe-anibox figure {
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure figcaption {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-anibox figure figcaption a {
+  color: #ffff00 !important;
+}
+body.highcontrast2 .pe-anibox figure.effect-sadie figcaption:before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 75%);
+}
+body.highcontrast2 .pe-anibox figure.effect-sadie h2 {
+  color: #ffff00 !important;
+  background: #000000;
+  padding: 10px;
+}
+body.highcontrast2 .pe-anibox figure.effect-sadie p {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-julia {
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-julia h2 {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-julia p {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-julia p a {
+  background: none;
+}
+body.highcontrast2 .pe-anibox figure.effect-goliath {
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-goliath h2 {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-goliath p {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-marley {
+  background: #000000;
+}
+body.highcontrast2 .pe-anibox figure.effect-marley h2 {
+  color: #ffff00 !important;
+  background: #000000;
+  padding: 10px;
+}
+body.highcontrast2 .pe-anibox figure.effect-marley p {
+  color: #ffff00 !important;
+  background: #000000;
+}
+body.highcontrast2 .pe-testimonials .pe-custom-text {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .pe-testimonials .pe-custom-text:after {
+  border-color: transparent #ffff00 transparent transparent;
+}
+body.highcontrast2 .pe-testimonials .pe-custom-title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-testimonials.clean .pe-custom-text {
+  background: none;
+  color: #ffff00;
+}
+body.highcontrast2 .right .pe-testimonials .pe-custom-text:after,
+body.highcontrast2 .pe-testimonials.right .pe-custom-text:after {
+  border-color: #ffff00 transparent transparent transparent;
+}
+body.highcontrast2 .pe-testimonials.clean {
+  border-left: 5px solid #ffff00;
+}
+body.highcontrast2 .pe-testimonials.right.clean {
+  border-right: 5px solid #ffff00;
+}
+body.highcontrast2 .pe-counter .pe-icon {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-counter .pe-count {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-counter .pe-title:after {
+  background: #ffff00;
+}
+body.highcontrast2 .mfp-modal-content {
+  color: #000000;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a:after,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a:after {
+  display: none;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.current-menu-item > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.current-menu-item > a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-dropdown .nav-dropdown-in,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-dropdown .nav-dropdown-in {
+  background: #ffff00;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item a {
+  color: #000000;
+}
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast2 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+body.highcontrast2 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a {
+  color: #8bfffb;
+  background: #000000;
+  box-shadow: 0 0 0 5px #000000;
+}
+body.highcontrast2 .pe-typo-title {
+  background: none;
+}
+body.highcontrast2 ul:not([class]) li:before,
+body.highcontrast2 ul.pe-dark li:before,
+body.highcontrast2 ul.pe-light li:before,
+body.highcontrast2 #pe-header ul:not([class]) li:before,
+body.highcontrast2 #pe-header ul.pe-light li:before {
+  color: #8bfffb;
+}
+body.highcontrast2 ul.pe-dark li:before {
+  color: #ffff00;
+}
+body.highcontrast2 pre {
+  color: #ffff00;
+  background-color: #000000;
+  border-color: #ffff00;
+}
+body.highcontrast2 .pe-color {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe-info,
+body.highcontrast2 .pe-success,
+body.highcontrast2 .pe-alert,
+body.highcontrast2 .pe-warning {
+  text-align: inherit;
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast2 .pe-info a,
+body.highcontrast2 .pe-success a,
+body.highcontrast2 .pe-alert a,
+body.highcontrast2 .pe-warning a {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-block span {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 .pe-block.second span {
+  background: #8bfffb;
+  color: #000000;
+}
+body.highcontrast2 p.pebadge,
+body.highcontrast2 span.pebadge {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/badge.png");
+}
+body.highcontrast2 p.pecalendar,
+body.highcontrast2 span.pecalendar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/calendar.png");
+}
+body.highcontrast2 p.pechat,
+body.highcontrast2 span.pechat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/chat.png");
+}
+body.highcontrast2 p.pecheck,
+body.highcontrast2 span.pecheck {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/check.png");
+}
+body.highcontrast2 p.pecloud,
+body.highcontrast2 span.pecloud {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/cloud.png");
+}
+body.highcontrast2 p.pedirection,
+body.highcontrast2 span.pedirection {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/direction.png");
+}
+body.highcontrast2 p.pedivide,
+body.highcontrast2 span.pedivide {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/divide.png");
+}
+body.highcontrast2 p.peerror,
+body.highcontrast2 span.peerror {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/error.png");
+}
+body.highcontrast2 p.pefire,
+body.highcontrast2 span.pefire {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/fire.png");
+}
+body.highcontrast2 p.peflag,
+body.highcontrast2 span.peflag {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/flag.png");
+}
+body.highcontrast2 p.peheart,
+body.highcontrast2 span.peheart {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/heart.png");
+}
+body.highcontrast2 p.pehome,
+body.highcontrast2 span.pehome {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/home.png");
+}
+body.highcontrast2 p.peinfo,
+body.highcontrast2 span.peinfo {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/info.png");
+}
+body.highcontrast2 p.pelist,
+body.highcontrast2 span.pelist {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/list.png");
+}
+body.highcontrast2 p.pemail,
+body.highcontrast2 span.pemail {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/mail.png");
+}
+body.highcontrast2 p.pepeople,
+body.highcontrast2 span.pepeople {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/people.png");
+}
+body.highcontrast2 p.pestar,
+body.highcontrast2 span.pestar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/star.png");
+}
+body.highcontrast2 p.pestat,
+body.highcontrast2 span.pestat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/stat.png");
+}
+body.highcontrast2 .quote-left,
+body.highcontrast2 .quote-right {
+  border-color: #ffff00;
+}
+body.highcontrast2 .quote-left span.fa,
+body.highcontrast2 .quote-right span.fa,
+body.highcontrast2 .quote-left span[class^='fa'],
+body.highcontrast2 .quote-right span[class^='fa'] {
+  color: #ffff00;
+}
+body.highcontrast2 .quote-left {
+  border-color: #ffff00;
+}
+body.highcontrast2 .quote-right {
+  border-color: #ffff00;
+}
+body.highcontrast2 .pe-widget h1.pe-title,
+body.highcontrast2 .pe-widget h2.pe-title,
+body.highcontrast2 .pe-widget h3.pe-title,
+body.highcontrast2 .pe-widget h4.pe-title,
+body.highcontrast2 .pe-widget h5.pe-title,
+body.highcontrast2 .pe-widget h6.pe-title,
+body.highcontrast2 .pe-widget p.pe-title {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-header .pe-widget h1.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h1.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h1.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h1.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h1.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h1.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h1.pe-title,
+body.highcontrast2 #pe-header .pe-widget h2.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h2.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h2.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h2.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h2.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h2.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h2.pe-title,
+body.highcontrast2 #pe-header .pe-widget h3.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h3.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h3.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h3.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h3.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h3.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h3.pe-title,
+body.highcontrast2 #pe-header .pe-widget h4.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h4.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h4.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h4.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h4.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h4.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h4.pe-title,
+body.highcontrast2 #pe-header .pe-widget h5.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h5.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h5.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h5.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h5.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h5.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h5.pe-title,
+body.highcontrast2 #pe-header .pe-widget h6.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget h6.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget h6.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget h6.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget h6.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget h6.pe-title,
+body.highcontrast2 #pe-footer .pe-widget h6.pe-title,
+body.highcontrast2 #pe-header .pe-widget p.pe-title,
+body.highcontrast2 #pe-top1 .pe-widget p.pe-title,
+body.highcontrast2 #pe-top2 .pe-widget p.pe-title,
+body.highcontrast2 #pe-top3 .pe-widget p.pe-title,
+body.highcontrast2 #pe-bottom1 .pe-widget p.pe-title,
+body.highcontrast2 #pe-bottom2 .pe-widget p.pe-title,
+body.highcontrast2 #pe-footer .pe-widget p.pe-title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-social-icons a {
+  opacity: 1;
+  text-decoration: none !important;
+}
+body.highcontrast2 .pe-social-icons a:hover span.fa,
+body.highcontrast2 .pe-social-icons a:focus span.fa {
+  background: #8bfffb;
+  color: #000000;
+}
+body.highcontrast2 .pe-social-icons a span.fa {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast2 #pe-header .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-top1 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-top2 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-top3 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-bottom1 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-bottom2 .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-footer .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-offcanvas .pe-social-icons a {
+  color: #8bfffb;
+}
+body.highcontrast2 .rev_slider_wrapper .tp-caption {
+  color: #ffff00 !important;
+  background: #000000 !important;
+}
+body.highcontrast2 .rev_slider_wrapper .tp-caption.rev-btn {
+  background: #ffff00 !important;
+  color: #000000 !important;
+}
+body.highcontrast2 .rev_slider_wrapper .tp-caption.rev-btn:hover,
+body.highcontrast2 .rev_slider_wrapper .tp-caption.rev-btn:focus {
+  background: #8bfffb !important;
+}
+body.highcontrast2 .rev_slider_wrapper .tp-bgimg {
+  color: #ffff00 !important;
+  background-color: #000000 !important;
+}
+body.highcontrast2 .rev_slider_wrapper .tparrows:before {
+  color: #ffff00 !important;
+}
+body.highcontrast2 .rev_slider_wrapper .tp-leftarrow,
+body.highcontrast2 .rev_slider_wrapper .tp-rightarrow {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+body.highcontrast2 .widget.widget_recent_entries ul li,
+body.highcontrast2 .widget.widget_archive ul li,
+body.highcontrast2 .widget.widget_categories ul li,
+body.highcontrast2 .widget.widget_meta ul li,
+body.highcontrast2 .widget.widget_pages ul li,
+body.highcontrast2 .widget.widget_recent_comments ul li,
+body.highcontrast2 .widget.widget_rss ul li {
+  color: #ffff00;
+}
+body.highcontrast2 .widget.widget_recent_entries ul li a,
+body.highcontrast2 .widget.widget_archive ul li a,
+body.highcontrast2 .widget.widget_categories ul li a,
+body.highcontrast2 .widget.widget_meta ul li a,
+body.highcontrast2 .widget.widget_pages ul li a,
+body.highcontrast2 .widget.widget_recent_comments ul li a,
+body.highcontrast2 .widget.widget_rss ul li a {
+  color: #ffff00;
+}
+body.highcontrast2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 .widget.widget_archive ul li a:hover,
+body.highcontrast2 .widget.widget_categories ul li a:hover,
+body.highcontrast2 .widget.widget_meta ul li a:hover,
+body.highcontrast2 .widget.widget_pages ul li a:hover,
+body.highcontrast2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 .widget.widget_rss ul li a:hover,
+body.highcontrast2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 .widget.widget_archive ul li a:focus,
+body.highcontrast2 .widget.widget_categories ul li a:focus,
+body.highcontrast2 .widget.widget_meta ul li a:focus,
+body.highcontrast2 .widget.widget_pages ul li a:focus,
+body.highcontrast2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 .widget.widget_rss ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 .widget.widget_recent_entries ul li span,
+body.highcontrast2 .widget.widget_archive ul li span,
+body.highcontrast2 .widget.widget_categories ul li span,
+body.highcontrast2 .widget.widget_meta ul li span,
+body.highcontrast2 .widget.widget_pages ul li span,
+body.highcontrast2 .widget.widget_recent_comments ul li span,
+body.highcontrast2 .widget.widget_rss ul li span {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-header .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-top1 .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-top2 .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-top3 .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-footer .widget.widget_recent_entries ul li,
+body.highcontrast2 #pe-header .widget.widget_archive ul li,
+body.highcontrast2 #pe-top1 .widget.widget_archive ul li,
+body.highcontrast2 #pe-top2 .widget.widget_archive ul li,
+body.highcontrast2 #pe-top3 .widget.widget_archive ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_archive ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_archive ul li,
+body.highcontrast2 #pe-footer .widget.widget_archive ul li,
+body.highcontrast2 #pe-header .widget.widget_categories ul li,
+body.highcontrast2 #pe-top1 .widget.widget_categories ul li,
+body.highcontrast2 #pe-top2 .widget.widget_categories ul li,
+body.highcontrast2 #pe-top3 .widget.widget_categories ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_categories ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_categories ul li,
+body.highcontrast2 #pe-footer .widget.widget_categories ul li,
+body.highcontrast2 #pe-header .widget.widget_meta ul li,
+body.highcontrast2 #pe-top1 .widget.widget_meta ul li,
+body.highcontrast2 #pe-top2 .widget.widget_meta ul li,
+body.highcontrast2 #pe-top3 .widget.widget_meta ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_meta ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_meta ul li,
+body.highcontrast2 #pe-footer .widget.widget_meta ul li,
+body.highcontrast2 #pe-header .widget.widget_pages ul li,
+body.highcontrast2 #pe-top1 .widget.widget_pages ul li,
+body.highcontrast2 #pe-top2 .widget.widget_pages ul li,
+body.highcontrast2 #pe-top3 .widget.widget_pages ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_pages ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_pages ul li,
+body.highcontrast2 #pe-footer .widget.widget_pages ul li,
+body.highcontrast2 #pe-header .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-top1 .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-top2 .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-top3 .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-footer .widget.widget_recent_comments ul li,
+body.highcontrast2 #pe-header .widget.widget_rss ul li,
+body.highcontrast2 #pe-top1 .widget.widget_rss ul li,
+body.highcontrast2 #pe-top2 .widget.widget_rss ul li,
+body.highcontrast2 #pe-top3 .widget.widget_rss ul li,
+body.highcontrast2 #pe-bottom1 .widget.widget_rss ul li,
+body.highcontrast2 #pe-bottom2 .widget.widget_rss ul li,
+body.highcontrast2 #pe-footer .widget.widget_rss ul li {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-header .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-footer .widget.widget_recent_entries ul li a,
+body.highcontrast2 #pe-header .widget.widget_archive ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_archive ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_archive ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_archive ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_archive ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_archive ul li a,
+body.highcontrast2 #pe-footer .widget.widget_archive ul li a,
+body.highcontrast2 #pe-header .widget.widget_categories ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_categories ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_categories ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_categories ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_categories ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_categories ul li a,
+body.highcontrast2 #pe-footer .widget.widget_categories ul li a,
+body.highcontrast2 #pe-header .widget.widget_meta ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_meta ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_meta ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_meta ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_meta ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_meta ul li a,
+body.highcontrast2 #pe-footer .widget.widget_meta ul li a,
+body.highcontrast2 #pe-header .widget.widget_pages ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_pages ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_pages ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_pages ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_pages ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_pages ul li a,
+body.highcontrast2 #pe-footer .widget.widget_pages ul li a,
+body.highcontrast2 #pe-header .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-footer .widget.widget_recent_comments ul li a,
+body.highcontrast2 #pe-header .widget.widget_rss ul li a,
+body.highcontrast2 #pe-top1 .widget.widget_rss ul li a,
+body.highcontrast2 #pe-top2 .widget.widget_rss ul li a,
+body.highcontrast2 #pe-top3 .widget.widget_rss ul li a,
+body.highcontrast2 #pe-bottom1 .widget.widget_rss ul li a,
+body.highcontrast2 #pe-bottom2 .widget.widget_rss ul li a,
+body.highcontrast2 #pe-footer .widget.widget_rss ul li a {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-header .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_recent_entries ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_archive ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_categories ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_meta ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_pages ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_recent_comments ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-top1 .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-top2 .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-top3 .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-bottom1 .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-bottom2 .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-footer .widget.widget_rss ul li a:hover,
+body.highcontrast2 #pe-header .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_recent_entries ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_archive ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_categories ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_meta ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_pages ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_recent_comments ul li a:focus,
+body.highcontrast2 #pe-header .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-top1 .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-top2 .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-top3 .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-bottom1 .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-bottom2 .widget.widget_rss ul li a:focus,
+body.highcontrast2 #pe-footer .widget.widget_rss ul li a:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-header .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-footer .widget.widget_recent_entries ul li span,
+body.highcontrast2 #pe-header .widget.widget_archive ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_archive ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_archive ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_archive ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_archive ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_archive ul li span,
+body.highcontrast2 #pe-footer .widget.widget_archive ul li span,
+body.highcontrast2 #pe-header .widget.widget_categories ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_categories ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_categories ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_categories ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_categories ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_categories ul li span,
+body.highcontrast2 #pe-footer .widget.widget_categories ul li span,
+body.highcontrast2 #pe-header .widget.widget_meta ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_meta ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_meta ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_meta ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_meta ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_meta ul li span,
+body.highcontrast2 #pe-footer .widget.widget_meta ul li span,
+body.highcontrast2 #pe-header .widget.widget_pages ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_pages ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_pages ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_pages ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_pages ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_pages ul li span,
+body.highcontrast2 #pe-footer .widget.widget_pages ul li span,
+body.highcontrast2 #pe-header .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-footer .widget.widget_recent_comments ul li span,
+body.highcontrast2 #pe-header .widget.widget_rss ul li span,
+body.highcontrast2 #pe-top1 .widget.widget_rss ul li span,
+body.highcontrast2 #pe-top2 .widget.widget_rss ul li span,
+body.highcontrast2 #pe-top3 .widget.widget_rss ul li span,
+body.highcontrast2 #pe-bottom1 .widget.widget_rss ul li span,
+body.highcontrast2 #pe-bottom2 .widget.widget_rss ul li span,
+body.highcontrast2 #pe-footer .widget.widget_rss ul li span {
+  color: #ffff00;
+}
+body.highcontrast2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+  color: inherit;
+}
+body.highcontrast2 .widget_tag_cloud .tagcloud a:hover,
+body.highcontrast2 .widget_tag_cloud .tagcloud a:focus {
+  color: #8bfffb;
+  border-color: #8bfffb;
+}
+body.highcontrast2 #pe-header .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-top1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-top2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-bottom1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-bottom2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-footer .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 #pe-offcanvas .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast2 .pe-short-info .pe-buttons .pull-left {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-short-info .pe-buttons .pull-left span {
+  border: 1px solid #ffff00;
+}
+body.highcontrast2 #pe-main .pe-widget-members .pe-members a {
+  text-decoration: none !important;
+}
+body.highcontrast2 #pe-main .pe-widget-members .pe-members h3.title {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link,
+body.highcontrast2 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:hover,
+body.highcontrast2 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:focus {
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast2 .pe-widget-img-carousel .flipster__button {
+  background: #000000;
+  color: #ffff00;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+body.highcontrast2 .pe_login_popup_widget .btn-login {
+  color: #8bfffb;
+}
+body.highcontrast2 .pe_login_popup_widget .btn-login:hover,
+body.highcontrast2 .pe_login_popup_widget .btn-login:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-login .pe_login_popup_widget .btn-login {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-login .pe_login_popup_widget .btn-login:hover,
+body.highcontrast2 #pe-login .pe_login_popup_widget .btn-login:focus {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-main .pe-best-features .pe-icon span {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-main .pe-best-features .pe-title {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-main .pe-best-features .pe-title a:hover {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-main .pe-testimonial-carousel .pe-custom-title {
+  color: #ffff00;
+}
+body.highcontrast2 #pe-main .pe-testimonial-carousel .pe-custom-title a:hover {
+  color: #8bfffb;
+}
+body.highcontrast2 #pe-main .pe-testimonial-carousel .pe-indicators li {
+  border: 1px solid #ffff00;
+}
+body.highcontrast2 #pe-main .pe-testimonial-carousel .pe-indicators li:hover {
+  background: #8bfffb;
+}
+body.highcontrast2 #pe-main .pe-testimonial-carousel .pe-indicators li.active {
+  border-color: #8bfffb;
+}
+body.highcontrast2 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu {
+  background: #ffff00;
+}
+body.highcontrast2 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a {
+  color: #000000;
+}
+body.highcontrast2 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:hover,
+body.highcontrast2 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:focus {
+  color: #8bfffb;
+  background: #000000;
+}
+body.highcontrast2 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu .menu-item + .menu-item {
+  border-top: 1px solid #ffff00;
+}
+body.highcontrast2 .pe-widget.pe-color-box1 .pe-widget-in,
+body.highcontrast2 .pe-widget.pe-color-box2 .pe-widget-in,
+body.highcontrast2 .pe-widget.pe-color-box3 .pe-widget-in,
+body.highcontrast2 .pe-widget.pe-color-box4 .pe-widget-in {
+  padding: 0;
+  background: none;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-widget.pe-color-box1 .pe-widget-in .pe-title,
+body.highcontrast2 .pe-widget.pe-color-box2 .pe-widget-in .pe-title,
+body.highcontrast2 .pe-widget.pe-color-box3 .pe-widget-in .pe-title,
+body.highcontrast2 .pe-widget.pe-color-box4 .pe-widget-in .pe-title {
+  color: #ffff00 !important;
+}
+body.highcontrast2 .pe-post-tags ul li a {
+  border-color: #ffff00;
+  color: #ffff00;
+}
+body.highcontrast2 .pe-blog-row figure.effect:hover .intro:before,
+body.highcontrast2 .pe-blog-row figure.effect:hover .intro:after {
+  display: none;
+}
+body.highcontrast2 .pe-testimonials.clean .pe-custom-subtitle {
+  opacity: 1;
+}
+body.highcontrast2 .pe-recent-posts-outer ul.thumbnails .caption .pe-creation-date {
+  color: #ffff00;
+}
+body.highcontrast2 .pe-recent-posts-outer ul.thumbnails .pe-recent-posts-title-tag a {
+  color: #ffff00;
+}
+body.highcontrast2 blockquote {
+  border-color: #ffff00;
+}
+body.highcontrast2 #pe-bar-right {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+body.highcontrast2 #pe-main-menu-header {
+  display: none;
+}
+body.highcontrast3 {
+  color: #000000;
+  background-color: #ffff00;
+}
+body.highcontrast3 a {
+  text-decoration: underline !important;
+}
+body.highcontrast3 a:hover {
+  text-decoration: underline !important;
+}
+body.highcontrast3 #pe-copyrights a {
+  color: #000000;
+}
+body.highcontrast3 .pe-animation {
+  opacity: 1;
+}
+body.highcontrast3 [data-animation] {
+  animation-duration: 0s !important;
+}
+body.highcontrast3 [data-animation-delay] {
+  animation-delay: 0ms !important;
+}
+body.highcontrast3 .pe-recent-posts-outer .animated {
+  animation-duration: 0s !important;
+  animation-delay: 0ms !important;
+}
+body.highcontrast3 *,
+body.highcontrast3 *:before,
+body.highcontrast3 *:after {
+  transition: none !important;
+}
+body.highcontrast3 .pe-theme-customizer,
+body.highcontrast3 .sp-container {
+  display: none;
+}
+body.highcontrast3 a {
+  color: #0000ff;
+}
+body.highcontrast3 ::selection {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 ::-webkit-selection {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 ::-moz-selection {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 select,
+body.highcontrast3 textarea,
+body.highcontrast3 input[type="text"],
+body.highcontrast3 input[type="password"],
+body.highcontrast3 input[type="datetime"],
+body.highcontrast3 input[type="datetime-local"],
+body.highcontrast3 input[type="date"],
+body.highcontrast3 input[type="month"],
+body.highcontrast3 input[type="time"],
+body.highcontrast3 input[type="week"],
+body.highcontrast3 input[type="number"],
+body.highcontrast3 input[type="email"],
+body.highcontrast3 input[type="url"],
+body.highcontrast3 input[type="search"],
+body.highcontrast3 input[type="tel"],
+body.highcontrast3 input[type="color"] {
+  border-color: #000000;
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast3 select::-webkit-input-placeholder,
+body.highcontrast3 textarea::-webkit-input-placeholder,
+body.highcontrast3 input[type="text"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="password"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="datetime"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="datetime-local"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="date"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="month"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="time"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="week"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="number"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="email"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="url"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="search"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="tel"]::-webkit-input-placeholder,
+body.highcontrast3 input[type="color"]::-webkit-input-placeholder {
+  color: #000000;
+  opacity: 1 !important;
+}
+body.highcontrast3 select:-moz-placeholder,
+body.highcontrast3 textarea:-moz-placeholder,
+body.highcontrast3 input[type="text"]:-moz-placeholder,
+body.highcontrast3 input[type="password"]:-moz-placeholder,
+body.highcontrast3 input[type="datetime"]:-moz-placeholder,
+body.highcontrast3 input[type="datetime-local"]:-moz-placeholder,
+body.highcontrast3 input[type="date"]:-moz-placeholder,
+body.highcontrast3 input[type="month"]:-moz-placeholder,
+body.highcontrast3 input[type="time"]:-moz-placeholder,
+body.highcontrast3 input[type="week"]:-moz-placeholder,
+body.highcontrast3 input[type="number"]:-moz-placeholder,
+body.highcontrast3 input[type="email"]:-moz-placeholder,
+body.highcontrast3 input[type="url"]:-moz-placeholder,
+body.highcontrast3 input[type="search"]:-moz-placeholder,
+body.highcontrast3 input[type="tel"]:-moz-placeholder,
+body.highcontrast3 input[type="color"]:-moz-placeholder {
+  color: #000000;
+}
+body.highcontrast3 select::-moz-placeholder,
+body.highcontrast3 textarea::-moz-placeholder,
+body.highcontrast3 input[type="text"]::-moz-placeholder,
+body.highcontrast3 input[type="password"]::-moz-placeholder,
+body.highcontrast3 input[type="datetime"]::-moz-placeholder,
+body.highcontrast3 input[type="datetime-local"]::-moz-placeholder,
+body.highcontrast3 input[type="date"]::-moz-placeholder,
+body.highcontrast3 input[type="month"]::-moz-placeholder,
+body.highcontrast3 input[type="time"]::-moz-placeholder,
+body.highcontrast3 input[type="week"]::-moz-placeholder,
+body.highcontrast3 input[type="number"]::-moz-placeholder,
+body.highcontrast3 input[type="email"]::-moz-placeholder,
+body.highcontrast3 input[type="url"]::-moz-placeholder,
+body.highcontrast3 input[type="search"]::-moz-placeholder,
+body.highcontrast3 input[type="tel"]::-moz-placeholder,
+body.highcontrast3 input[type="color"]::-moz-placeholder {
+  color: #000000;
+}
+body.highcontrast3 select:-ms-input-placeholder,
+body.highcontrast3 textarea:-ms-input-placeholder,
+body.highcontrast3 input[type="text"]:-ms-input-placeholder,
+body.highcontrast3 input[type="password"]:-ms-input-placeholder,
+body.highcontrast3 input[type="datetime"]:-ms-input-placeholder,
+body.highcontrast3 input[type="datetime-local"]:-ms-input-placeholder,
+body.highcontrast3 input[type="date"]:-ms-input-placeholder,
+body.highcontrast3 input[type="month"]:-ms-input-placeholder,
+body.highcontrast3 input[type="time"]:-ms-input-placeholder,
+body.highcontrast3 input[type="week"]:-ms-input-placeholder,
+body.highcontrast3 input[type="number"]:-ms-input-placeholder,
+body.highcontrast3 input[type="email"]:-ms-input-placeholder,
+body.highcontrast3 input[type="url"]:-ms-input-placeholder,
+body.highcontrast3 input[type="search"]:-ms-input-placeholder,
+body.highcontrast3 input[type="tel"]:-ms-input-placeholder,
+body.highcontrast3 input[type="color"]:-ms-input-placeholder {
+  color: #000000;
+}
+body.highcontrast3 select:focus,
+body.highcontrast3 textarea:focus,
+body.highcontrast3 input[type="text"]:focus,
+body.highcontrast3 input[type="password"]:focus,
+body.highcontrast3 input[type="datetime"]:focus,
+body.highcontrast3 input[type="datetime-local"]:focus,
+body.highcontrast3 input[type="date"]:focus,
+body.highcontrast3 input[type="month"]:focus,
+body.highcontrast3 input[type="time"]:focus,
+body.highcontrast3 input[type="week"]:focus,
+body.highcontrast3 input[type="number"]:focus,
+body.highcontrast3 input[type="email"]:focus,
+body.highcontrast3 input[type="url"]:focus,
+body.highcontrast3 input[type="search"]:focus,
+body.highcontrast3 input[type="tel"]:focus,
+body.highcontrast3 input[type="color"]:focus {
+  border-color: #0000ff;
+}
+body.highcontrast3 .btn,
+body.highcontrast3 .button,
+body.highcontrast3 button,
+body.highcontrast3 input[type="submit"],
+body.highcontrast3 input[type="button"],
+body.highcontrast3 input[type="reset"] {
+  text-decoration: none;
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .btn.active,
+body.highcontrast3 .button.active,
+body.highcontrast3 button.active,
+body.highcontrast3 input[type="submit"].active,
+body.highcontrast3 input[type="button"].active,
+body.highcontrast3 input[type="reset"].active,
+body.highcontrast3 .btn:hover,
+body.highcontrast3 .button:hover,
+body.highcontrast3 button:hover,
+body.highcontrast3 input[type="submit"]:hover,
+body.highcontrast3 input[type="button"]:hover,
+body.highcontrast3 input[type="reset"]:hover,
+body.highcontrast3 .btn:focus,
+body.highcontrast3 .button:focus,
+body.highcontrast3 button:focus,
+body.highcontrast3 input[type="submit"]:focus,
+body.highcontrast3 input[type="button"]:focus,
+body.highcontrast3 input[type="reset"]:focus {
+  color: #ffff00;
+  background: #0000ff;
+}
+body.highcontrast3 .button a {
+  color: #ffff00;
+}
+body.highcontrast3 .button.active a,
+body.highcontrast3 .button:hover a,
+body.highcontrast3 .button:focus a {
+  color: #ffff00;
+}
+body.highcontrast3 #pe-header .btn,
+body.highcontrast3 #pe-header .button,
+body.highcontrast3 #pe-header button,
+body.highcontrast3 #pe-header input[type="submit"],
+body.highcontrast3 #pe-header input[type="button"],
+body.highcontrast3 #pe-header input[type="reset"] {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 #pe-header .btn.active,
+body.highcontrast3 #pe-header .button.active,
+body.highcontrast3 #pe-header button.active,
+body.highcontrast3 #pe-header input[type="submit"].active,
+body.highcontrast3 #pe-header input[type="button"].active,
+body.highcontrast3 #pe-header input[type="reset"].active,
+body.highcontrast3 #pe-header .btn:hover,
+body.highcontrast3 #pe-header .button:hover,
+body.highcontrast3 #pe-header button:hover,
+body.highcontrast3 #pe-header input[type="submit"]:hover,
+body.highcontrast3 #pe-header input[type="button"]:hover,
+body.highcontrast3 #pe-header input[type="reset"]:hover,
+body.highcontrast3 #pe-header .btn:focus,
+body.highcontrast3 #pe-header .button:focus,
+body.highcontrast3 #pe-header button:focus,
+body.highcontrast3 #pe-header input[type="submit"]:focus,
+body.highcontrast3 #pe-header input[type="button"]:focus,
+body.highcontrast3 #pe-header input[type="reset"]:focus {
+  color: #ffff00;
+  background: #0000ff;
+}
+body.highcontrast3 .readmore {
+  color: #000000;
+  border-color: #000000;
+  background: none;
+}
+body.highcontrast3 .readmore.active,
+body.highcontrast3 .readmore:hover,
+body.highcontrast3 .readmore:focus {
+  color: #0000ff;
+  border-color: #0000ff;
+  background: none;
+}
+body.highcontrast3 #pe-header .readmore {
+  color: #000000;
+  border-color: #000000;
+}
+body.highcontrast3 #pe-header .readmore:hover,
+body.highcontrast3 #pe-header .readmore:focus {
+  color: #0000ff;
+  border-color: #0000ff;
+}
+body.highcontrast3 #pe-header #pe-login .readmore {
+  color: #000000;
+  border-color: #000000;
+}
+body.highcontrast3 #pe-header #pe-login .readmore:hover,
+body.highcontrast3 #pe-header #pe-login .readmore:focus {
+  color: #0000ff;
+  border-color: #0000ff;
+}
+body.highcontrast3 #pe-header #pe-login .btn-login {
+  color: #000000;
+}
+body.highcontrast3 .pe-breadcrumb > li a {
+  color: #000000;
+}
+body.highcontrast3 .pe-breadcrumb > .item-current {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-pagination > li a,
+body.highcontrast3 .pe-pagination > li span {
+  color: #ffff00;
+  border: #000000;
+}
+body.highcontrast3 .pe-pagination > li a:hover,
+body.highcontrast3 .pe-pagination > li span:hover,
+body.highcontrast3 .pe-pagination > li a:focus,
+body.highcontrast3 .pe-pagination > li span:focus {
+  color: #ffff00;
+  border: #0000ff;
+}
+body.highcontrast3 .pe-pagination > li.active a,
+body.highcontrast3 .pe-pagination > li.active span {
+  color: #ffff00;
+  border: #0000ff;
+}
+body.highcontrast3 .pe-pagination > li.start a:hover,
+body.highcontrast3 .pe-pagination > li.end a:hover,
+body.highcontrast3 .pe-pagination > li.next a:hover,
+body.highcontrast3 .pe-pagination > li.prev a:hover,
+body.highcontrast3 .pe-pagination > li.start a:focus,
+body.highcontrast3 .pe-pagination > li.end a:focus,
+body.highcontrast3 .pe-pagination > li.next a:focus,
+body.highcontrast3 .pe-pagination > li.prev a:focus {
+  color: #ffff00;
+}
+body.highcontrast3 .pe-page-links a,
+body.highcontrast3 .pe-page-links > span {
+  color: #ffff00;
+  border: #000000;
+}
+body.highcontrast3 .pe-page-links > span,
+body.highcontrast3 .pe-page-links a:hover,
+body.highcontrast3 .pe-page-links a:focus {
+  color: #ffff00;
+  border: #0000ff;
+}
+body.highcontrast3 .pe-table th {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-table tr:nth-child(odd) td {
+  background: none;
+}
+body.highcontrast3 .pe-table tr + tr {
+  border-color: #000000;
+}
+body.highcontrast3 .pe-table > tbody + tbody {
+  border-color: #000000;
+}
+body.highcontrast3 #pe-back-top a {
+  color: #ffff00;
+  background-color: #000000;
+}
+body.highcontrast3 #pe-main .pe-wcag-settings {
+  border-color: #000000;
+}
+body.highcontrast3 #pe-main .pe-wcag-settings li a {
+  border-color: #000000;
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast3 #pe-main .pe-wcag-settings li a:hover,
+body.highcontrast3 #pe-main .pe-wcag-settings li a:focus {
+  color: #ffff00;
+  background: #0000ff;
+}
+body.highcontrast3 #pe-main {
+  background-color: #ffff00;
+}
+body.highcontrast3.sticky-bar #pe-header {
+  padding-top: 0 !important;
+}
+body.highcontrast3.sticky-bar #pe-logo-nav {
+  position: static;
+  background: #ffff00;
+}
+body.highcontrast3 #pe-logo-nav #pe-wcag {
+  background: none;
+  color: #000000;
+}
+body.highcontrast3 #pe-login:before {
+  border-color: #000000;
+}
+body.highcontrast3 #pe-top-bar,
+body.highcontrast3 #pe-logo-nav,
+body.highcontrast3 #pe-header,
+body.highcontrast3 #pe-top1,
+body.highcontrast3 #pe-top2,
+body.highcontrast3 #pe-top3,
+body.highcontrast3 #pe-bottom1,
+body.highcontrast3 #pe-bottom2,
+body.highcontrast3 #pe-footer,
+body.highcontrast3 #pe-copyrights {
+  color: #000000;
+  background: #ffff00;
+  border-bottom: 1px solid #000000;
+}
+body.highcontrast3 #pe-top-bar:before,
+body.highcontrast3 #pe-logo-nav:before,
+body.highcontrast3 #pe-header:before,
+body.highcontrast3 #pe-top1:before,
+body.highcontrast3 #pe-top2:before,
+body.highcontrast3 #pe-top3:before,
+body.highcontrast3 #pe-bottom1:before,
+body.highcontrast3 #pe-bottom2:before,
+body.highcontrast3 #pe-footer:before,
+body.highcontrast3 #pe-copyrights:before {
+  display: none;
+}
+body.highcontrast3 #pe-copyrights {
+  border-bottom: none;
+}
+body.highcontrast3 #pe-top2,
+body.highcontrast3 #pe-bottom2 {
+  border-color: #000000;
+}
+body.highcontrast3 .menu li a {
+  color: #000000;
+  border-color: #0000ff;
+}
+body.highcontrast3 .menu li a:hover,
+body.highcontrast3 .menu li a:active,
+body.highcontrast3 .menu li a:focus,
+body.highcontrast3 .menu .current-menu-item > a {
+  color: #0000ff;
+}
+body.highcontrast3 .menu > li > .sub-menu li a:hover:before,
+body.highcontrast3 .menu > li > .sub-menu li a:focus:before {
+  border-color: #0000ff;
+}
+body.highcontrast3 .pe-skip-menu ul.menu > li > a {
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast3 .pe-skip-menu ul.menu > li > a:hover,
+body.highcontrast3 .pe-skip-menu ul.menu > li > a:focus {
+  color: #ffff00;
+  background: #0000ff;
+}
+body.highcontrast3 #pe-offcanvas,
+body.highcontrast3 #pe-offcanvas-button {
+  display: none !important;
+}
+body.highcontrast3 .pe-blog-row {
+  border-color: #000000;
+}
+body.highcontrast3 .page-header > h1,
+body.highcontrast3 .page-header > h2 {
+  color: #000000;
+}
+body.highcontrast3 .page-header > h1 a,
+body.highcontrast3 .page-header > h2 a {
+  color: #000000;
+}
+body.highcontrast3 .page-header > h1 a:hover,
+body.highcontrast3 .page-header > h2 a:hover {
+  color: #0000ff;
+}
+body.highcontrast3 .post-meta {
+  color: #000000;
+}
+body.highcontrast3 .sticky .page-header h2 a:before {
+  color: #0000ff;
+}
+body.highcontrast3 .wp-caption .wp-caption-text,
+body.highcontrast3 .gallery-caption .wp-caption-text {
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast3 .pe-blog-row figure.effect,
+body.highcontrast3 .archive .pe-blog-row figure.effect {
+  overflow: visible;
+}
+body.highcontrast3 .pe-blog-row figure.effect figcaption,
+body.highcontrast3 .archive .pe-blog-row figure.effect figcaption {
+  padding: 30px 0 0;
+  position: static;
+  color: #000000;
+  background: none;
+  opacity: 1;
+}
+body.highcontrast3 .pe-blog-row figure.effect figcaption:before,
+body.highcontrast3 .archive .pe-blog-row figure.effect figcaption:before,
+body.highcontrast3 .pe-blog-row figure.effect figcaption:after,
+body.highcontrast3 .archive .pe-blog-row figure.effect figcaption:after {
+  display: none;
+}
+body.highcontrast3 .pe-blog-row figure.effect .intro,
+body.highcontrast3 .archive .pe-blog-row figure.effect .intro {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  padding: 0;
+}
+body.highcontrast3 .pe-blog-row figure.effect .pe-article-read-more .readmore,
+body.highcontrast3 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore {
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast3 .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast3 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:hover,
+body.highcontrast3 .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast3 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore:focus,
+body.highcontrast3 .pe-blog-row figure.effect .pe-article-read-more .readmore.active,
+body.highcontrast3 .archive .pe-blog-row figure.effect .pe-article-read-more .readmore.active {
+  color: #ffff00;
+  background: #0000ff;
+}
+body.highcontrast3 .pe-author-info .pe-title {
+  color: #000000;
+}
+body.highcontrast3 .pe-author-name .name {
+  color: #000000;
+}
+body.highcontrast3 .pe-post-tags ul li a:hover,
+body.highcontrast3 .pe-post-tags ul li a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .post-navigation .meta-nav {
+  color: #0000ff;
+}
+body.highcontrast3 .post-navigation .nav-next a:after {
+  color: #0000ff;
+}
+body.highcontrast3 .post-navigation .nav-previous a:before {
+  color: #0000ff;
+}
+body.highcontrast3 .post-navigation a:hover,
+body.highcontrast3 .post-navigation a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-comments .comment-reply-title,
+body.highcontrast3 .pe-comments .comments-title {
+  color: #000000;
+}
+body.highcontrast3 .pe-comments .comment-reply-link {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-comments .comment-reply-link:hover,
+body.highcontrast3 .pe-comments .comment-reply-link:focus {
+  background: #0000ff;
+}
+body.highcontrast3 .pe-opening-hours .pe-title,
+body.highcontrast3 .pe-member-contact .pe-title,
+body.highcontrast3 .pe-socials .pe-title {
+  color: #000000;
+}
+body.highcontrast3 .pe-error-page > h1,
+body.highcontrast3 .pe-error-page > h2 {
+  color: #000000;
+}
+body.highcontrast3 .pe-tabs .pe-tab-links li a {
+  border-color: #000000;
+  color: #000000;
+}
+body.highcontrast3 .pe-tabs .pe-tab-links li a:hover,
+body.highcontrast3 .pe-tabs .pe-tab-links li a:focus {
+  color: #000000;
+  border-color: #0000ff;
+}
+body.highcontrast3 .pe-tabs .pe-tab-links li.active a {
+  color: #000000;
+  border-color: #0000ff;
+}
+body.highcontrast3 .pe-tabs.pe-clean .pe-tab-links {
+  border-color: #0000ff;
+}
+body.highcontrast3 .pe-tabs.pe-clean .pe-tab-links li a {
+  color: #000000;
+}
+body.highcontrast3 .pe-tabs.pe-clean .pe-tab-links li a:hover,
+body.highcontrast3 .pe-tabs.pe-clean .pe-tab-links li a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-tabs.pe-clean .pe-tab-links li.active a {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-accordion-container .pe-accordion .accordion-in {
+  border: 1px solid #000000;
+  background: #ffff00;
+  color: #000000;
+}
+body.highcontrast3 .pe-accordion-container .pe-accordion-heading a {
+  color: #000000;
+  border-color: #000000;
+}
+body.highcontrast3 .pe-accordion-container .pe-accordion-heading a:after {
+  color: #000000;
+}
+body.highcontrast3 .pe-accordion-container .pe-accordion-heading a:hover,
+body.highcontrast3 .pe-accordion-container .pe-accordion-heading a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-accordion-container .pe-accordion-heading.active a {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-gallery-item .pe-gallery-caption {
+  background: #ffff00;
+}
+body.highcontrast3 .pe-icontext .pe-icon {
+  color: #000000;
+}
+body.highcontrast3 .pe-icontext .pe-label a:hover,
+body.highcontrast3 .pe-icontext .pe-label a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-table-group tr td:first-child {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-pricing .title {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-pricing .price {
+  background: #000000;
+}
+body.highcontrast3 .pe-pricing .price span {
+  color: #ffff00;
+}
+body.highcontrast3 .pe-pricing .content {
+  background: none;
+  border-color: #000000;
+  color: #000000;
+}
+body.highcontrast3 .pe-pricing .bottom {
+  background: none;
+  border: 1px solid #000000;
+}
+body.highcontrast3 .pe-anibox figure {
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure figcaption {
+  color: #000000;
+}
+body.highcontrast3 .pe-anibox figure figcaption a {
+  color: #000000 !important;
+}
+body.highcontrast3 .pe-anibox figure.effect-sadie figcaption:before {
+  background: linear-gradient(to bottom, rgba(255, 255, 0, 0) 0%, rgba(255, 255, 0, 0.7) 75%);
+}
+body.highcontrast3 .pe-anibox figure.effect-sadie h2 {
+  color: #000000 !important;
+  background: #ffff00;
+  padding: 10px;
+}
+body.highcontrast3 .pe-anibox figure.effect-sadie p {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-julia {
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-julia h2 {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-julia p {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-julia p a {
+  background: none;
+}
+body.highcontrast3 .pe-anibox figure.effect-goliath {
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-goliath h2 {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-goliath p {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-marley {
+  background: #ffff00;
+}
+body.highcontrast3 .pe-anibox figure.effect-marley h2 {
+  color: #000000 !important;
+  background: #ffff00;
+  padding: 10px;
+}
+body.highcontrast3 .pe-anibox figure.effect-marley p {
+  color: #000000 !important;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-testimonials .pe-custom-text {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-testimonials .pe-custom-text:after {
+  border-color: transparent #000000 transparent transparent;
+}
+body.highcontrast3 .pe-testimonials .pe-custom-title {
+  color: #000000;
+}
+body.highcontrast3 .pe-testimonials.clean .pe-custom-text {
+  background: none;
+  color: #000000;
+}
+body.highcontrast3 .right .pe-testimonials .pe-custom-text:after,
+body.highcontrast3 .pe-testimonials.right .pe-custom-text:after {
+  border-color: #000000 transparent transparent transparent;
+}
+body.highcontrast3 .pe-testimonials.clean {
+  border-left: 5px solid #000000;
+}
+body.highcontrast3 .pe-testimonials.right.clean {
+  border-right: 5px solid #000000;
+}
+body.highcontrast3 .pe-counter .pe-icon {
+  color: #000000;
+}
+body.highcontrast3 .pe-counter .pe-count {
+  color: #000000;
+}
+body.highcontrast3 .pe-counter .pe-title:after {
+  background: #000000;
+}
+body.highcontrast3 .mfp-modal-content {
+  color: #ffff00;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a {
+  color: #000000;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item > a:after,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item > a:after {
+  display: none;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.hover > a,
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item:hover > a,
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-menu > .menu-item.current-menu-item > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-menu > .menu-item.current-menu-item > a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-dropdown .nav-dropdown-in,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-dropdown .nav-dropdown-in {
+  background: #000000;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item a {
+  color: #ffff00;
+}
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.hover > a,
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item:hover > a,
+body.highcontrast3 #pe-logo-nav .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+body.highcontrast3 #pe-header-sidebar .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a {
+  color: #0000ff;
+  background: #ffff00;
+  box-shadow: 0 0 0 5px #ffff00;
+}
+body.highcontrast3 .pe-typo-title {
+  background: none;
+}
+body.highcontrast3 ul:not([class]) li:before,
+body.highcontrast3 ul.pe-dark li:before,
+body.highcontrast3 ul.pe-light li:before,
+body.highcontrast3 #pe-header ul:not([class]) li:before,
+body.highcontrast3 #pe-header ul.pe-light li:before {
+  color: #0000ff;
+}
+body.highcontrast3 ul.pe-dark li:before {
+  color: #000000;
+}
+body.highcontrast3 pre {
+  color: #000000;
+  background-color: #ffff00;
+  border-color: #000000;
+}
+body.highcontrast3 .pe-color {
+  color: #0000ff;
+}
+body.highcontrast3 .pe-info,
+body.highcontrast3 .pe-success,
+body.highcontrast3 .pe-alert,
+body.highcontrast3 .pe-warning {
+  text-align: inherit;
+  color: #000000;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-info a,
+body.highcontrast3 .pe-success a,
+body.highcontrast3 .pe-alert a,
+body.highcontrast3 .pe-warning a {
+  color: #000000;
+}
+body.highcontrast3 .pe-block span {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-block.second span {
+  background: #0000ff;
+  color: #ffff00;
+}
+body.highcontrast3 p.pebadge,
+body.highcontrast3 span.pebadge {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/badge.png");
+}
+body.highcontrast3 p.pecalendar,
+body.highcontrast3 span.pecalendar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/calendar.png");
+}
+body.highcontrast3 p.pechat,
+body.highcontrast3 span.pechat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/chat.png");
+}
+body.highcontrast3 p.pecheck,
+body.highcontrast3 span.pecheck {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/check.png");
+}
+body.highcontrast3 p.pecloud,
+body.highcontrast3 span.pecloud {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/cloud.png");
+}
+body.highcontrast3 p.pedirection,
+body.highcontrast3 span.pedirection {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/direction.png");
+}
+body.highcontrast3 p.pedivide,
+body.highcontrast3 span.pedivide {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/divide.png");
+}
+body.highcontrast3 p.peerror,
+body.highcontrast3 span.peerror {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/error.png");
+}
+body.highcontrast3 p.pefire,
+body.highcontrast3 span.pefire {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/fire.png");
+}
+body.highcontrast3 p.peflag,
+body.highcontrast3 span.peflag {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/flag.png");
+}
+body.highcontrast3 p.peheart,
+body.highcontrast3 span.peheart {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/heart.png");
+}
+body.highcontrast3 p.pehome,
+body.highcontrast3 span.pehome {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/home.png");
+}
+body.highcontrast3 p.peinfo,
+body.highcontrast3 span.peinfo {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/info.png");
+}
+body.highcontrast3 p.pelist,
+body.highcontrast3 span.pelist {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/list.png");
+}
+body.highcontrast3 p.pemail,
+body.highcontrast3 span.pemail {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/mail.png");
+}
+body.highcontrast3 p.pepeople,
+body.highcontrast3 span.pepeople {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/people.png");
+}
+body.highcontrast3 p.pestar,
+body.highcontrast3 span.pestar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/star.png");
+}
+body.highcontrast3 p.pestat,
+body.highcontrast3 span.pestat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/white/stat.png");
+}
+body.highcontrast3 .quote-left,
+body.highcontrast3 .quote-right {
+  border-color: #000000;
+}
+body.highcontrast3 .quote-left span.fa,
+body.highcontrast3 .quote-right span.fa,
+body.highcontrast3 .quote-left span[class^='fa'],
+body.highcontrast3 .quote-right span[class^='fa'] {
+  color: #000000;
+}
+body.highcontrast3 .quote-left {
+  border-color: #000000;
+}
+body.highcontrast3 .quote-right {
+  border-color: #000000;
+}
+body.highcontrast3 .pe-widget h1.pe-title,
+body.highcontrast3 .pe-widget h2.pe-title,
+body.highcontrast3 .pe-widget h3.pe-title,
+body.highcontrast3 .pe-widget h4.pe-title,
+body.highcontrast3 .pe-widget h5.pe-title,
+body.highcontrast3 .pe-widget h6.pe-title,
+body.highcontrast3 .pe-widget p.pe-title {
+  color: #000000;
+}
+body.highcontrast3 #pe-header .pe-widget h1.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h1.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h1.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h1.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h1.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h1.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h1.pe-title,
+body.highcontrast3 #pe-header .pe-widget h2.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h2.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h2.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h2.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h2.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h2.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h2.pe-title,
+body.highcontrast3 #pe-header .pe-widget h3.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h3.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h3.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h3.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h3.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h3.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h3.pe-title,
+body.highcontrast3 #pe-header .pe-widget h4.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h4.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h4.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h4.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h4.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h4.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h4.pe-title,
+body.highcontrast3 #pe-header .pe-widget h5.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h5.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h5.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h5.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h5.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h5.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h5.pe-title,
+body.highcontrast3 #pe-header .pe-widget h6.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget h6.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget h6.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget h6.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget h6.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget h6.pe-title,
+body.highcontrast3 #pe-footer .pe-widget h6.pe-title,
+body.highcontrast3 #pe-header .pe-widget p.pe-title,
+body.highcontrast3 #pe-top1 .pe-widget p.pe-title,
+body.highcontrast3 #pe-top2 .pe-widget p.pe-title,
+body.highcontrast3 #pe-top3 .pe-widget p.pe-title,
+body.highcontrast3 #pe-bottom1 .pe-widget p.pe-title,
+body.highcontrast3 #pe-bottom2 .pe-widget p.pe-title,
+body.highcontrast3 #pe-footer .pe-widget p.pe-title {
+  color: #000000;
+}
+body.highcontrast3 .pe-social-icons a {
+  opacity: 1;
+  text-decoration: none !important;
+}
+body.highcontrast3 .pe-social-icons a:hover span.fa,
+body.highcontrast3 .pe-social-icons a:focus span.fa {
+  background: #0000ff;
+  color: #ffff00;
+}
+body.highcontrast3 .pe-social-icons a span.fa {
+  background: #000000;
+  color: #ffff00;
+}
+body.highcontrast3 #pe-header .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-top1 .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-top2 .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-top3 .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-bottom1 .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-bottom2 .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-footer .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-offcanvas .pe-social-icons a {
+  color: #0000ff;
+}
+body.highcontrast3 .rev_slider_wrapper .tp-caption {
+  color: #000000 !important;
+  background: #ffff00 !important;
+}
+body.highcontrast3 .rev_slider_wrapper .tp-caption.rev-btn {
+  background: #000000 !important;
+  color: #ffff00 !important;
+}
+body.highcontrast3 .rev_slider_wrapper .tp-caption.rev-btn:hover,
+body.highcontrast3 .rev_slider_wrapper .tp-caption.rev-btn:focus {
+  background: #0000ff !important;
+}
+body.highcontrast3 .rev_slider_wrapper .tp-bgimg {
+  color: #000000 !important;
+  background-color: #ffff00 !important;
+}
+body.highcontrast3 .rev_slider_wrapper .tparrows:before {
+  color: #000000 !important;
+}
+body.highcontrast3 .rev_slider_wrapper .tp-leftarrow,
+body.highcontrast3 .rev_slider_wrapper .tp-rightarrow {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+body.highcontrast3 .widget.widget_recent_entries ul li,
+body.highcontrast3 .widget.widget_archive ul li,
+body.highcontrast3 .widget.widget_categories ul li,
+body.highcontrast3 .widget.widget_meta ul li,
+body.highcontrast3 .widget.widget_pages ul li,
+body.highcontrast3 .widget.widget_recent_comments ul li,
+body.highcontrast3 .widget.widget_rss ul li {
+  color: #000000;
+}
+body.highcontrast3 .widget.widget_recent_entries ul li a,
+body.highcontrast3 .widget.widget_archive ul li a,
+body.highcontrast3 .widget.widget_categories ul li a,
+body.highcontrast3 .widget.widget_meta ul li a,
+body.highcontrast3 .widget.widget_pages ul li a,
+body.highcontrast3 .widget.widget_recent_comments ul li a,
+body.highcontrast3 .widget.widget_rss ul li a {
+  color: #000000;
+}
+body.highcontrast3 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 .widget.widget_archive ul li a:hover,
+body.highcontrast3 .widget.widget_categories ul li a:hover,
+body.highcontrast3 .widget.widget_meta ul li a:hover,
+body.highcontrast3 .widget.widget_pages ul li a:hover,
+body.highcontrast3 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 .widget.widget_rss ul li a:hover,
+body.highcontrast3 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 .widget.widget_archive ul li a:focus,
+body.highcontrast3 .widget.widget_categories ul li a:focus,
+body.highcontrast3 .widget.widget_meta ul li a:focus,
+body.highcontrast3 .widget.widget_pages ul li a:focus,
+body.highcontrast3 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 .widget.widget_rss ul li a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 .widget.widget_recent_entries ul li span,
+body.highcontrast3 .widget.widget_archive ul li span,
+body.highcontrast3 .widget.widget_categories ul li span,
+body.highcontrast3 .widget.widget_meta ul li span,
+body.highcontrast3 .widget.widget_pages ul li span,
+body.highcontrast3 .widget.widget_recent_comments ul li span,
+body.highcontrast3 .widget.widget_rss ul li span {
+  color: #000000;
+}
+body.highcontrast3 #pe-header .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-top1 .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-top2 .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-top3 .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-footer .widget.widget_recent_entries ul li,
+body.highcontrast3 #pe-header .widget.widget_archive ul li,
+body.highcontrast3 #pe-top1 .widget.widget_archive ul li,
+body.highcontrast3 #pe-top2 .widget.widget_archive ul li,
+body.highcontrast3 #pe-top3 .widget.widget_archive ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_archive ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_archive ul li,
+body.highcontrast3 #pe-footer .widget.widget_archive ul li,
+body.highcontrast3 #pe-header .widget.widget_categories ul li,
+body.highcontrast3 #pe-top1 .widget.widget_categories ul li,
+body.highcontrast3 #pe-top2 .widget.widget_categories ul li,
+body.highcontrast3 #pe-top3 .widget.widget_categories ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_categories ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_categories ul li,
+body.highcontrast3 #pe-footer .widget.widget_categories ul li,
+body.highcontrast3 #pe-header .widget.widget_meta ul li,
+body.highcontrast3 #pe-top1 .widget.widget_meta ul li,
+body.highcontrast3 #pe-top2 .widget.widget_meta ul li,
+body.highcontrast3 #pe-top3 .widget.widget_meta ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_meta ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_meta ul li,
+body.highcontrast3 #pe-footer .widget.widget_meta ul li,
+body.highcontrast3 #pe-header .widget.widget_pages ul li,
+body.highcontrast3 #pe-top1 .widget.widget_pages ul li,
+body.highcontrast3 #pe-top2 .widget.widget_pages ul li,
+body.highcontrast3 #pe-top3 .widget.widget_pages ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_pages ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_pages ul li,
+body.highcontrast3 #pe-footer .widget.widget_pages ul li,
+body.highcontrast3 #pe-header .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-top1 .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-top2 .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-top3 .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-footer .widget.widget_recent_comments ul li,
+body.highcontrast3 #pe-header .widget.widget_rss ul li,
+body.highcontrast3 #pe-top1 .widget.widget_rss ul li,
+body.highcontrast3 #pe-top2 .widget.widget_rss ul li,
+body.highcontrast3 #pe-top3 .widget.widget_rss ul li,
+body.highcontrast3 #pe-bottom1 .widget.widget_rss ul li,
+body.highcontrast3 #pe-bottom2 .widget.widget_rss ul li,
+body.highcontrast3 #pe-footer .widget.widget_rss ul li {
+  color: #000000;
+}
+body.highcontrast3 #pe-header .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-footer .widget.widget_recent_entries ul li a,
+body.highcontrast3 #pe-header .widget.widget_archive ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_archive ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_archive ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_archive ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_archive ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_archive ul li a,
+body.highcontrast3 #pe-footer .widget.widget_archive ul li a,
+body.highcontrast3 #pe-header .widget.widget_categories ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_categories ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_categories ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_categories ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_categories ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_categories ul li a,
+body.highcontrast3 #pe-footer .widget.widget_categories ul li a,
+body.highcontrast3 #pe-header .widget.widget_meta ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_meta ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_meta ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_meta ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_meta ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_meta ul li a,
+body.highcontrast3 #pe-footer .widget.widget_meta ul li a,
+body.highcontrast3 #pe-header .widget.widget_pages ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_pages ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_pages ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_pages ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_pages ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_pages ul li a,
+body.highcontrast3 #pe-footer .widget.widget_pages ul li a,
+body.highcontrast3 #pe-header .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-footer .widget.widget_recent_comments ul li a,
+body.highcontrast3 #pe-header .widget.widget_rss ul li a,
+body.highcontrast3 #pe-top1 .widget.widget_rss ul li a,
+body.highcontrast3 #pe-top2 .widget.widget_rss ul li a,
+body.highcontrast3 #pe-top3 .widget.widget_rss ul li a,
+body.highcontrast3 #pe-bottom1 .widget.widget_rss ul li a,
+body.highcontrast3 #pe-bottom2 .widget.widget_rss ul li a,
+body.highcontrast3 #pe-footer .widget.widget_rss ul li a {
+  color: #000000;
+}
+body.highcontrast3 #pe-header .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_recent_entries ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_archive ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_categories ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_meta ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_pages ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_recent_comments ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-top1 .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-top2 .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-top3 .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-bottom1 .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-bottom2 .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-footer .widget.widget_rss ul li a:hover,
+body.highcontrast3 #pe-header .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_recent_entries ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_archive ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_categories ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_meta ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_pages ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_recent_comments ul li a:focus,
+body.highcontrast3 #pe-header .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-top1 .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-top2 .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-top3 .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-bottom1 .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-bottom2 .widget.widget_rss ul li a:focus,
+body.highcontrast3 #pe-footer .widget.widget_rss ul li a:focus {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-header .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-footer .widget.widget_recent_entries ul li span,
+body.highcontrast3 #pe-header .widget.widget_archive ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_archive ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_archive ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_archive ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_archive ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_archive ul li span,
+body.highcontrast3 #pe-footer .widget.widget_archive ul li span,
+body.highcontrast3 #pe-header .widget.widget_categories ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_categories ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_categories ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_categories ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_categories ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_categories ul li span,
+body.highcontrast3 #pe-footer .widget.widget_categories ul li span,
+body.highcontrast3 #pe-header .widget.widget_meta ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_meta ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_meta ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_meta ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_meta ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_meta ul li span,
+body.highcontrast3 #pe-footer .widget.widget_meta ul li span,
+body.highcontrast3 #pe-header .widget.widget_pages ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_pages ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_pages ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_pages ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_pages ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_pages ul li span,
+body.highcontrast3 #pe-footer .widget.widget_pages ul li span,
+body.highcontrast3 #pe-header .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-footer .widget.widget_recent_comments ul li span,
+body.highcontrast3 #pe-header .widget.widget_rss ul li span,
+body.highcontrast3 #pe-top1 .widget.widget_rss ul li span,
+body.highcontrast3 #pe-top2 .widget.widget_rss ul li span,
+body.highcontrast3 #pe-top3 .widget.widget_rss ul li span,
+body.highcontrast3 #pe-bottom1 .widget.widget_rss ul li span,
+body.highcontrast3 #pe-bottom2 .widget.widget_rss ul li span,
+body.highcontrast3 #pe-footer .widget.widget_rss ul li span {
+  color: #000000;
+}
+body.highcontrast3 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+  color: inherit;
+}
+body.highcontrast3 .widget_tag_cloud .tagcloud a:hover,
+body.highcontrast3 .widget_tag_cloud .tagcloud a:focus {
+  color: #0000ff;
+  border-color: #0000ff;
+}
+body.highcontrast3 #pe-header .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-top1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-top2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-bottom1 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-bottom2 .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-footer .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 #pe-offcanvas .widget_tag_cloud .tagcloud a {
+  border-color: currentColor;
+}
+body.highcontrast3 .pe-short-info .pe-buttons .pull-left {
+  color: #000000;
+}
+body.highcontrast3 .pe-short-info .pe-buttons .pull-left span {
+  border: 1px solid #000000;
+}
+body.highcontrast3 #pe-main .pe-widget-members .pe-members a {
+  text-decoration: none !important;
+}
+body.highcontrast3 #pe-main .pe-widget-members .pe-members h3.title {
+  color: #000000;
+}
+body.highcontrast3 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link,
+body.highcontrast3 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:hover,
+body.highcontrast3 .pe-widget-img-carousel .flipster__nav__item--current > .flipster__nav__link:focus {
+  color: #ffff00;
+  background: #000000;
+}
+body.highcontrast3 .pe-widget-img-carousel .flipster__button {
+  background: #ffff00;
+  color: #000000;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+body.highcontrast3 .pe_login_popup_widget .btn-login {
+  color: #0000ff;
+}
+body.highcontrast3 .pe_login_popup_widget .btn-login:hover,
+body.highcontrast3 .pe_login_popup_widget .btn-login:focus {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-login .pe_login_popup_widget .btn-login {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-login .pe_login_popup_widget .btn-login:hover,
+body.highcontrast3 #pe-login .pe_login_popup_widget .btn-login:focus {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-main .pe-best-features .pe-icon span {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-main .pe-best-features .pe-title {
+  color: #000000;
+}
+body.highcontrast3 #pe-main .pe-best-features .pe-title a:hover {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-main .pe-testimonial-carousel .pe-custom-title {
+  color: #000000;
+}
+body.highcontrast3 #pe-main .pe-testimonial-carousel .pe-custom-title a:hover {
+  color: #0000ff;
+}
+body.highcontrast3 #pe-main .pe-testimonial-carousel .pe-indicators li {
+  border: 1px solid #000000;
+}
+body.highcontrast3 #pe-main .pe-testimonial-carousel .pe-indicators li:hover {
+  background: #0000ff;
+}
+body.highcontrast3 #pe-main .pe-testimonial-carousel .pe-indicators li.active {
+  border-color: #0000ff;
+}
+body.highcontrast3 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu {
+  background: #000000;
+}
+body.highcontrast3 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a {
+  color: #ffff00;
+}
+body.highcontrast3 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:hover,
+body.highcontrast3 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu a:focus {
+  color: #0000ff;
+  background: #ffff00;
+}
+body.highcontrast3 .pe-nav-container #menu-main-menu > li.menu-item-language > ul.sub-menu .menu-item + .menu-item {
+  border-top: 1px solid #000000;
+}
+body.highcontrast3 .pe-widget.pe-color-box1 .pe-widget-in,
+body.highcontrast3 .pe-widget.pe-color-box2 .pe-widget-in,
+body.highcontrast3 .pe-widget.pe-color-box3 .pe-widget-in,
+body.highcontrast3 .pe-widget.pe-color-box4 .pe-widget-in {
+  padding: 0;
+  background: none;
+  color: #000000;
+}
+body.highcontrast3 .pe-widget.pe-color-box1 .pe-widget-in .pe-title,
+body.highcontrast3 .pe-widget.pe-color-box2 .pe-widget-in .pe-title,
+body.highcontrast3 .pe-widget.pe-color-box3 .pe-widget-in .pe-title,
+body.highcontrast3 .pe-widget.pe-color-box4 .pe-widget-in .pe-title {
+  color: #000000 !important;
+}
+body.highcontrast3 .pe-post-tags ul li a {
+  border-color: #000000;
+  color: #000000;
+}
+body.highcontrast3 .pe-blog-row figure.effect:hover .intro:before,
+body.highcontrast3 .pe-blog-row figure.effect:hover .intro:after {
+  display: none;
+}
+body.highcontrast3 .pe-testimonials.clean .pe-custom-subtitle {
+  opacity: 1;
+}
+body.highcontrast3 .pe-recent-posts-outer ul.thumbnails .caption .pe-creation-date {
+  color: #000000;
+}
+body.highcontrast3 .pe-recent-posts-outer ul.thumbnails .pe-recent-posts-title-tag a {
+  color: #000000;
+}
+body.highcontrast3 blockquote {
+  border-color: #000000;
+}
+body.highcontrast3 #pe-bar-right {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+body.highcontrast3 #pe-main-menu-header {
+  display: none;
+}
+body.highcontrast3 p.pebadge,
+body.highcontrast3 span.pebadge {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/badge.png");
+}
+body.highcontrast3 p.pecalendar,
+body.highcontrast3 span.pecalendar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/calendar.png");
+}
+body.highcontrast3 p.pechat,
+body.highcontrast3 span.pechat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/chat.png");
+}
+body.highcontrast3 p.pecheck,
+body.highcontrast3 span.pecheck {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/check.png");
+}
+body.highcontrast3 p.pecloud,
+body.highcontrast3 span.pecloud {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/cloud.png");
+}
+body.highcontrast3 p.pedirection,
+body.highcontrast3 span.pedirection {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/direction.png");
+}
+body.highcontrast3 p.pedivide,
+body.highcontrast3 span.pedivide {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/divide.png");
+}
+body.highcontrast3 p.peerror,
+body.highcontrast3 span.peerror {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/error.png");
+}
+body.highcontrast3 p.pefire,
+body.highcontrast3 span.pefire {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/fire.png");
+}
+body.highcontrast3 p.peflag,
+body.highcontrast3 span.peflag {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/icons/flag.png");
+}
+body.highcontrast3 p.peheart,
+body.highcontrast3 span.peheart {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/heart.png");
+}
+body.highcontrast3 p.pehome,
+body.highcontrast3 span.pehome {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/home.png");
+}
+body.highcontrast3 p.peinfo,
+body.highcontrast3 span.peinfo {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/info.png");
+}
+body.highcontrast3 p.pelist,
+body.highcontrast3 span.pelist {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/list.png");
+}
+body.highcontrast3 p.pemail,
+body.highcontrast3 span.pemail {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/mail.png");
+}
+body.highcontrast3 p.pepeople,
+body.highcontrast3 span.pepeople {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/people.png");
+}
+body.highcontrast3 p.pestar,
+body.highcontrast3 span.pestar {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/star.png");
+}
+body.highcontrast3 p.pestat,
+body.highcontrast3 span.pestat {
+  background-image: url("http://watermark.pixelemu.com/pe-terraclassic/wp-content/themes/pe-terraclassic/images/images/icons/stat.png");
+}
+@media (max-width: 991px) {
+  body.highcontrast .pe-main-menu .nav-toggle button.is-active {
+    color: #000000;
+    background: #ffffff;
+  }
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu {
+    background: #000000;
+    border-color: #ffffff;
+  }
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu > .menu-item > a {
+    color: #ffffff;
+  }
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.hover > a,
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu > .menu-item:hover > a,
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.current-menu-item > a,
+  body.highcontrast .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.mega-current-menu-ancestor > a {
+    color: #000000;
+  }
+  body.highcontrast .pe-main-menu .menu-item-has-children.hover:after,
+  body.highcontrast .pe-main-menu .menu-item-has-children:hover:after,
+  body.highcontrast .pe-main-menu .menu-item-has-children.current-menu-item:after,
+  body.highcontrast .pe-main-menu .menu-item-has-children.mega-current-menu-ancestor:after,
+  body.highcontrast .pe-main-menu .menu-item-has-children > .is-visible > ul > li:after {
+    color: #8bfffb;
+  }
+  body.highcontrast .pe-main-menu .nav-dropdown .nav-dropdown-in {
+    background: #000000;
+  }
+  body.highcontrast .pe-main-menu .nav-dropdown .nav-dropdown-in .nav-dropdown-in {
+    background: #000000;
+  }
+  body.highcontrast .pe-main-menu .nav-dropdown .menu-item a {
+    color: #ffffff;
+  }
+  body.highcontrast .pe-main-menu .nav-dropdown .menu-item.hover > a,
+  body.highcontrast .pe-main-menu .nav-dropdown .menu-item:hover > a,
+  body.highcontrast .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+  body.highcontrast .pe-main-menu .nav-dropdown .menu-item.mega-current-menu-ancestor > a {
+    color: #8bfffb;
+  }
+  body.highcontrast2 .pe-main-menu .nav-toggle button.is-active {
+    color: #000000;
+    background: #ffff00;
+  }
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu {
+    background: #000000;
+    border-color: #ffff00;
+  }
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item > a {
+    color: #ffff00;
+  }
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.hover > a,
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item:hover > a,
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.current-menu-item > a,
+  body.highcontrast2 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.mega-current-menu-ancestor > a {
+    color: #000000;
+  }
+  body.highcontrast2 .pe-main-menu .menu-item-has-children.hover:after,
+  body.highcontrast2 .pe-main-menu .menu-item-has-children:hover:after,
+  body.highcontrast2 .pe-main-menu .menu-item-has-children.current-menu-item:after,
+  body.highcontrast2 .pe-main-menu .menu-item-has-children.mega-current-menu-ancestor:after,
+  body.highcontrast2 .pe-main-menu .menu-item-has-children > .is-visible > ul > li:after {
+    color: #8bfffb;
+  }
+  body.highcontrast2 .pe-main-menu .nav-dropdown .nav-dropdown-in {
+    background: #000000;
+  }
+  body.highcontrast2 .pe-main-menu .nav-dropdown .nav-dropdown-in .nav-dropdown-in {
+    background: #000000;
+  }
+  body.highcontrast2 .pe-main-menu .nav-dropdown .menu-item a {
+    color: #ffff00;
+  }
+  body.highcontrast2 .pe-main-menu .nav-dropdown .menu-item.hover > a,
+  body.highcontrast2 .pe-main-menu .nav-dropdown .menu-item:hover > a,
+  body.highcontrast2 .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+  body.highcontrast2 .pe-main-menu .nav-dropdown .menu-item.mega-current-menu-ancestor > a {
+    color: #8bfffb;
+  }
+  body.highcontrast3 .pe-main-menu .nav-toggle button.is-active {
+    color: #ffff00;
+    background: #000000;
+  }
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu {
+    background: #ffff00;
+    border-color: #000000;
+  }
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item > a {
+    color: #000000;
+  }
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.hover > a,
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item:hover > a,
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.current-menu-item > a,
+  body.highcontrast3 .pe-main-menu .pe-nav-container > .nav-menu > .menu-item.mega-current-menu-ancestor > a {
+    color: #ffff00;
+  }
+  body.highcontrast3 .pe-main-menu .menu-item-has-children.hover:after,
+  body.highcontrast3 .pe-main-menu .menu-item-has-children:hover:after,
+  body.highcontrast3 .pe-main-menu .menu-item-has-children.current-menu-item:after,
+  body.highcontrast3 .pe-main-menu .menu-item-has-children.mega-current-menu-ancestor:after,
+  body.highcontrast3 .pe-main-menu .menu-item-has-children > .is-visible > ul > li:after {
+    color: #0000ff;
+  }
+  body.highcontrast3 .pe-main-menu .nav-dropdown .nav-dropdown-in {
+    background: #ffff00;
+  }
+  body.highcontrast3 .pe-main-menu .nav-dropdown .nav-dropdown-in .nav-dropdown-in {
+    background: #ffff00;
+  }
+  body.highcontrast3 .pe-main-menu .nav-dropdown .menu-item a {
+    color: #000000;
+  }
+  body.highcontrast3 .pe-main-menu .nav-dropdown .menu-item.hover > a,
+  body.highcontrast3 .pe-main-menu .nav-dropdown .menu-item:hover > a,
+  body.highcontrast3 .pe-main-menu .nav-dropdown .menu-item.current-menu-item > a,
+  body.highcontrast3 .pe-main-menu .nav-dropdown .menu-item.mega-current-menu-ancestor > a {
+    color: #0000ff;
+  }
+}
+/*# sourceMappingURL=http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/pe-terraclassic/maps/high-contrast.map */

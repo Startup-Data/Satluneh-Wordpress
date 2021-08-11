@@ -1,0 +1,645 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// LAYOUT
+// ---------------------------------------------------------------
+
+html {
+	font-size: @bodyFontSize;
+	height: 100%;
+}
+
+//body
+body {
+	color: @bodyFontColor;
+	font-family: @bodyFontFamily;
+	font-size: inherit;
+	font-style: @bodyFontStyle;
+	font-weight: @bodyFontWeight;
+	letter-spacing: @bodyFontLetterSpacing;
+	text-transform: @bodyFontTextTransform;
+	background-color: @bodyBackground;
+	line-height: @bodyFontLineHeight;
+	&.overflow {
+		overflow: hidden;
+	}
+}
+
+.nospace {
+	padding: 0 !important;
+	.pe-widget {
+		margin-bottom: 0;
+	}
+}
+
+.nospace-top {
+	padding-top: 0 !important;
+}
+
+.nospace-bottom {
+	padding-bottom: 0 !important;
+	.pe-widget {
+		margin-bottom: 0;
+	}
+}
+
+// ---------------------------------------------------------------
+// Page Wrapper
+// ---------------------------------------------------------------
+
+#pe-main {
+	position: relative;
+	background: @pageBackground;
+}
+
+// ---------------------------------------------------------------
+// Sticky Bar
+// ---------------------------------------------------------------
+
+.sticky-bar {
+	#pe-header {
+		padding-top: @barHeight;
+	}
+	&.wcag {
+		#pe-header {
+			padding-top: @barHeightWCAG;
+		}
+	}
+}
+
+.sticky-bar #pe-logo-nav {
+	position: fixed;
+	display: block;
+	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 900;
+	background:#fff;
+	border-bottom: 1px solid @border;
+	.transition(background 0.2s ease-in);
+}
+
+//if admin top menu
+.admin-bar.sticky-bar:not(.overflow) #pe-logo-nav {
+	top: 32px;
+}
+
+.admin-bar #pe-offcanvas {
+	top: 32px;
+}
+
+@media (max-width: 782px) {
+	.admin-bar.sticky-bar:not(.overflow) #pe-logo-nav {
+		top: 46px;
+	}
+
+	.admin-bar #pe-offcanvas {
+		top: 46px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.admin-bar.sticky-bar #pe-header {
+		padding-top: 0 !important;
+	}
+
+	.admin-bar.sticky-bar #pe-logo-nav {
+		position: static;
+	}
+}
+
+// ---------------------------------------------------------------
+// Bar
+// ---------------------------------------------------------------
+
+#pe-logo-nav {
+	color: @topmenuFontColor;
+	background: transparent;
+	#pe-wcag{
+    color: @topmenuFontColor;
+    //background: @headerBackground;
+    position: relative;
+    z-index: 5;
+	}
+}
+
+.sticky-bar.scrolled {
+	/*#pe-logo-nav {
+		color: @topmenuFontColor;
+		background: @headerBackground;
+    .box-shadow(0px 2px 5px @border);
+	}*/
+	#pe-main .pe-wcag-settings{
+	  border-bottom: 1px solid rgba(red(@headerText), green(@headerText), blue(@headerText), 0.1);
+	}
+}
+
+#pe-bar-left {
+	float: left;
+	padding: @barPadding 0;
+	#pe-logo {
+		a {
+			display: block;
+			position: relative;
+		}
+		.pe-logo-text {
+			font-size: @logoFontSize;
+			line-height: 1.1;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		.pe-logo-desc {
+			line-height: 1.1;
+		}
+	}
+}
+
+#pe-bar-right {
+    float: right;
+    padding: 13px 0 0;
+    .pe-top-bar{
+      float:left;
+      width: auto;
+      .pe-widget{
+        margin-bottom:0;
+      }
+    }
+    .pe-top-bar2{
+      float:left;
+      width: auto;
+      .pe-widget{
+        margin-bottom:0;
+        &:last-of-type{
+          padding-right:0;
+        }
+      }
+    }
+}
+
+#pe-main-menu,
+#pe-main-menu-header{
+	float: left;
+	position: relative;
+	z-index:5;
+}
+
+#pe-login {
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	line-height: round(@topmenuFontSize*1.54);
+	font-family: @topmenuFontFamily;
+	font-weight: @topmenuFontWeight;
+	font-size: @topmenuFontSize;
+	font-style: @topmenuFontStyle;
+	letter-spacing: @topmenuFontLetterSpacing;
+	text-transform: @topmenuFontTextTransform;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		.translateY(-50%);
+		height: 20px;
+		border-left: 1px solid lighten(@headerBackground, 20%);
+	}
+	.pe-widget {
+		margin-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+#pe-search {
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 4px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+#pe-offcanvas-button {
+	float: left;
+  margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+// ---------------------------------------------------------------
+// WCAG
+// ---------------------------------------------------------------
+
+//wide option
+.wide-page {
+	.pe-container,
+	.container-fluid {
+		max-width: @PEwideLayoutWidth;
+	}
+}
+
+//high contrast buttons
+#pe-main .pe-wcag-settings {
+	border-bottom: 1px solid transparent;
+	font-size: @bodyFontSize * 0.8125;
+	padding: 10px 0;
+	margin: 0;
+	text-align: right;
+	ul {
+		margin: 0;
+	}
+	li {
+		display: inline-block;
+		margin: 0 0 0 2px;
+		padding: 0;
+		&:first-child {
+			margin: 0;
+		}
+		&:before {
+			display: none;
+		}
+		a {
+			display: inline-block;
+			vertical-align: baseline;
+			line-height: 1;
+			padding: 3px 7px;
+			text-decoration: none;
+			background: @white;
+			color: @black;
+			&:hover,
+			&:focus {
+				color: @schemeContent;
+				background: @scheme;
+			}
+		}
+		&.separator {
+			margin: 0 2px;
+		}
+	}
+	> li {
+		margin: 0 0 0 10px;
+		&:first-child {
+			margin: 0;
+		}
+	}
+	.contrast {
+		.pe-highcontrast {
+			background: @PEhcBackground;
+			color: @PEhcFontColor;
+			&:hover,
+			&:focus {
+				background: @PEhcFontColor;
+				color: @PEhcBackground;
+			}
+		}
+		.pe-highcontrast2 {
+			background: @PEhc2Background;
+			color: @PEhc2FontColor;
+			&:hover,
+			&:focus {
+				background: @PEhc2FontColor;
+				color: @PEhc2Background;
+			}
+		}
+		.pe-highcontrast3 {
+			background: @PEhc3Background;
+			color: @PEhc3FontColor;
+			&:hover,
+			&:focus {
+				background: @PEhc3FontColor;
+				color: @PEhc3Background;
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Header
+// ---------------------------------------------------------------
+
+#pe-header {
+	background-color: @headerBackground;
+	color: @headerText;
+	position: relative;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+		.bg-image(@headerBackgroundImage);
+		background-repeat: @headerBackgroundRepeat;
+		background-size: @headerBackgroundSize;
+		background-attachment: @headerBackgroundAttachment;
+		background-position: @headerBackgroundPosition;
+		.opacity(@headerBackgroundOpacity);
+		pointer-events: none;
+	}
+}
+
+#pe-header-sidebar {
+	padding-top: @baseSpace;
+	padding-bottom: @baseSpace;
+}
+
+.header-background-frontpage:not(.home):not(.blog){
+  #pe-header{
+    &:before{
+      display:none;
+    }
+  }
+}
+// ---------------------------------------------------------------
+// Top Section
+// ---------------------------------------------------------------
+
+.bglayer() {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	pointer-events: none;
+}
+
+#pe-top1 {
+	color: @top1Text;
+	background: @top1Background;
+	padding-top: @baseSpace;
+	padding-bottom: 0;
+	position: relative;
+	&:before {
+		.bglayer();
+		.bg-image(@top1BackgroundImage);
+		background-repeat: @top1BackgroundRepeat;
+		background-size: @top1BackgroundSize;
+		background-attachment: @top1BackgroundAttachment;
+		background-position: @top1BackgroundPosition;
+		opacity: (@top1BackgroundOpacity);
+	}
+}
+
+#pe-top2 {
+	color: @top2Text;
+	background: @top2Background;
+  padding-top: (@baseSpace * 3);
+  padding-bottom: (@baseSpace * 2);
+	position: relative;
+	&:before {
+		.bglayer();
+		.bg-image(@top2BackgroundImage);
+		background-repeat: @top2BackgroundRepeat;
+		background-size: @top2BackgroundSize;
+		background-attachment: @top2BackgroundAttachment;
+		background-position: @top2BackgroundPosition;
+		opacity: (@top2BackgroundOpacity);
+	}
+}
+
+#pe-top3 {
+  color: @top3Text;
+  background: @top3Background;
+  padding-top: (@baseSpace * 3);
+  padding-bottom: (@baseSpace * 2);
+  position: relative;
+  &:before {
+    .bglayer();
+    .bg-image(@top3BackgroundImage);
+    background-repeat: @top3BackgroundRepeat;
+    background-size: @top3BackgroundSize;
+    background-attachment: @top3BackgroundAttachment;
+    background-position: @top3BackgroundPosition;
+    opacity: (@top3BackgroundOpacity);
+  }
+}
+
+// ---------------------------------------------------------------
+// Breadcrumbs
+// ---------------------------------------------------------------
+
+#pe-breadcrumbs {
+	padding-top: @baseSpace * 3;
+}
+
+// ---------------------------------------------------------------
+// Main Content Section
+// ---------------------------------------------------------------
+
+#pe-content-part{
+  padding-top: @baseSpace;
+  padding-bottom: 0;
+}
+
+.terraclassifieds-container{
+  padding-top: @baseSpace;
+  padding-bottom: 0;
+  margin-top:0;
+  margin-bottom: @baseSpace;
+}
+
+#pe-breadcrumbs + #pe-content-part,
+#pe-breadcrumbs + #pe-content-beginning + #pe-content-part {
+	padding-top: @baseSpace;
+}
+
+#pe-maincontent {
+	margin-bottom: @baseSpace;
+	.terraclassifieds-container{
+    padding-top: 0;
+    margin-bottom: 0;
+	}
+}
+
+#pe-left-in,
+#pe-right-in{
+  margin-bottom: @baseSpace;
+}
+
+.top1-content-space() when (@top1Background = @pageBackground) {
+	#pe-top1 + #pe-breadcrumbs {
+		padding-top: 0;
+	}
+	#pe-top1 + #pe-content-part {
+		padding-top: 0;
+	}
+}
+
+.top1-content-space();
+
+.top1-bottom1-space() when (@top1Background = @bottom1Background) {
+	#pe-top1 + #pe-bottom1 {
+		padding-top: 0;
+	}
+}
+
+.top1-bottom1-space();
+
+.bottom1-bottom2-space() when (@bottom1Background = @bottom2Background) {
+  #pe-bottom1 + #pe-bottom2 {
+    padding-top: 0;
+  }
+}
+
+.bottom1-bottom2-space();
+
+.bottom2-footer-space() when (@bottom2Background = @footerBackground) {
+  #pe-bottom2 + #pe-footer {
+    padding-top: 0;
+  }
+}
+
+.bottom2-footer-space();
+
+.top1-footer-space() when (@top1Background = @footerBackground) {
+	#pe-top1 + #pe-footer {
+		padding-top: 0;
+	}
+}
+
+.top1-footer-space();
+
+.content-bottom1-space() when (@pageBackground = @bottom1Background) {
+	#pe-content-part + #pe-bottom1 {
+		padding-top: 0;
+	}
+}
+
+.content-bottom1-space();
+
+.content-footer-space() when (@pageBackground = @footerBackground) {
+	#pe-content-part + #pe-footer {
+		padding-top: 0;
+	}
+}
+
+.content-footer-space();
+
+.bottom1-footer-space() when (@bottom1Background = @footerBackground) {
+	#pe-bottom1 + #pe-footer {
+		padding-top: 0;
+	}
+}
+
+.bottom1-footer-space();
+
+.top2-bottom2-space() when (@bottom1Background = @footerBackground) {
+	#pe-top2 + #pe-bottom2 {
+		padding-top: 0;
+	}
+}
+
+.top2-bottom2-space();
+
+// ---------------------------------------------------------------
+// Bottom Section
+// ---------------------------------------------------------------
+
+#pe-bottom1 {
+	color: @bottom1Text;
+	background: @bottom1Background;
+  padding-top: @baseSpace;
+  padding-bottom: 0;
+	position: relative;
+	&:before {
+		.bglayer();
+		.bg-image(@bottom1BackgroundImage);
+		background-repeat: @bottom1BackgroundRepeat;
+		background-size: @bottom1BackgroundSize;
+		background-attachment: @bottom1BackgroundAttachment;
+		background-position: @bottom1BackgroundPosition;
+		opacity: (@bottom1BackgroundOpacity);
+	}
+}
+
+#pe-bottom2 {
+	color: @bottom2Text;
+	background: @bottom2Background;
+  padding-top: @baseSpace;
+  padding-bottom: 0;
+	position: relative;
+	&:before {
+		.bglayer();
+		.bg-image(@bottom2BackgroundImage);
+		background-repeat: @bottom2BackgroundRepeat;
+		background-size: @bottom2BackgroundSize;
+		background-attachment: @bottom2BackgroundAttachment;
+		background-position: @bottom2BackgroundPosition;
+		opacity: (@bottom2BackgroundOpacity);
+	}
+}
+
+// ---------------------------------------------------------------
+// Footer Section
+// ---------------------------------------------------------------
+
+#pe-footer {
+	color: @footerText;
+	background: @footerBackground;
+  padding-top: @baseSpace;
+  padding-bottom: 0;
+	position: relative;
+	&:before {
+		.bglayer();
+		.bg-image(@footerBackgroundImage);
+		background-repeat: @footerBackgroundRepeat;
+		background-size: @footerBackgroundSize;
+		background-attachment: @footerBackgroundAttachment;
+		background-position: @footerBackgroundPosition;
+		opacity: (@footerBackgroundOpacity);
+	}
+}
+
+// ---------------------------------------------------------------
+// Copyrights Section
+// ---------------------------------------------------------------
+
+#pe-copyrights {
+	padding: @baseSpace @baseSpace/2;
+	color: @copyrightsText;
+	background: @copyrightsBackground;
+	font-size: 0.9em;
+  text-align: center;
+	#pe-copyrights-info,
+	#pixelemu-copyrights {
+		display: inline-block;
+		vertical-align: top;
+		a{
+		  color: @copyrightsText;
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Notice
+// ---------------------------------------------------------------
+
+.pe-message-customize{
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 1px 12px;
+    padding-right: 38px;
+    position: fixed;
+    z-index: 9999;
+    margin: 0;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4em;
+    border-left-color: #00a0d2;
+    p{
+      margin: .5em 0;
+      padding: 2px;
+    }
+}

@@ -1,0 +1,66 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// IMPORT
+// ---------------------------------------------------------------
+@import "simple-mixins.less";
+//theme mixins
+@import "variables.less"; //theme variables
+
+// ---------------------------------------------------------------
+// NIGHT VERSION
+// ---------------------------------------------------------------
+
+body.night {
+	//start wrapper
+	background-color: shade(@bodyBackground, 20%);
+
+	#pe-main {
+		background: shade(@pageBackground, 20%);
+	}
+
+	#pe-top-bar {
+
+	}
+
+	#pe-logo-nav {
+
+	}
+
+	#pe-header {
+		background: shade(@headerBackground, 20%);
+	}
+
+	#pe-top1 {
+		background: shade(@top1Background, 20%);
+	}
+
+	#pe-top2 {
+		background: shade(@top2Background, 20%);
+		border-color: shade(@border, 20%);
+	}
+
+	#pe-bottom1 {
+		background: shade(@bottom1Background, 20%);
+	}
+
+	#pe-bottom2 {
+		background: shade(@bottom2Background, 20%);
+		border-color: shade(@border, 20%);
+	}
+
+	#pe-copyrights,
+	#pe-footer {
+		background: shade(@footerBackground, 20%);
+	}
+
+	#pe-offcanvas {
+		background: shade(@offcanvasBackground, 20%);
+	}
+
+	//end wrapper
+}

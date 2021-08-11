@@ -1,0 +1,508 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// TYPOGRAPHY
+// ---------------------------------------------------------------
+
+// paragraph
+// --------------
+
+p {
+	margin: 0;
+}
+
+* + p:not([class]) {
+  margin: 1em 0;
+}
+
+// headings
+// --------------
+
+h1, .h1 {
+	font-size: 2.5em;
+}
+
+h2, .h2 {
+	font-size: 2em;
+}
+
+h3, .h3 {
+	font-size: 1.75em;
+}
+
+h4, .h4 {
+	font-size: 1.5em;
+}
+
+h5, .h5 {
+	font-size: 1.25em;
+}
+
+h6, .h6 {
+	font-size: 1em;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+.h1, .h2, .h3,
+.h4, .h5, .h6 {
+	font-family: inherit;
+	font-weight: 700;
+	line-height: 1.1;
+	color: inherit;
+	margin: 1em 0;
+}
+
+.pe-typo-title {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: darken(@pageBackground, 5%);
+	margin: 1.5em 0;
+	font-size: 1.75em;
+}
+
+// lists
+// --------------
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	margin: 0 0 10px;
+}
+
+ol ol {
+	margin: 0 0 10px 30px;
+}
+
+ul:not([class]),
+ul.pe-dark,
+ul.pe-light {
+  > li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    &:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 4px;
+      height: 4px;
+      background: #323d4c;
+      border-radius: 50%;
+      margin-right: 16px;
+    }
+    ul{
+      padding-left: 20px;
+    }
+  }
+}
+
+.pe-article-content{
+  ul:not([class]),
+  ul.pe-dark,
+  ul.pe-light {
+    > li{
+      padding-left: 15px;
+    }
+  } 
+  ul:not([class]),
+  ul.pe-dark,
+  ul.pe-light {
+    > li:before{
+      left: 0;
+      position: absolute;
+      top: 9px;
+      margin: 0;
+    }
+  }
+}
+
+ul.pe-light {
+	> li {
+		&:before {
+			background: @scheme;
+		}
+	}
+}
+
+ul.pe-dark {
+	> li {
+		&:before {
+			background: spin(@scheme, 180);
+		}
+	}
+}
+
+#pe-header {
+	ul:not([class]) {
+		> li {
+			&:before {
+				background: fade(@headerText, 80%);
+			}
+		}
+	}
+	ul.pe-light {
+		> li {
+			&:before {
+				border: 1px solid fade(@headerText, 80%);
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Unordered and Ordered lists
+// ---------------------------------------------------------------
+
+ol > li {
+	&:before {
+		display: none;
+	}
+}
+
+ol.pe-roman,
+ol.pe-roman ol {
+	list-style-type: upper-roman;
+}
+
+ol.pe-alpha,
+ol.pe-alpha ol {
+	list-style-type: lower-alpha;
+}
+
+// ---------------------------------------------------------------
+// Code
+// ---------------------------------------------------------------
+
+pre {
+	direction: ltr;
+	padding: 20px;
+	margin: 1.5em 0;
+	font-size: 1em;
+	line-height: 1.5;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	color: @bodyFontColor;
+	background-color: lighten(@pageBackground, 10%);
+	border: 1px solid @border;
+	.border-radius(0);
+}
+
+code, kbd, tt, var, samp, pre {
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+// ---------------------------------------------------------------
+// Colored blocks
+// ---------------------------------------------------------------
+
+p.blue,
+p.green,
+p.red,
+p.orange {
+	display: table;
+	padding: 20px;
+	border-left: 5px solid transparent;
+	margin: 1.5em 0;
+	span {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0;
+		&.fa,
+		&[class^='fa'] {
+			padding-right: 20px;
+		}
+	}
+}
+
+p.blue,
+p.green,
+p.red,
+p.orange {
+	&.full {
+		width: 100%;
+	}
+}
+
+p.blue {
+	border-color: #3a87ad;
+}
+
+p.green {
+	border-color: #58AD11;
+}
+
+p.red {
+	border-color: #DE2843;
+}
+
+p.orange {
+	border-color: #D8B811;
+}
+
+.pe-info,
+.pe-success,
+.pe-alert,
+.pe-warning {
+	display: table;
+	width: 100%;
+	padding: 20px;
+	margin: 1.5em 0;
+	text-align: center;
+	border-top: 1px solid transparent;
+	border-left: 5px solid transparent;
+	border-right: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	&:empty {
+		display: none;
+	}
+	span {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0;
+		&.fa,
+		&[class^='fa'] {
+			padding-right: 20px;
+		}
+	}
+	label{
+    display: block;
+    text-align: left;
+	}
+}
+
+.pe-info {
+	color: #31708f;
+	background: #d9edf7;
+	border-color: #3a87ad;
+}
+
+.pe-success {
+	color: #3c763d;
+	background: #DFF0D8;
+	border-color: #58AD11;
+}
+
+.pe-alert {
+	color: #a94442;
+	background: #F2DEDE;
+	border-color: #DE2843;
+}
+
+.pe-warning {
+	color: #8a6d3b;
+	background: #fcf8e3;
+	border-color: #D8B811;
+}
+
+// ---------------------------------------------------------------
+// PE Block Icons
+// ---------------------------------------------------------------
+
+.pe-block {
+    margin: 20px 0;
+    padding: 0 0 0 60px;
+    position: relative;
+    min-height: 54px;
+}
+
+.pe-block span {
+	color: @border;
+	display: block;
+	position: absolute;
+	top: -@halfLineHeight;
+	left: 0;
+	height: 54px;
+	width: 54px;
+	font-size: 54px;
+	line-height: 54px;
+	text-align: center;
+	.border-radius(50%);
+}
+
+.pe-block.second span {
+	background: #2a2a2a;
+	color: #fff;
+	font-size:40px;
+}
+
+p,
+span {
+	&.pebadge,
+	&.pecalendar,
+	&.pechat,
+	&.pecheck,
+	&.pecloud,
+	&.pedirection,
+	&.pedivide,
+	&.peerror,
+	&.pefire,
+	&.peflag,
+	&.peheart,
+	&.pehome,
+	&.peinfo,
+	&.pelist,
+	&.pemail,
+	&.pepeople,
+	&.pestar,
+	&.pestat {
+		display: block;
+		padding-left: 60px;
+		background-repeat: no-repeat;
+		background-position: left @halfLineHeight;
+		min-height: 40px;
+		margin: 5px 0 15px;
+	}
+	&.pebadge {
+		background-image: url("@{imgDir}/icons/badge.png");
+	}
+	&.pecalendar {
+		background-image: url("@{imgDir}/icons/calendar.png");
+	}
+	&.pechat {
+		background-image: url("@{imgDir}/icons/chat.png");
+	}
+	&.pecheck {
+		background-image: url("@{imgDir}/icons/check.png");
+	}
+	&.pecloud {
+		background-image: url("@{imgDir}/icons/cloud.png");
+	}
+	&.pedirection {
+		background-image: url("@{imgDir}/icons/direction.png");
+	}
+	&.pedivide {
+		background-image: url("@{imgDir}/icons/divide.png");
+	}
+	&.peerror {
+		background-image: url("@{imgDir}/icons/error.png");
+	}
+	&.pefire {
+		background-image: url("@{imgDir}/icons/fire.png");
+	}
+	&.peflag {
+		background-image: url("@{imgDir}/icons/flag.png");
+	}
+	&.peheart {
+		background-image: url("@{imgDir}/icons/heart.png");
+	}
+	&.pehome {
+		background-image: url("@{imgDir}/icons/home.png");
+	}
+	&.peinfo {
+		background-image: url("@{imgDir}/icons/info.png");
+	}
+	&.pelist {
+		background-image: url("@{imgDir}/icons/list.png");
+	}
+	&.pemail {
+		background-image: url("@{imgDir}/icons/mail.png");
+	}
+	&.pepeople {
+		background-image: url("@{imgDir}/icons/people.png");
+	}
+	&.pestar {
+		background-image: url("@{imgDir}/icons/star.png");
+	}
+	&.pestat {
+		background-image: url("@{imgDir}/icons/stat.png");
+	}
+}
+
+// ---------------------------------------------------------------
+// PE Quotes and Blockquotes
+// ---------------------------------------------------------------
+
+//quote blocks
+.quote-left,
+.quote-right {
+	display: block;
+	position: relative;
+	margin: 1.5em 0;
+	span {
+		&.fa,
+		&[class^='fa'] {
+			font-size: 30px;
+			color: @border;
+		}
+	}
+}
+
+.quote-left {
+	text-align: left;
+	border-left: 5px solid @border;
+	padding: 0 0 0 15px;
+	span {
+		&.fa,
+		&[class^='fa'] {
+			float: left;
+			padding-right: 10px;
+		}
+	}
+}
+
+.quote-right {
+	text-align: right;
+	border-right: 5px solid @border;
+	padding: 0 15px 0 0;
+	span {
+		&.fa,
+		&[class^='fa'] {
+			float: right;
+			padding-left: 10px;
+		}
+	}
+}
+
+blockquote {
+	display: block;
+	overflow: hidden;
+	padding: 0 0 0 15px;
+	margin: 20px 0;
+	border-left: 5px solid @border;
+}
+
+// ---------------------------------------------------------------
+// Other
+// ---------------------------------------------------------------
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 1em;
+}
+
+mark, ins {
+	background-color: @scheme;
+	color: @schemeInner;
+	text-decoration: none;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}

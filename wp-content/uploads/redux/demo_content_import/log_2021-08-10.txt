@@ -1,0 +1,1367 @@
+2021-08-10 20:32:59 - INFO --> max_execution_time: 180*
+2021-08-10 20:32:59 - INFO --> memory_limit: 512M*
+2021-08-10 20:32:59 - INFO --> post_max_size: 256M*
+2021-08-10 20:32:59 - INFO --> upload_max_filesize: 256M*
+2021-08-10 20:32:59 - INFO --> WP_MEMORY_LIMIT: 256M*
+2021-08-10 20:32:59 - INFO --> WP_MAX_MEMORY_LIMIT: 512M*
+2021-08-10 20:32:59 - INFO --> Begin settings of WP options
+2021-08-10 20:32:59 - INFO --> Setting Front type page
+2021-08-10 20:32:59 - INFO --> Setting Front Page ID 172
+2021-08-10 20:32:59 - INFO --> Setting Page ID for Posts 225
+2021-08-10 20:32:59 - INFO --> Setting Post per Page number 4
+2021-08-10 20:32:59 - INFO --> demo1
+2021-08-10 20:33:00 - INFO --> Setting thumbnail size thumbnail
+2021-08-10 20:33:00 - INFO --> Setting thumbnail size medium
+2021-08-10 20:33:00 - INFO --> Setting thumbnail size large
+2021-08-10 20:33:00 - INFO --> Finish WP options import.
+2021-08-10 20:33:01 - INFO --> Begin theme_options of Theme options
+2021-08-10 20:33:01 - INFO --> Importing: /var/www/wordpress/wp-content/plugins/pe-terraclassic-demo-importer/demo1/options.json
+2021-08-10 20:33:01 - INFO --> Finish Theme options import.
+2021-08-10 20:33:06 - INFO --> Begin content of Posts, pages, menu and media
+2021-08-10 20:33:06 - INFO --> Importing: /var/www/wordpress/wp-content/plugins/pe-terraclassic-demo-importer/demo1/content.xml
+2021-08-10 20:33:06 - NOTICE --> Failed to import post tag 
+2021-08-10 20:33:06 - ERROR --> A name is required for this term.
+2021-08-10 20:33:06 - NOTICE --> Failed to import post tag 
+2021-08-10 20:33:06 - ERROR --> A name is required for this term.
+2021-08-10 20:33:06 - NOTICE --> Failed to import post tag 
+2021-08-10 20:33:06 - ERROR --> A name is required for this term.
+2021-08-10 20:33:06 - NOTICE --> Failed to import post tag 
+2021-08-10 20:33:06 - ERROR --> A name is required for this term.
+2021-08-10 20:33:06 - NOTICE --> Failed to import post tag 
+2021-08-10 20:33:06 - ERROR --> A name is required for this term.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - NOTICE --> Failed to import  
+2021-08-10 20:33:06 - ERROR --> Invalid taxonomy.
+2021-08-10 20:33:06 - INFO --> Importing post: top2 in attachment
+2021-08-10 20:33:06 - NOTICE --> Media "top2" already exists.
+2021-08-10 20:33:06 - INFO --> Importing post: top1 in attachment
+2021-08-10 20:33:06 - NOTICE --> Media "top1" already exists.
+2021-08-10 20:33:06 - INFO --> Importing post: header-photo in attachment
+2021-08-10 20:33:06 - NOTICE --> Media "header-photo" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 3 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "3" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 1 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "1" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 2 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "2" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: caru-4 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "caru-4" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: caru-2 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "caru-2" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: caru-3 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "caru-3" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: caru-6 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "caru-6" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: ooo in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "ooo" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 3 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "3" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 1 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "1" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 4 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "4" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: 2 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "2" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog1 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog1" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog2 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog2" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog4 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog4" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog5 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog5" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog3 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog3" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: blog6 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "blog6" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: team3 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "team3" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: team2 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "team2" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: team3 (1) in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "team3 (1)" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: team1 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "team1" already exists.
+2021-08-10 20:33:07 - INFO --> Importing post: team-4 in attachment
+2021-08-10 20:33:07 - NOTICE --> Media "team-4" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog7 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog7" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog8 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog8" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog5 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog5" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog4 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog4" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog6 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog6" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog9 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog9" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog4 (1) in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog4 (1)" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: blog2 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "blog2" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: carusela-2 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "carusela-2" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: carusela in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "carusela" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: carusela-1 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "carusela-1" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: Depositphotos_12765263_original in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "Depositphotos_12765263_original" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: photohrapher in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "photohrapher" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: dwa in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "dwa" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: coming-soon in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "coming-soon" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: trzy in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "trzy" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: dwa in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "dwa" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: tryz in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "tryz" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: 6 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "6" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: 5 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "5" already exists.
+2021-08-10 20:33:08 - INFO --> Importing post: 4 in attachment
+2021-08-10 20:33:08 - NOTICE --> Media "4" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 3 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "3" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 2 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "2" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 1 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "1" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: blog1 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "blog1" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-6 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-6" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-5 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-5" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-4 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-4" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-3 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-3" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-2 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-2" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: biale-zestaw-1 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "biale-zestaw-1" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: pe-watermark in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "pe-watermark" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: banner-description in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "banner-description" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 4 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "4" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 1 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "1" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 2 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "2" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 3 in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "3" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 49_homegarden_ths in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "49_homegarden_ths" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 69_ball_ths in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "69_ball_ths" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 77_t-shirt-2_ths in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "77_t-shirt-2_ths" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 92_vehicles_ths in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "92_vehicles_ths" already exists.
+2021-08-10 20:33:09 - INFO --> Importing post: 93_furnitures_ths in attachment
+2021-08-10 20:33:09 - NOTICE --> Media "93_furnitures_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 96_baby_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "96_baby_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 97_electronics_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "97_electronics_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 100_real-estate-proporties_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "100_real-estate-proporties_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 101_jobs_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "101_jobs_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 102_agriculture_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "102_agriculture_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 103_pets_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "103_pets_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 104_services_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "104_services_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 105_phone_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "105_phone_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 106_bike_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "106_bike_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 107_free_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "107_free_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: 108_exchange_ths in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "108_exchange_ths" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: agro in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "agro" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: ball in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "ball" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: bike in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "bike" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: cars in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "cars" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: exchange in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "exchange" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: fore-free in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "fore-free" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: furniture in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "furniture" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: house in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "house" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: jobs in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "jobs" already exists.
+2021-08-10 20:33:10 - INFO --> Importing post: kids in attachment
+2021-08-10 20:33:10 - NOTICE --> Media "kids" already exists.
+2021-08-10 20:33:11 - INFO --> Importing post: mobiles in attachment
+2021-08-10 20:33:11 - NOTICE --> Media "mobiles" already exists.
+2021-08-10 20:33:11 - INFO --> Importing post: proporties in attachment
+2021-08-10 20:33:11 - NOTICE --> Media "proporties" already exists.
+2021-08-10 20:33:11 - INFO --> Importing post: services in attachment
+2021-08-10 20:33:11 - NOTICE --> Media "services" already exists.
+2021-08-10 20:33:11 - INFO --> Importing post: pets in attachment
+2021-08-10 20:33:11 - NOTICE --> Media "pets" already exists.
+2021-08-10 20:33:11 - INFO --> Importing post: health in attachment
+2021-08-10 20:33:11 - NOTICE --> Media "health" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: household in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "household" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: logo-terra-2 in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "logo-terra-2" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: logo-terra in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "logo-terra" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: terra-clasic in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "terra-clasic" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: terra-classic-logo in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "terra-classic-logo" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: cropped-logo-terra.png in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "cropped-logo-terra.png" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: logo-terra-v2 in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "logo-terra-v2" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: logo-terra-v3 in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "logo-terra-v3" already exists.
+2021-08-10 20:33:12 - INFO --> Importing post: logo-terra-classifieds in attachment
+2021-08-10 20:33:12 - NOTICE --> Media "logo-terra-classifieds" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: terra-4 in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "terra-4" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: terra-4 in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "terra-4" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: terra+logo+flat in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "terra+logo+flat" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: logo-terra+flat+2 in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "logo-terra+flat+2" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: logo-terra-footer in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "logo-terra-footer" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: terra-clasic-bg in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "terra-clasic-bg" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: tras in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "tras" already exists.
+2021-08-10 20:33:13 - INFO --> Importing post: classified ads website template software like OLX in attachment
+2021-08-10 20:33:13 - NOTICE --> Media "classified ads website template software like OLX" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 109_02 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "109_02" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 146_pexels-photo-244207 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "146_pexels-photo-244207" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 158_car-1 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "158_car-1" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 163_car-6 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "163_car-6" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 107_andrew-jasso-220776 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "107_andrew-jasso-220776" already exists.
+2021-08-10 20:33:14 - INFO --> Importing post: 107_andrew-jasso-220776 in attachment
+2021-08-10 20:33:14 - NOTICE --> Media "107_andrew-jasso-220776" already exists.
+2021-08-10 20:33:15 - INFO --> Importing post: 107_andrew-jasso-220776 in attachment
+2021-08-10 20:33:15 - NOTICE --> Media "107_andrew-jasso-220776" already exists.
+2021-08-10 20:33:15 - INFO --> Importing post: 107_andrew-jasso-220776 in attachment
+2021-08-10 20:33:15 - NOTICE --> Media "107_andrew-jasso-220776" already exists.
+2021-08-10 20:33:15 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:15 - INFO --> Processing Attachment: http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/2018/07/124_e-4-2.jpg
+2021-08-10 20:33:16 - INFO --> Timeout bumped 60 seconds.
+2021-08-10 20:33:31 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 109_02 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "109_02" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 109_02 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "109_02" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 109_02 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "109_02" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 146_pexels-photo-244207 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "146_pexels-photo-244207" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 146_pexels-photo-244207 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "146_pexels-photo-244207" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 146_pexels-photo-244207 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "146_pexels-photo-244207" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 158_car-1 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "158_car-1" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 158_car-1 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "158_car-1" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 158_car-1 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "158_car-1" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 163_car-6 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "163_car-6" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 163_car-6 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "163_car-6" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 163_car-6 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "163_car-6" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 141_pexels-photo-452099 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "141_pexels-photo-452099" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 160_car-3 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "160_car-3" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 160_car-3 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "160_car-3" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 160_car-3 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "160_car-3" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 160_car-3 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "160_car-3" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 141_pexels-photo-452099 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "141_pexels-photo-452099" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 141_pexels-photo-452099 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "141_pexels-photo-452099" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 141_pexels-photo-452099 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "141_pexels-photo-452099" already exists.
+2021-08-10 20:33:31 - INFO --> Importing post: 141_pexels-photo-452099 in attachment
+2021-08-10 20:33:31 - NOTICE --> Media "141_pexels-photo-452099" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 140_pexels-photo-100653 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "140_pexels-photo-100653" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 140_pexels-photo-100653 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "140_pexels-photo-100653" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 140_pexels-photo-100653 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "140_pexels-photo-100653" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 140_pexels-photo-100653 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "140_pexels-photo-100653" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 162_car-5 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "162_car-5" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 162_car-5 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "162_car-5" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 162_car-5 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "162_car-5" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 162_car-5 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "162_car-5" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 144_pexels-photo-244281 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "144_pexels-photo-244281" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 147_pexels-photo-276566 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "147_pexels-photo-276566" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 147_pexels-photo-276566 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "147_pexels-photo-276566" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 147_pexels-photo-276566 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "147_pexels-photo-276566" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 147_pexels-photo-276566 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "147_pexels-photo-276566" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 110_03 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "110_03" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 110_03 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "110_03" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 110_03 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "110_03" already exists.
+2021-08-10 20:33:32 - INFO --> Importing post: 110_03 in attachment
+2021-08-10 20:33:32 - NOTICE --> Media "110_03" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 112_02 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "112_02" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 112_02 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "112_02" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 112_02 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "112_02" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 112_02 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "112_02" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 105_e-2 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "105_e-2" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 105_e-2 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "105_e-2" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 105_e-2 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "105_e-2" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 105_e-2 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "105_e-2" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 132_e-8 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "132_e-8" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 132_e-8 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "132_e-8" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 132_e-8 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "132_e-8" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 132_e-8 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "132_e-8" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 157_7 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "157_7" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 157_7 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "157_7" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 157_7 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "157_7" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 157_7 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "157_7" already exists.
+2021-08-10 20:33:33 - INFO --> Importing post: 127_04 in attachment
+2021-08-10 20:33:33 - NOTICE --> Media "127_04" already exists.
+2021-08-10 20:33:34 - INFO --> Importing post: 127_04 in attachment
+2021-08-10 20:33:34 - NOTICE --> Media "127_04" already exists.
+2021-08-10 20:33:34 - INFO --> Importing post: 127_04 in attachment
+2021-08-10 20:33:34 - NOTICE --> Media "127_04" already exists.
+2021-08-10 20:33:34 - INFO --> Importing post: 127_04 in attachment
+2021-08-10 20:33:34 - NOTICE --> Media "127_04" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 136_e-9 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "136_e-9" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 136_e-9 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "136_e-9" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 136_e-9 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "136_e-9" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 136_e-9 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "136_e-9" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 164_car-8 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "164_car-8" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 164_car-8 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "164_car-8" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 164_car-8 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "164_car-8" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 164_car-8 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "164_car-8" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 172_e-10 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "172_e-10" already exists.
+2021-08-10 20:33:35 - INFO --> Importing post: 172_e-10 in attachment
+2021-08-10 20:33:35 - NOTICE --> Media "172_e-10" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 172_e-10 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "172_e-10" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 172_e-10 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "172_e-10" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 150_xa in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "150_xa" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 153_3 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "153_3" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 153_3 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "153_3" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 153_3 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "153_3" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 176_e-14 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "176_e-14" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 176_e-14 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "176_e-14" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 176_e-14 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "176_e-14" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 176_e-14 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "176_e-14" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 139_pexels-photo-119435 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "139_pexels-photo-119435" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 139_pexels-photo-119435 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "139_pexels-photo-119435" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 139_pexels-photo-119435 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "139_pexels-photo-119435" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 139_pexels-photo-119435 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "139_pexels-photo-119435" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 113_e-1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "113_e-1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 113_e-1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "113_e-1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 113_e-1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "113_e-1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 113_e-1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "113_e-1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 151_1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "151_1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 151_1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "151_1" already exists.
+2021-08-10 20:33:36 - INFO --> Importing post: 151_1 in attachment
+2021-08-10 20:33:36 - NOTICE --> Media "151_1" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 151_1 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "151_1" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 166_car-9 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "166_car-9" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 166_car-9 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "166_car-9" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 166_car-9 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "166_car-9" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 166_car-9 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "166_car-9" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_01 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_01" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_01a in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_01a" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_01b in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_01b" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_01 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_01" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_01b in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_01b" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 103_02 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "103_02" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 142_pexels-photo-441176 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "142_pexels-photo-441176" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 161_car-4 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "161_car-4" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 161_car-4 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "161_car-4" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 161_car-4 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "161_car-4" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 156_6 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "156_6" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 156_6 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "156_6" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 156_6 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "156_6" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 156_6 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "156_6" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 165_car-7 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "165_car-7" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 165_car-7 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "165_car-7" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 165_car-7 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "165_car-7" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 165_car-7 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "165_car-7" already exists.
+2021-08-10 20:33:37 - INFO --> Importing post: 175_e-13 in attachment
+2021-08-10 20:33:37 - NOTICE --> Media "175_e-13" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 175_e-13 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "175_e-13" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 175_e-13 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "175_e-13" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 175_e-13 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "175_e-13" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 159_car-2 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "159_car-2" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 129_pexels-photo-441963 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "129_pexels-photo-441963" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 129_pexels-photo-441963 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "129_pexels-photo-441963" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 129_pexels-photo-441963 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "129_pexels-photo-441963" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 129_pexels-photo-441963 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "129_pexels-photo-441963" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 177_e-15 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "177_e-15" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 177_e-15 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "177_e-15" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 177_e-15 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "177_e-15" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 177_e-15 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "177_e-15" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 178_e-16 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "178_e-16" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 178_e-16 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "178_e-16" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 178_e-16 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "178_e-16" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 178_e-16 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "178_e-16" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 173_e-11 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "173_e-11" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 173_e-11 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "173_e-11" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 173_e-11 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "173_e-11" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 173_e-11 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "173_e-11" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 108_01 in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "108_01" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 108_01a in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "108_01a" already exists.
+2021-08-10 20:33:38 - INFO --> Importing post: 108_01b in attachment
+2021-08-10 20:33:38 - NOTICE --> Media "108_01b" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 108_01 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "108_01" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 108_01a in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "108_01a" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 108_01b in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "108_01b" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 143_pexels-photo-366223 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "143_pexels-photo-366223" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 143_pexels-photo-366223 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "143_pexels-photo-366223" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 143_pexels-photo-366223 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "143_pexels-photo-366223" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 143_pexels-photo-366223 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "143_pexels-photo-366223" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 111_e-6 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "111_e-6" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 111_e-6 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "111_e-6" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 111_e-6 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "111_e-6" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 111_e-6 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "111_e-6" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 126_e-5 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "126_e-5" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 126_e-5 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "126_e-5" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 126_e-5 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "126_e-5" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 126_e-5 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "126_e-5" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:39 - INFO --> Importing post: 124_e-4 in attachment
+2021-08-10 20:33:39 - NOTICE --> Media "124_e-4" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 179_e-18 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "179_e-18" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 179_3-18 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "179_3-18" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 179_3-18 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "179_3-18" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 179_3-18 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "179_3-18" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 104_02 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "104_02" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 104_02 in attachment
+2021-08-10 20:33:40 - NOTICE --> Media "104_02" already exists.
+2021-08-10 20:33:40 - INFO --> Importing post: 104_02 in attachment
+2021-08-10 20:33:40 - INFO --> Processing Attachment: http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/2018/07/104_02-2.jpg
+2021-08-10 20:33:40 - INFO --> Timeout bumped 60 seconds.
+2021-08-10 20:33:44 - INFO --> Importing post: 104_02 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "104_02" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 106_e-3 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "106_e-3" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 106_e-3 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "106_e-3" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 106_e-3 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "106_e-3" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 106_e-3 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "106_e-3" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 155_5 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "155_5" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 155_5 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "155_5" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 155_5 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "155_5" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 155_5 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "155_5" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 131_4 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "131_4" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 131_4 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "131_4" already exists.
+2021-08-10 20:33:44 - INFO --> Importing post: 131_4 in attachment
+2021-08-10 20:33:44 - NOTICE --> Media "131_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 131_4 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "131_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 114_2 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "114_2" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 114_2 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "114_2" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 114_2 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "114_2" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 114_2 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "114_2" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 148_hax in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "148_hax" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 154_4 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "154_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 154_4 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "154_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 154_4 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "154_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: 154_4 in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "154_4" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: gift-card-coupon in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "gift-card-coupon" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: video-requirements in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "video-requirements" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: clothing for women, placed on a wooden floor for travel in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "clothing for women, placed on a wooden floor for travel" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: Travel accessories costumes. smart phone, luggage, The cost of t in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "Travel accessories costumes. smart phone, luggage, The cost of t" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post:  in attachment
+2021-08-10 20:33:45 - INFO --> Processing Attachment: http://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads
+2021-08-10 20:33:45 - NOTICE --> Failed to import "Media" 
+2021-08-10 20:33:45 - ERROR --> Sorry, this file type is not permitted for security reasons.
+2021-08-10 20:33:45 - INFO --> Importing post: support-rating in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "support-rating" already exists.
+2021-08-10 20:33:45 - INFO --> Importing post: monster in attachment
+2021-08-10 20:33:45 - NOTICE --> Media "monster" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Oil vegetable in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Oil vegetable" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Beauty wax candle in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Beauty wax candle" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Unisex bag in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Unisex bag" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Pink skirt in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Pink skirt" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Oldschool jeans in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Oldschool jeans" already exists.
+2021-08-10 20:33:46 - INFO --> Importing post: Jeans Leo in classified
+2021-08-10 20:33:46 - NOTICE --> Ad "Jeans Leo" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: New age watch in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "New age watch" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Bag in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Bag" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: School Bag in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "School Bag" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Grey shoes in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Grey shoes" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Blackboard in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Blackboard" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Kitchen blender in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Kitchen blender" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Cactus in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Cactus" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Vintage glass in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Vintage glass" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: Bike decoration in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "Bike decoration" already exists.
+2021-08-10 20:33:47 - INFO --> Importing post: KTM supermoto in classified
+2021-08-10 20:33:47 - NOTICE --> Ad "KTM supermoto" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: Motorcycle Yamaha in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "Motorcycle Yamaha" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: Gainerprotein shake in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "Gainerprotein shake" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: Suede jacket in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "Suede jacket" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: almost new shoes 2 in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "almost new shoes 2" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: Green 50 in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "Green 50" already exists.
+2021-08-10 20:33:48 - INFO --> Importing post: Audi A6 2015 in classified
+2021-08-10 20:33:48 - NOTICE --> Ad "Audi A6 2015" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: BMW Z4 in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "BMW Z4" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Mercedes S Coupe in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Mercedes S Coupe" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Bmw e90 in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Bmw e90" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Brabus smart in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Brabus smart" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Audi A5 in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Audi A5" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Designer yellow chair in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Designer yellow chair" already exists.
+2021-08-10 20:33:49 - INFO --> Importing post: Modern stool in classified
+2021-08-10 20:33:49 - NOTICE --> Ad "Modern stool" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Vintage armchair in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Vintage armchair" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Wood coffe table in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Wood coffe table" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Kitchen grey table in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Kitchen grey table" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Brown Sofa in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Brown Sofa" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Kitchen table in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Kitchen table" already exists.
+2021-08-10 20:33:50 - INFO --> Importing post: Hair table in classified
+2021-08-10 20:33:50 - NOTICE --> Ad "Hair table" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: Wood in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "Wood" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: Audi A4 Combi in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "Audi A4 Combi" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: Audi A7 Sportback in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "Audi A7 Sportback" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: New Smart for Two in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "New Smart for Two" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: Smart Brabus in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "Smart Brabus" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: BMW E91 Coupe in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "BMW E91 Coupe" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: BMW F30 Series 3 in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "BMW F30 Series 3" already exists.
+2021-08-10 20:33:51 - INFO --> Importing post: Jeep Grand Cheroke in classified
+2021-08-10 20:33:51 - NOTICE --> Ad "Jeep Grand Cheroke" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Football in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Football" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Sunglasses in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Sunglasses" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Colorfull crayons in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Colorfull crayons" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Vintage brown armchair in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Vintage brown armchair" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Notebook in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Notebook" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: EOS camera in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "EOS camera" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Star Wars Toys in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Star Wars Toys" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Amazing sunglasses in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Amazing sunglasses" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: White table in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "White table" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Keyboard in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Keyboard" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Classic guitar in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Classic guitar" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Speaker in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Speaker" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Canon camera in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Canon camera" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Apple IPHONE 5s in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Apple IPHONE 5s" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: SLR camera Nikon in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "SLR camera Nikon" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Black hair in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Black hair" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Clock in classified
+2021-08-10 20:33:52 - NOTICE --> Ad "Clock" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Question 6 in faqs
+2021-08-10 20:33:52 - NOTICE --> FAQ "Question 6" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Question 7 in faqs
+2021-08-10 20:33:52 - NOTICE --> FAQ "Question 7" already exists.
+2021-08-10 20:33:52 - INFO --> Importing post: Question 8 in faqs
+2021-08-10 20:33:52 - NOTICE --> FAQ "Question 8" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: Video gampad in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "Video gampad" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111ccc in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111ccc" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 133 in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "133" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 222sss in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "222sss" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111c in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111c" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111kkk in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111kkk" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111 in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111qqq in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111qqq" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 12222 in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "12222" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111aaaa in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111aaaa" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111ggg in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111ggg" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111ggg in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111ggg" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 111ggg in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "111ggg" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 222rrrr in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "222rrrr" already exists.
+2021-08-10 20:33:53 - INFO --> Importing post: 11www in classified
+2021-08-10 20:33:53 - NOTICE --> Ad "11www" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Mackbook Pro in classified
+2021-08-10 20:33:54 - NOTICE --> Ad "Mackbook Pro" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Vintage alarm in classified
+2021-08-10 20:33:54 - NOTICE --> Ad "Vintage alarm" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Question 3 in faqs
+2021-08-10 20:33:54 - NOTICE --> FAQ "Question 3" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Question 2 in faqs
+2021-08-10 20:33:54 - NOTICE --> FAQ "Question 2" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Question 1 in faqs
+2021-08-10 20:33:54 - NOTICE --> FAQ "Question 1" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Question 4 in faqs
+2021-08-10 20:33:54 - NOTICE --> FAQ "Question 4" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Question 5 in faqs
+2021-08-10 20:33:54 - NOTICE --> FAQ "Question 5" already exists.
+2021-08-10 20:33:54 - INFO --> Importing post: Help in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Help
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:54 - INFO --> Importing post: Main Menu in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Main Menu
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: skip-menu
+2021-08-10 20:33:54 - INFO --> Importing post: Example Content in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Example Content
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: skip-menu
+2021-08-10 20:33:54 - INFO --> Importing post: Footer in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Footer
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: skip-menu
+2021-08-10 20:33:54 - INFO --> Importing post: Single Post in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Single Post
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: posts
+2021-08-10 20:33:54 - INFO --> Importing post: Blog with style effect in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Blog with style effect
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: posts
+2021-08-10 20:33:54 - INFO --> Importing post: Blog - 1 column in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Blog - 1 column
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: posts
+2021-08-10 20:33:54 - INFO --> Importing post: Blog - 2 columns in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Blog - 2 columns
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: posts
+2021-08-10 20:33:54 - INFO --> Importing post: Blog - 3 columns in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Blog - 3 columns
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: posts
+2021-08-10 20:33:54 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: company
+2021-08-10 20:33:54 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: company
+2021-08-10 20:33:54 - INFO --> Importing post: Help &amp; Contact in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Help &amp; Contact
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: footer
+2021-08-10 20:33:54 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: footer
+2021-08-10 20:33:54 - INFO --> Importing post: Features in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Features
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:54 - INFO --> Importing post: Classifieds based on TerraClassifieds plugin in nav_menu_item
+2021-08-10 20:33:54 - INFO --> Processing Menu Item: Classifieds based on TerraClassifieds plugin
+2021-08-10 20:33:54 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Posts in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Posts
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Single post in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Single post
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Blog - 1 column in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Blog - 1 column
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Blog - 2 columns in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Blog - 2 columns
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Blog - 3 columns in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Blog - 3 columns
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Blog with style effect in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Blog with style effect
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Pages in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Pages
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: FAQ in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: FAQ
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Gallery in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Gallery
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Other in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Other
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Built in ready made widgets for this theme in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Built in ready made widgets for this theme
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post:  in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: 
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:55 - INFO --> Importing post: Install demo copy in nav_menu_item
+2021-08-10 20:33:55 - INFO --> Processing Menu Item: Install demo copy
+2021-08-10 20:33:55 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:56 - INFO --> Importing post: Contact in page
+2021-08-10 20:33:56 - NOTICE --> Page "Contact" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Content area (full width) in page
+2021-08-10 20:33:56 - NOTICE --> Page "Content area (full width)" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Left Right Content area in page
+2021-08-10 20:33:56 - NOTICE --> Page "Left Right Content area" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Content Left Right area in page
+2021-08-10 20:33:56 - NOTICE --> Page "Content Left Right area" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Home page in page
+2021-08-10 20:33:56 - NOTICE --> Page "Home page" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Blog in page
+2021-08-10 20:33:56 - NOTICE --> Page "Blog" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Typography in page
+2021-08-10 20:33:56 - NOTICE --> Page "Typography" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Left Content area in page
+2021-08-10 20:33:56 - NOTICE --> Page "Left Content area" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Content Right area in page
+2021-08-10 20:33:56 - NOTICE --> Page "Content Right area" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Pricing Tables in page
+2021-08-10 20:33:56 - NOTICE --> Page "Pricing Tables" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Frequently Asked Questions in page
+2021-08-10 20:33:56 - NOTICE --> Page "Frequently Asked Questions" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Coming soon in page
+2021-08-10 20:33:56 - NOTICE --> Page "Coming soon" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Shortcodes in page
+2021-08-10 20:33:56 - NOTICE --> Page "Shortcodes" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Home page in page
+2021-08-10 20:33:56 - NOTICE --> Page "Home page" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Home page in page
+2021-08-10 20:33:56 - NOTICE --> Page "Home page" already exists.
+2021-08-10 20:33:56 - INFO --> Importing post: Theme configuration options in nav_menu_item
+2021-08-10 20:33:56 - INFO --> Processing Menu Item: Theme configuration options
+2021-08-10 20:33:56 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:56 - INFO --> Importing post: Theme documentation in nav_menu_item
+2021-08-10 20:33:56 - INFO --> Processing Menu Item: Theme documentation
+2021-08-10 20:33:56 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:57 - INFO --> Importing post: WordPress themes in nav_menu_item
+2021-08-10 20:33:57 - INFO --> Processing Menu Item: WordPress themes
+2021-08-10 20:33:57 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:57 - INFO --> Importing post: Error 404 in nav_menu_item
+2021-08-10 20:33:57 - INFO --> Processing Menu Item: Error 404
+2021-08-10 20:33:57 - NOTICE --> Menu item skipped due to invalid menu slug: main-menu
+2021-08-10 20:33:57 - INFO --> Importing post: Post an ad + in nav_menu_item
+2021-08-10 20:33:57 - INFO --> Processing Menu Item: Post an ad +
+2021-08-10 20:33:57 - NOTICE --> Menu item skipped due to invalid menu slug: ads-menu
+2021-08-10 20:33:57 - INFO --> Importing post: Sample Page in page
+2021-08-10 20:33:57 - NOTICE --> Page "Sample Page" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Left Content Right area in page
+2021-08-10 20:33:57 - NOTICE --> Page "Left Content Right area" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: References in page
+2021-08-10 20:33:57 - NOTICE --> Page "References" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Gallery grid modal in page
+2021-08-10 20:33:57 - NOTICE --> Page "Gallery grid modal" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Video gallery in page
+2021-08-10 20:33:57 - NOTICE --> Page "Video gallery" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Animated gallery in page
+2021-08-10 20:33:57 - NOTICE --> Page "Animated gallery" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Single Page in page
+2021-08-10 20:33:57 - NOTICE --> Page "Single Page" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Movie #2 in post
+2021-08-10 20:33:57 - NOTICE --> Post "Movie #2" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: All ready made widgets in page
+2021-08-10 20:33:57 - NOTICE --> Page "All ready made widgets" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Safety Rules in page
+2021-08-10 20:33:57 - NOTICE --> Page "Safety Rules" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: About Us in page
+2021-08-10 20:33:57 - NOTICE --> Page "About Us" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Terms of use in page
+2021-08-10 20:33:57 - NOTICE --> Page "Terms of use" already exists.
+2021-08-10 20:33:57 - INFO --> Importing post: Terraclassifieds - Add advert in page
+2021-08-10 20:33:57 - NOTICE --> Page "Terraclassifieds - Add advert" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - My submissions in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - My submissions" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Edit ad in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Edit ad" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Login in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Login" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Registration in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Registration" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Forgot Password in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Forgot Password" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Edit Profile in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Edit Profile" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Terraclassifieds - Favourite Ads in page
+2021-08-10 20:33:58 - NOTICE --> Page "Terraclassifieds - Favourite Ads" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Suspendisse et ligula tellus nulla facilisi semper in post
+2021-08-10 20:33:58 - NOTICE --> Post "Suspendisse et ligula tellus nulla facilisi semper" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Nulla scelerisque magna sed hendrerit purus in post
+2021-08-10 20:33:58 - NOTICE --> Post "Nulla scelerisque magna sed hendrerit purus" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Morbi augue libero augue dollot sit amet in post
+2021-08-10 20:33:58 - NOTICE --> Post "Morbi augue libero augue dollot sit amet" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Phasellus vulputate ac massa nulla scelrisque in post
+2021-08-10 20:33:58 - NOTICE --> Post "Phasellus vulputate ac massa nulla scelrisque" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Praesent vehicula libero ac rutrum ut aliquip in post
+2021-08-10 20:33:58 - NOTICE --> Post "Praesent vehicula libero ac rutrum ut aliquip" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: In volutpat tellus felis rutrum consequat elit in post
+2021-08-10 20:33:58 - NOTICE --> Post "In volutpat tellus felis rutrum consequat elit" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Ut imperdiet orci tellus amet vehicula ota in post
+2021-08-10 20:33:58 - NOTICE --> Post "Ut imperdiet orci tellus amet vehicula ota" already exists.
+2021-08-10 20:33:58 - INFO --> Importing post: Praesent vehicula libero ac rucues in post
+2021-08-10 20:33:58 - NOTICE --> Post "Praesent vehicula libero ac rucues" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Movie #1 in post
+2021-08-10 20:33:59 - NOTICE --> Post "Movie #1" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Put any text here in testimonial
+2021-08-10 20:33:59 - NOTICE --> Testimonial "Put any text here" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Mark Twain in testimonial
+2021-08-10 20:33:59 - NOTICE --> Testimonial "Mark Twain" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Movie #3 in post
+2021-08-10 20:33:59 - NOTICE --> Post "Movie #3" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Praesent vehicula libero ac rucues in post
+2021-08-10 20:33:59 - NOTICE --> Post "Praesent vehicula libero ac rucues" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Consectetur adipiscing elit in post
+2021-08-10 20:33:59 - NOTICE --> Post "Consectetur adipiscing elit" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Sed congue semper consequat incididunt ut labore in post
+2021-08-10 20:33:59 - NOTICE --> Post "Sed congue semper consequat incididunt ut labore" already exists.
+2021-08-10 20:33:59 - INFO --> Importing post: Et dolore magna aliqua enim ad minim in post
+2021-08-10 20:33:59 - NOTICE --> Post "Et dolore magna aliqua enim ad minim" already exists.
+2021-08-10 20:34:00 - INFO --> Finish Posts, pages, menu and media import.
+2021-08-10 20:34:01 - INFO --> Begin menu of Add menus locations
+2021-08-10 20:34:01 - INFO --> Finish Add menus locations import.
+2021-08-10 20:34:02 - INFO --> Begin widgets of Widgets
+2021-08-10 20:34:02 - INFO --> Importing: /var/www/wordpress/wp-content/plugins/pe-terraclassic-demo-importer/demo1/widgets.wie
+2021-08-10 20:34:02 - INFO --> Importing sidebar "left-column"
+2021-08-10 20:34:02 - INFO --> Sidebar "left-column" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "left-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "left-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "left-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "right-column"
+2021-08-10 20:34:02 - INFO --> Sidebar "right-column" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "right-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "right-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "right-column".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "nav_menu" for sidebar "right-column".
+2021-08-10 20:34:02 - WARN --> nav_menu Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_recent_posts" for sidebar "right-column".
+2021-08-10 20:34:02 - WARN --> pe_recent_posts Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "top-bar"
+2021-08-10 20:34:02 - INFO --> Sidebar "top-bar" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "terraclassifiedsmenu" for sidebar "top-bar".
+2021-08-10 20:34:02 - WARN --> terraclassifiedsmenu Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "top-bar2"
+2021-08-10 20:34:02 - INFO --> Sidebar "top-bar2" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "nav_menu" for sidebar "top-bar2".
+2021-08-10 20:34:02 - WARN --> nav_menu Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "header"
+2021-08-10 20:34:02 - INFO --> Sidebar "header" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "terraclassifiedssearch" for sidebar "header".
+2021-08-10 20:34:02 - WARN --> terraclassifiedssearch Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "terraclassifiedscategories" for sidebar "header".
+2021-08-10 20:34:02 - WARN --> terraclassifiedscategories Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "top1"
+2021-08-10 20:34:02 - INFO --> Sidebar "top1" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "terraclassifiedslatestads" for sidebar "top1".
+2021-08-10 20:34:02 - WARN --> terraclassifiedslatestads Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "top2"
+2021-08-10 20:34:02 - INFO --> Sidebar "top2" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top2".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top2".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top2".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top2".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_image_carousel" for sidebar "top2".
+2021-08-10 20:34:02 - WARN --> pe_image_carousel Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "top3"
+2021-08-10 20:34:02 - INFO --> Sidebar "top3" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top3".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top3".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top3".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "top3".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "custom_html" for sidebar "top3".
+2021-08-10 20:34:02 - WARN --> custom_html Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "content-bottom"
+2021-08-10 20:34:02 - INFO --> Sidebar "content-bottom" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "content-bottom".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "bottom1"
+2021-08-10 20:34:02 - INFO --> Sidebar "bottom1" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "text" for sidebar "bottom1".
+2021-08-10 20:34:02 - WARN --> text Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "terraclassifiedscategories" for sidebar "bottom1".
+2021-08-10 20:34:02 - WARN --> terraclassifiedscategories Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "bottom2"
+2021-08-10 20:34:02 - INFO --> Sidebar "bottom2" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_login_popup" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_login_popup Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_contact" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_contact Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_contact" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_contact Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_contact" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_contact Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_contact" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_contact Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_short_info" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_short_info Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_testimonial_carousel" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_testimonial_carousel Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_image_carousel" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_image_carousel Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_image_carousel" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_image_carousel Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_image_carousel" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_image_carousel Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_best_features" for sidebar "bottom2".
+2021-08-10 20:34:02 - WARN --> pe_best_features Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "footer"
+2021-08-10 20:34:02 - INFO --> Sidebar "footer" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "custom_html" for sidebar "footer".
+2021-08-10 20:34:02 - WARN --> custom_html Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "nav_menu" for sidebar "footer".
+2021-08-10 20:34:02 - WARN --> nav_menu Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "nav_menu" for sidebar "footer".
+2021-08-10 20:34:02 - WARN --> nav_menu Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_social_icons" for sidebar "footer".
+2021-08-10 20:34:02 - WARN --> pe_social_icons Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "off-canvas-sidebar"
+2021-08-10 20:34:02 - INFO --> Sidebar "off-canvas-sidebar" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "search" for sidebar "off-canvas-sidebar".
+2021-08-10 20:34:02 - WARN --> search Widget already exists
+2021-08-10 20:34:02 - INFO --> Importing sidebar "widgets_for_shortcodes"
+2021-08-10 20:34:02 - INFO --> Sidebar "widgets_for_shortcodes" Imported.
+2021-08-10 20:34:02 - INFO --> Importing widget "pe_social_icons" for sidebar "widgets_for_shortcodes".
+2021-08-10 20:34:02 - WARN --> pe_social_icons Widget already exists
+2021-08-10 20:34:02 - INFO --> Finish Widgets import.

@@ -1,0 +1,8 @@
+[16-May-2019 07:41:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function terraclassifieds_get_option() in /home/watermarkpixelem/public_html/pe-terraclassic/wp-content/plugins/terraclassifieds/inc/security-abuse-form.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/watermarkpixelem/public_html/pe-terraclassic/wp-content/plugins/terraclassifieds/inc/security-abuse-form.php on line 2
+[16-May-2019 07:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function terraclassifieds_get_option() in /home/watermarkpixelem/public_html/pe-terraclassic/wp-content/plugins/terraclassifieds/inc/security-abuse-form.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/watermarkpixelem/public_html/pe-terraclassic/wp-content/plugins/terraclassifieds/inc/security-abuse-form.php on line 2

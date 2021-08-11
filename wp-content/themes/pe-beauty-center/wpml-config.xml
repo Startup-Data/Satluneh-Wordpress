@@ -1,0 +1,19 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">member</custom-type>
+    <custom-type translate="1">testimonial</custom-type>
+    <custom-type translate="1">service</custom-type>
+    <custom-type translate="1">faqs</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">service-category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="option_tree">
+      <key name="logo"/>
+      <key name="favicon"/>
+      <key name="copyright_info"/>
+      <key name="contact_address"/>
+    </key>
+  </admin-texts>
+</wpml-config>

@@ -1,0 +1,1572 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2020-03-31 13:43+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: pe-terraclassic-plugin.php:74
+msgid " plugin is inactive. Please first activate the appropriate theme."
+msgstr ""
+
+#: pe-terraclassic-plugin.php:247 pe-terraclassic-plugin.php:275
+msgid "Pixelemu News"
+msgstr ""
+
+#: pe-terraclassic-plugin.php:284
+msgid "Pixelemu WordPress Basics"
+msgstr ""
+
+#: pe-terraclassic-plugin.php:293
+msgid "Pixelemu Tutorials"
+msgstr ""
+
+#: send-email.php:31
+msgid "Unverified nonce!"
+msgstr ""
+
+#: send-email.php:40
+msgid "Target email address is not properly configured!"
+msgstr ""
+
+#: send-email.php:58
+msgid "New message sent by"
+msgstr ""
+
+#: send-email.php:58
+msgid "using contact form at"
+msgstr ""
+
+#: send-email.php:59
+msgid "You have received a message from: "
+msgstr ""
+
+#: send-email.php:62
+msgid "Subject : "
+msgstr ""
+
+#: send-email.php:65
+msgid "Message: "
+msgstr ""
+
+#: send-email.php:67
+msgid "You can contact "
+msgstr ""
+
+#: send-email.php:67
+msgid " via email, "
+msgstr ""
+
+#: send-email.php:70
+msgid "Agreed consents:"
+msgstr ""
+
+#: send-email.php:100 send-email.php:122
+msgid "Message sent successfully!"
+msgstr ""
+
+#: send-email.php:105 send-email.php:127
+msgid "Server Error: WordPress mail function failed!"
+msgstr ""
+
+#: send-email.php:113
+msgid "The reCAPTCHA wasn't entered correctly."
+msgstr ""
+
+#: send-email.php:133
+msgid "Invalid Request !"
+msgstr ""
+
+#: shortcodes.php:36
+msgid "Grid"
+msgstr ""
+
+#: shortcodes.php:37
+msgid "This shortcode allows you to display a grid with row and columns."
+msgstr ""
+
+#: shortcodes.php:40
+msgid "number 1 or 0"
+msgstr ""
+
+#: shortcodes.php:41
+msgid ""
+"Enter '1' to enable or '0' to disable the horizontal gutter between columns."
+msgstr ""
+
+#: shortcodes.php:45 shortcodes.php:69 shortcodes.php:98 shortcodes.php:244
+#: shortcodes.php:450
+msgid "custom css class"
+msgstr ""
+
+#: shortcodes.php:46
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the row."
+msgstr ""
+
+#: shortcodes.php:55
+msgid "Column"
+msgstr ""
+
+#: shortcodes.php:56
+msgid "This shortcode allows you to display a column in the grid."
+msgstr ""
+
+#: shortcodes.php:59 shortcodes.php:127 shortcodes.php:156
+msgid "number 1 to 12"
+msgstr ""
+
+#: shortcodes.php:60
+msgid ""
+"Enter a number from 1 to 12. It controls the width of the column according "
+"to the Bootstrap grid size. The sum of the numbers in a row should be equal "
+"to 12."
+msgstr ""
+
+#: shortcodes.php:64
+msgid "xs, md or lg"
+msgstr ""
+
+#: shortcodes.php:65
+msgid ""
+"Enter a class name to control the column size for specified devices. 'xs' - "
+"for extra small devices (<768px), 'md' - for medium devices (≥992px), 'lg' - "
+"for large devices (≥1200px)."
+msgstr ""
+
+#: shortcodes.php:70
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the column."
+msgstr ""
+
+#: shortcodes.php:84 custom-posts/testimonial-post-type.php:13
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes.php:85
+msgid "This shortcode allows you to display a testimonial."
+msgstr ""
+
+#: shortcodes.php:88 shortcodes.php:93 shortcodes.php:185 shortcodes.php:225
+msgid "text or empty"
+msgstr ""
+
+#: shortcodes.php:89
+msgid "Enter a title or author name for the testimonial."
+msgstr ""
+
+#: shortcodes.php:94
+msgid "Enter a subtitle or author description for the testimonial."
+msgstr ""
+
+#: shortcodes.php:99
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the testimonial."
+msgstr ""
+
+#: shortcodes.php:108
+msgid "Video"
+msgstr ""
+
+#: shortcodes.php:109
+msgid "This shortcode allows you to display a video."
+msgstr ""
+
+#: shortcodes.php:112
+msgid "ID of video"
+msgstr ""
+
+#: shortcodes.php:113
+msgid ""
+"Enter an ID of the video. An example ID for a YouTube video is: 'jYjw-"
+"GDPZt8'. An example ID for a Vimeo video is: '6199030'."
+msgstr ""
+
+#: shortcodes.php:117
+msgid "youtube / vimeo"
+msgstr ""
+
+#: shortcodes.php:118
+msgid ""
+"Enter a name of the video host service. 'youtube' - for a Youtube video. "
+"'vimeo' - for a Vimeo video."
+msgstr ""
+
+#: shortcodes.php:122
+msgid "1 / 0"
+msgstr ""
+
+#: shortcodes.php:123
+msgid "Enter '1' to enable or '0' to disable the fullscreen mode."
+msgstr ""
+
+#: shortcodes.php:128
+msgid ""
+"Enter a number from 1 to 12. It controls the width of the video according to "
+"the Bootstrap grid size."
+msgstr ""
+
+#: shortcodes.php:137
+msgid "Image Gallery"
+msgstr ""
+
+#: shortcodes.php:138
+msgid "This shortcode allows you to display an image gallery."
+msgstr ""
+
+#: shortcodes.php:141
+msgid ""
+"none / ID / author / title / date / modified / parent / rand / "
+"comment_count / menu_order / post__in"
+msgstr ""
+
+#: shortcodes.php:142
+msgid ""
+"Enter an image order option. Allowed order options: 'none', 'ID', 'author', "
+"'title', 'date', 'modified', 'parent', 'rand', 'comment_count', "
+"'menu_order', 'post__in'."
+msgstr ""
+
+#: shortcodes.php:146
+msgid "ASC / DESC"
+msgstr ""
+
+#: shortcodes.php:147
+msgid "Enter ordering direction 'ASC' or 'DESC'."
+msgstr ""
+
+#: shortcodes.php:151
+msgid "image ID"
+msgstr ""
+
+#: shortcodes.php:152
+msgid "Enter an image ID. You will find the ID number in Media Manager."
+msgstr ""
+
+#: shortcodes.php:157
+msgid "Enter a number from 1 to 12 according to the Bootstrap grid size."
+msgstr ""
+
+#: shortcodes.php:161
+msgid "full / medium / thumbnail (image size)"
+msgstr ""
+
+#: shortcodes.php:162
+msgid ""
+"Enter an image thumbnail name. Default options: 'full', 'medium', "
+"'thumbnail'."
+msgstr ""
+
+#: shortcodes.php:166 shortcodes.php:273 shortcodes.php:292 shortcodes.php:440
+#: shortcodes.php:498 shortcodes.php:552
+msgid "URL with http://"
+msgstr ""
+
+#: shortcodes.php:167 shortcodes.php:274 shortcodes.php:293
+msgid ""
+"Enter a URL address of the link. The URL address should begin with http://. "
+"For example: http://yourdomain.com/path/"
+msgstr ""
+
+#: shortcodes.php:171
+msgid "enable / disable"
+msgstr ""
+
+#: shortcodes.php:172
+msgid ""
+"Enter 'enable' to enable or 'disable' to disable displaying of full-sized "
+"image in modal window."
+msgstr ""
+
+#: shortcodes.php:181
+msgid "Map"
+msgstr ""
+
+#: shortcodes.php:182
+msgid "This shortcode allows you to display a Google Map."
+msgstr ""
+
+#: shortcodes.php:186
+msgid "Enter a location address. This area will be displayed on the map."
+msgstr ""
+
+#: shortcodes.php:190 shortcodes.php:195 shortcodes.php:415 shortcodes.php:488
+msgid "number"
+msgstr ""
+
+#: shortcodes.php:191
+msgid ""
+"Enter geographical coordinates (latitude) of the location. Example: "
+"'54.6043595'."
+msgstr ""
+
+#: shortcodes.php:196
+msgid ""
+"Enter geographical coordinates (longitude) of the location. Example: "
+"'18.2353667'."
+msgstr ""
+
+#: shortcodes.php:200 shortcodes.php:205
+msgid "PX or %"
+msgstr ""
+
+#: shortcodes.php:201
+msgid "Enter the map size (width) in px or %. For example: '300px'."
+msgstr ""
+
+#: shortcodes.php:206
+msgid "Enter the map size (height) in px or %. For example: '300px'."
+msgstr ""
+
+#: shortcodes.php:210 shortcodes.php:445
+msgid "true / false"
+msgstr ""
+
+#: shortcodes.php:211
+msgid ""
+"Enter 'true' to enable or 'false' to disable zoom-in or zoom-out of the map "
+"using a scroll wheel."
+msgstr ""
+
+#: shortcodes.php:215
+msgid "ture / false"
+msgstr ""
+
+#: shortcodes.php:216
+msgid ""
+"Enter 'true' to enable or 'false' to disable control buttons on the map."
+msgstr ""
+
+#: shortcodes.php:220
+msgid "number (0 - 23)"
+msgstr ""
+
+#: shortcodes.php:221
+msgid "Enter the default map zoom. Valid numbers from 0 to 23."
+msgstr ""
+
+#: shortcodes.php:226
+msgid "Enter a text to display in a tooltip on the map or leave empty."
+msgstr ""
+
+#: shortcodes.php:235
+msgid "Headline"
+msgstr ""
+
+#: shortcodes.php:236
+msgid ""
+"This shortcode allows you to display a headline with an animated effect."
+msgstr ""
+
+#: shortcodes.php:239
+msgid "coma separated text"
+msgstr ""
+
+#: shortcodes.php:240
+msgid ""
+"Enter coma separated words. These words will be rotated with an animated "
+"effect."
+msgstr ""
+
+#: shortcodes.php:245
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the headline."
+msgstr ""
+
+#: shortcodes.php:249
+msgid "custom css styles"
+msgstr ""
+
+#: shortcodes.php:250
+msgid ""
+"Enter inline CSS styles for the headline. For example: 'padding: 10px 0; "
+"font-size: 20px;'."
+msgstr ""
+
+#: shortcodes.php:259
+msgid "Icontext"
+msgstr ""
+
+#: shortcodes.php:260
+msgid ""
+"This shortcode allows you to display a text with a FontAwesome icon and link."
+msgstr ""
+
+#: shortcodes.php:263 shortcodes.php:318 shortcodes.php:344 shortcodes.php:410
+#: shortcodes.php:430 shortcodes.php:435 shortcodes.php:493 shortcodes.php:503
+#: shortcodes.php:517 shortcodes.php:522
+msgid "text"
+msgstr ""
+
+#: shortcodes.php:264
+msgid "Enter a text that will be displayed along with the icon."
+msgstr ""
+
+#: shortcodes.php:268 shortcodes.php:287 shortcodes.php:464 shortcodes.php:478
+msgid "font Awesome class"
+msgstr ""
+
+#: shortcodes.php:269 shortcodes.php:288 shortcodes.php:465 shortcodes.php:479
+msgid "Enter a FontAwesome icon class name. For example: 'fa-arrow-right'."
+msgstr ""
+
+#: shortcodes.php:283 shortcodes/anibox.php:60
+#: widgets/pe-image-carousel.php:163
+msgid "Readmore"
+msgstr ""
+
+#: shortcodes.php:284
+msgid "This shortcode allows you to display a text readmore button."
+msgstr ""
+
+#: shortcodes.php:297
+msgid "empty or large"
+msgstr ""
+
+#: shortcodes.php:298
+msgid ""
+"Enter 'large' to display a large readmore button. For standard size leavy "
+"empty."
+msgstr ""
+
+#: shortcodes.php:307
+msgid "Accordion"
+msgstr ""
+
+#: shortcodes.php:308
+msgid "This shortcode allows you to display accordion panels."
+msgstr ""
+
+#: shortcodes.php:314
+msgid "Accordion item"
+msgstr ""
+
+#: shortcodes.php:315
+msgid ""
+"This shortcode displays an accordion item. It must be placed inside the "
+"'Accordion', do not drag & drop the 'Accordion item' outside the "
+"'Accordion', otherwise it will not work properly."
+msgstr ""
+
+#: shortcodes.php:319
+msgid "Enter an accordion title."
+msgstr ""
+
+#: shortcodes.php:323 shortcodes.php:349
+msgid "text active for active panel"
+msgstr ""
+
+#: shortcodes.php:324
+msgid ""
+"Enter 'active' for the 'Accordion item' which you want to be activated on "
+"start."
+msgstr ""
+
+#: shortcodes.php:333
+msgid "Tabs"
+msgstr ""
+
+#: shortcodes.php:334
+msgid "This shortcode allows you to display tabs."
+msgstr ""
+
+#: shortcodes.php:340
+msgid "Tab item"
+msgstr ""
+
+#: shortcodes.php:341
+msgid ""
+"This shortcode displays a tab item. It must be placed inside the 'Tabs', do "
+"not drag & drop the 'Tab item' outside the 'Tabs', otherwise it will not "
+"work properly."
+msgstr ""
+
+#: shortcodes.php:345
+msgid "Enter a tab title."
+msgstr ""
+
+#: shortcodes.php:350
+msgid ""
+"Enter 'active' for the 'Tab item' which you want to be activated on start."
+msgstr ""
+
+#: shortcodes.php:359
+msgid "Table"
+msgstr ""
+
+#: shortcodes.php:360
+msgid "This shortcode allows you to display a table."
+msgstr ""
+
+#: shortcodes.php:363
+msgid "width in PX or %"
+msgstr ""
+
+#: shortcodes.php:364
+msgid "Enter the width of the table in px or %. For example: '300px'."
+msgstr ""
+
+#: shortcodes.php:368
+msgid "cell(s) width in PX or % (coma separated)"
+msgstr ""
+
+#: shortcodes.php:369
+msgid ""
+"Enter the width of the table cell(s) in px or % (coma separated). For "
+"example: '50px, 50px'."
+msgstr ""
+
+#: shortcodes.php:373
+msgid "true / false (table heading display)"
+msgstr ""
+
+#: shortcodes.php:374
+msgid "Enter 'true' to enable or 'false' to disable the table heading."
+msgstr ""
+
+#: shortcodes.php:378
+msgid "true / false (table fixed layout)"
+msgstr ""
+
+#: shortcodes.php:379
+msgid "Enter 'true' to enable or 'false' to disable the table fixed layout."
+msgstr ""
+
+#: shortcodes.php:383
+msgid "true / false (table text align center)"
+msgstr ""
+
+#: shortcodes.php:384
+msgid ""
+"Enter 'true' to enable or 'false' to disable the center alignement for the "
+"table cells."
+msgstr ""
+
+#: shortcodes.php:401
+msgid "Pricing table"
+msgstr ""
+
+#: shortcodes.php:402
+msgid "This shortcode allows you to display pricing table."
+msgstr ""
+
+#: shortcodes.php:405 shortcodes.php:532
+msgid "URL to image with http://"
+msgstr ""
+
+#: shortcodes.php:406 shortcodes.php:533
+msgid ""
+"Enter a URL address of the image. The URL address should begin with http://. "
+"For example: http://yourdomain.com/path/"
+msgstr ""
+
+#: shortcodes.php:411
+msgid "Enter a title."
+msgstr ""
+
+#: shortcodes.php:416
+msgid "Enter a price."
+msgstr ""
+
+#: shortcodes.php:420 shortcodes.php:425
+msgid "text or currency"
+msgstr ""
+
+#: shortcodes.php:421
+msgid "Enter a text or currency for the price. It appears before the price."
+msgstr ""
+
+#: shortcodes.php:426
+msgid "Enter a text or currency for the price. It appears after the price."
+msgstr ""
+
+#: shortcodes.php:431
+msgid "Enter a text that will be displayed after the price and currency."
+msgstr ""
+
+#: shortcodes.php:436
+msgid "Enter a text of the button."
+msgstr ""
+
+#: shortcodes.php:441
+msgid ""
+"Enter a URL address of the button link. The URL address should begin with "
+"http://. For example: http://yourdomain.com/path/"
+msgstr ""
+
+#: shortcodes.php:446
+msgid ""
+"Enter 'true' to enable or 'false' to disable the highlight effect for the "
+"pricing table."
+msgstr ""
+
+#: shortcodes.php:451
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the pricing table."
+msgstr ""
+
+#: shortcodes.php:460
+msgid "Fontawesome"
+msgstr ""
+
+#: shortcodes.php:461
+msgid "This shortcode allows you to display a FontAwesome icon."
+msgstr ""
+
+#: shortcodes.php:474
+msgid "Counter"
+msgstr ""
+
+#: shortcodes.php:475
+msgid "This shortcode allows you to display a counter."
+msgstr ""
+
+#: shortcodes.php:483
+msgid "font size"
+msgstr ""
+
+#: shortcodes.php:484
+msgid "Enter a font size with unit. For example: '16px' or '1em'."
+msgstr ""
+
+#: shortcodes.php:489
+msgid "Enter a number to count."
+msgstr ""
+
+#: shortcodes.php:494
+msgid "Enter a unit of the number to count."
+msgstr ""
+
+#: shortcodes.php:499
+msgid ""
+"Enter a URL address of the title link. The URL address should begin with "
+"http://. For example: http://yourdomain.com/path/"
+msgstr ""
+
+#: shortcodes.php:504
+msgid "Enter a title of the counter."
+msgstr ""
+
+#: shortcodes.php:513
+msgid "Animated box"
+msgstr ""
+
+#: shortcodes.php:514
+msgid ""
+"This shortcode allows you to display an image and its description with an "
+"animated CSS3 effect."
+msgstr ""
+
+#: shortcodes.php:518
+msgid "Enter a title for the animated box."
+msgstr ""
+
+#: shortcodes.php:523
+msgid ""
+"Enter a subtitle for the animated box. It appears when hovering over the "
+"image."
+msgstr ""
+
+#: shortcodes.php:527
+msgid "saddie / goliath / julia / marley"
+msgstr ""
+
+#: shortcodes.php:528
+msgid ""
+"Enter a name of the animated effect. You can choose from: 'saddie', "
+"'goliath', 'julia' and 'marley'."
+msgstr ""
+
+#: shortcodes.php:537
+msgid "color value (HEX)"
+msgstr ""
+
+#: shortcodes.php:538
+msgid "Enter a font color value in HEX. For example: '#000000'"
+msgstr ""
+
+#: shortcodes.php:542 shortcodes.php:547
+msgid "size in PX"
+msgstr ""
+
+#: shortcodes.php:543
+msgid "Enter the width of the animated box in px. For example: '300px'."
+msgstr ""
+
+#: shortcodes.php:548
+msgid "Enter the height of the animated box in px. For example: '300px'."
+msgstr ""
+
+#: shortcodes.php:553
+msgid ""
+"'Enter a URL address of the link. The URL address should begin with http://. "
+"For example: http://yourdomain.com/path/'"
+msgstr ""
+
+#: shortcodes.php:557
+msgid "_self / _blank"
+msgstr ""
+
+#: shortcodes.php:558
+msgid ""
+"Enter '_self' to open the link in the same window or '_blank' to open the "
+"link in a new window."
+msgstr ""
+
+#: shortcodes.php:567
+msgid "Separator"
+msgstr ""
+
+#: shortcodes.php:568
+msgid "This shortcode allows you to display a separator."
+msgstr ""
+
+#: shortcodes.php:578
+msgid "Shortcodes generator"
+msgstr ""
+
+#: shortcodes.php:579
+msgid "Drag & drop or click the item to create a shortcode."
+msgstr ""
+
+#: shortcodes.php:609
+msgid "Add another item"
+msgstr ""
+
+#: shortcodes.php:612
+msgid "Duplicate item"
+msgstr ""
+
+#: shortcodes.php:614
+msgid "Remove item"
+msgstr ""
+
+#: shortcodes.php:622
+msgid "Drop area"
+msgstr ""
+
+#: shortcodes.php:652
+msgid "Text"
+msgstr ""
+
+#: shortcodes.php:655
+msgid "Set parameters"
+msgstr ""
+
+#: shortcodes.php:659
+msgid "Show example"
+msgstr ""
+
+#: shortcodes.php:671 shortcodes.php:677
+msgid "Add shortcodes"
+msgstr ""
+
+#: shortcodes.php:686
+msgid "Shortcode preview"
+msgstr ""
+
+#: shortcodes.php:688
+msgid "Use shortcode"
+msgstr ""
+
+#: shortcodes.php:689
+msgid "Copy to clipboard"
+msgstr ""
+
+#: shortcodes.php:690
+msgid "Reset"
+msgstr ""
+
+#: update.php:164
+msgid "Theme update: Can't check XML file."
+msgstr ""
+
+#: update.php:215
+#, php-format
+msgid "Update %1$s for %2$s theme is available"
+msgstr ""
+
+#: update.php:218
+msgid "Check Changelog"
+msgstr ""
+
+#: update.php:221 update.php:238
+msgid "Get Update"
+msgstr ""
+
+#: update.php:236
+msgid ""
+"Theme and Plugin version may not be compatible. Please update the plugin to "
+"the latest version."
+msgstr ""
+
+#: update.php:237
+msgid "Theme:"
+msgstr ""
+
+#: update.php:237
+msgid "Plugin:"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:12 custom-posts/faq-post-type.php:13
+msgid "FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:14 custom-posts/testimonial-post-type.php:14
+msgid "Add New"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:15
+msgid "Add New FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:16
+msgid "Edit FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:17
+msgid "New FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:18
+msgid "View FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:19
+msgid "Search FAQs"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:20
+msgid "No FAQs found"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:21
+msgid "No FAQs found in Trash"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:39
+msgid "faqs"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:50
+msgid "Question"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:51
+msgid "Date"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:65
+msgid "Enter Question here"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:12
+#: widgets/pe-testimonial-carousel-widget.php:58
+msgid "Testimonials"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:15
+msgid "Add New Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:16
+msgid "Edit Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:17
+msgid "New Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:18
+msgid "View Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:19
+msgid "Search Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:20
+msgid "No Testimonial found"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:21
+msgid "No Testimonial found in Trash"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:38
+msgid "testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:47
+msgid "Avatar image"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:58
+msgid "Enter Author Name here"
+msgstr ""
+
+#: shortcodes/map.php:27
+msgid "Error 0 : "
+msgstr ""
+
+#: shortcodes/map.php:33
+msgid "Error 1 : "
+msgstr ""
+
+#: shortcodes/map.php:53
+msgid "Invalid address."
+msgstr ""
+
+#: shortcodes/map.php:55
+msgid "Invalid request."
+msgstr ""
+
+#: shortcodes/map.php:57
+msgid "Please ensure you have entered the short code correctly."
+msgstr ""
+
+#: shortcodes/map.php:61
+msgid "Unable to connect with Google API service."
+msgstr ""
+
+#: shortcodes/map.php:108
+msgid "You must provide valid address or coordinates (1)"
+msgstr ""
+
+#: shortcodes/map.php:134
+msgid "You must provide valid address or coordinates (2)"
+msgstr ""
+
+#: shortcodes/pegallery.php:185
+msgid "Image Modal"
+msgstr ""
+
+#: shortcodes/pegallery.php:187
+msgid "Enable"
+msgstr ""
+
+#: shortcodes/pegallery.php:188
+msgid "Disable"
+msgstr ""
+
+#: shortcodes/pevideo.php:41
+msgid "Only Youtube and Vimeo services supported !"
+msgstr ""
+
+#: widgets/pe-best-features.php:23
+msgid "Displays custom text."
+msgstr ""
+
+#: widgets/pe-best-features.php:25
+msgid "PE Best Features"
+msgstr ""
+
+#: widgets/pe-best-features.php:79 widgets/pe-image-carousel.php:85
+#: widgets/pe-social-widget.php:76
+msgid "No items"
+msgstr ""
+
+#: widgets/pe-best-features.php:290 widgets/pe-image-carousel.php:262
+#: widgets/pe-social-widget.php:138
+msgid "Title:"
+msgstr ""
+
+#: widgets/pe-best-features.php:302 widgets/pe-image-carousel.php:274
+#: widgets/pe-social-widget.php:150
+msgid "Item"
+msgstr ""
+
+#: widgets/pe-best-features.php:303 widgets/pe-image-carousel.php:275
+#: widgets/pe-social-widget.php:151
+msgid "Edit"
+msgstr ""
+
+#: widgets/pe-best-features.php:303 widgets/pe-image-carousel.php:275
+#: widgets/pe-social-widget.php:151
+msgid "Remove"
+msgstr ""
+
+#: widgets/pe-best-features.php:311 widgets/pe-image-carousel.php:286
+#: widgets/pe-social-widget.php:161
+msgid "Add new item"
+msgstr ""
+
+#: widgets/pe-best-features.php:316 widgets/pe-image-carousel.php:302
+msgid "Item title:"
+msgstr ""
+
+#: widgets/pe-best-features.php:320 widgets/pe-image-carousel.php:297
+#: widgets/pe-social-widget.php:181
+msgid "URL:"
+msgstr ""
+
+#: widgets/pe-best-features.php:324
+msgid "Source"
+msgstr ""
+
+#: widgets/pe-best-features.php:326
+msgid "Font Awesome icon"
+msgstr ""
+
+#: widgets/pe-best-features.php:327
+msgid "Icon image"
+msgstr ""
+
+#: widgets/pe-best-features.php:331
+msgid "Font Awesome icon class:"
+msgstr ""
+
+#: widgets/pe-best-features.php:335
+msgid "Icon image:"
+msgstr ""
+
+#: widgets/pe-best-features.php:337 widgets/pe-best-features.php:359
+#: widgets/pe-image-carousel.php:293
+msgid "Select image"
+msgstr ""
+
+#: widgets/pe-best-features.php:340
+msgid "Text:"
+msgstr ""
+
+#: widgets/pe-best-features.php:344 widgets/pe-image-carousel.php:316
+#: widgets/pe-social-widget.php:185
+msgid "Save item"
+msgstr ""
+
+#: widgets/pe-best-features.php:345 widgets/pe-image-carousel.php:317
+#: widgets/pe-social-widget.php:186
+msgid "Cancel"
+msgstr ""
+
+#: widgets/pe-best-features.php:350 widgets/pe-image-carousel.php:354
+msgid "Style"
+msgstr ""
+
+#: widgets/pe-best-features.php:352
+msgid "Style 1"
+msgstr ""
+
+#: widgets/pe-best-features.php:353
+msgid "Style 2"
+msgstr ""
+
+#: widgets/pe-best-features.php:357 widgets/pe-image-carousel.php:291
+msgid "Image:"
+msgstr ""
+
+#: widgets/pe-best-features.php:363
+msgid "Layout"
+msgstr ""
+
+#: widgets/pe-best-features.php:365
+msgid "[text] [image] [text]"
+msgstr ""
+
+#: widgets/pe-best-features.php:366
+msgid "[image] [text] [text]"
+msgstr ""
+
+#: widgets/pe-best-features.php:367
+msgid "[text] [text] [image]"
+msgstr ""
+
+#: widgets/pe-best-features.php:368
+msgid "[text] [image]"
+msgstr ""
+
+#: widgets/pe-best-features.php:369
+msgid "[image] [text]"
+msgstr ""
+
+#: widgets/pe-best-features.php:374
+msgid "Image size (span)"
+msgstr ""
+
+#: widgets/pe-best-features.php:376
+msgid "col-md-12"
+msgstr ""
+
+#: widgets/pe-best-features.php:377
+msgid "col-md-11"
+msgstr ""
+
+#: widgets/pe-best-features.php:378
+msgid "col-md-10"
+msgstr ""
+
+#: widgets/pe-best-features.php:379
+msgid "col-md-9"
+msgstr ""
+
+#: widgets/pe-best-features.php:380
+msgid "col-md-8"
+msgstr ""
+
+#: widgets/pe-best-features.php:381
+msgid "col-md-7"
+msgstr ""
+
+#: widgets/pe-best-features.php:382
+msgid "col-md-6"
+msgstr ""
+
+#: widgets/pe-best-features.php:383
+msgid "col-md-5"
+msgstr ""
+
+#: widgets/pe-best-features.php:384
+msgid "col-md-4"
+msgstr ""
+
+#: widgets/pe-best-features.php:385
+msgid "col-md-3"
+msgstr ""
+
+#: widgets/pe-best-features.php:386
+msgid "col-md-2"
+msgstr ""
+
+#: widgets/pe-best-features.php:387
+msgid "col-md-1"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:16
+msgid "Displays Contact form, details and map."
+msgstr ""
+
+#: widgets/pe-contact-widget.php:18
+msgid "PE Contact"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:71
+msgid "Your name"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:71 widgets/pe-contact-widget.php:72
+msgid "Name"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:72
+msgid "Please provide your name"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:76
+msgid "Email address for contact"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:76 widgets/pe-contact-widget.php:77
+#: widgets/pe-login-popup.php:54 widgets/pe-login-popup.php:55
+msgid "Email"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:77
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:84 widgets/pe-contact-widget.php:93
+msgid "Message"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:85 widgets/pe-contact-widget.php:95
+msgid "* Please provide your message"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:103 widgets/pe-contact-widget.php:110
+msgid "Please check the consent."
+msgstr ""
+
+#: widgets/pe-contact-widget.php:125
+msgid "Send message"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:141
+msgid "We will call you back"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:149
+msgid "Default subject"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:151
+msgid "Thank you subject"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:152
+msgid "Thank you message sent to user"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:153
+msgid "Intro text, displayed after Widget title"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:155
+msgid "Phone number"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:157
+msgid "Send Email"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:182 widgets/pe-login-popup.php:131
+#: widgets/pe-short-info-widget.php:140
+#: widgets/pe-testimonial-carousel-widget.php:146
+msgid "Widget Title"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:186
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:188
+msgid "1 column"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:189
+msgid "2 columns"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:190
+msgid "3 columns"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:195
+msgid "Show consent 1"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:199
+msgid "Show consent 2"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:203
+msgid "Show captcha"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:206
+msgid "Email Parameters"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:209
+msgid "Email in Form:"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:211 widgets/pe-contact-widget.php:226
+#: widgets/pe-image-carousel.php:324 widgets/pe-image-carousel.php:332
+#: widgets/pe-image-carousel.php:340 widgets/pe-image-carousel.php:348
+#: widgets/pe-image-carousel.php:365 widgets/pe-image-carousel.php:375
+msgid "No"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:213 widgets/pe-contact-widget.php:228
+#: widgets/pe-image-carousel.php:325 widgets/pe-image-carousel.php:333
+#: widgets/pe-image-carousel.php:341 widgets/pe-image-carousel.php:349
+#: widgets/pe-image-carousel.php:376
+msgid "Yes"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:215
+msgid "Email Recipient"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:218
+msgid "Sender's name"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:221
+msgid "Default Subject"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:224
+msgid "Email with thanks:"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:230
+msgid "Thanks subject"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:233
+msgid "Thanks message"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:237
+msgid "Text Parameters"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:239
+msgid "Intro Text"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:242
+msgid "Message Type:"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:244
+msgid "Text Input"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:246
+msgid "Textarea"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:248
+msgid "Textarea height <small>(in px)</small>"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:251
+msgid "Message Label"
+msgstr ""
+
+#: widgets/pe-contact-widget.php:254
+msgid "Button Label"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:23
+msgid "Displays images carousel."
+msgstr ""
+
+#: widgets/pe-image-carousel.php:25
+msgid "PE Image Carousel"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:307
+msgid "Description:"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:312
+msgid "Readmore button name:"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:322
+msgid "Show indicators"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:330
+msgid "Show prev/next buttons"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:338
+msgid "Loop carousel"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:346
+msgid "Scroll wheel"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:356
+msgid "Carousel"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:357
+msgid "Coverflow"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:358
+msgid "Flat"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:363
+msgid "Show description"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:366
+msgid "Below the image"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:367
+msgid "Left side"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:368
+msgid "Right side"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:373
+msgid "Show readmore"
+msgstr ""
+
+#: widgets/pe-image-carousel.php:393
+msgid "Please save widget first !"
+msgstr ""
+
+#: widgets/pe-login-popup.php:16
+msgid "Displays the login and registration buttons with popups."
+msgstr ""
+
+#: widgets/pe-login-popup.php:18
+msgid "PE Login Popup"
+msgstr ""
+
+#: widgets/pe-login-popup.php:25 widgets/pe-login-popup.php:44
+msgid "You are already logged in."
+msgstr ""
+
+#: widgets/pe-login-popup.php:26 widgets/pe-login-popup.php:45
+#: widgets/pe-login-popup.php:106
+msgid "Logout"
+msgstr ""
+
+#: widgets/pe-login-popup.php:50 widgets/pe-login-popup.php:51
+msgid "Username"
+msgstr ""
+
+#: widgets/pe-login-popup.php:58 widgets/pe-login-popup.php:95
+msgid "Register"
+msgstr ""
+
+#: widgets/pe-login-popup.php:63
+msgid "User registration is disabled."
+msgstr ""
+
+#: widgets/pe-login-popup.php:93
+msgid "Login"
+msgstr ""
+
+#: widgets/pe-login-popup.php:135
+msgid "Show login button"
+msgstr ""
+
+#: widgets/pe-login-popup.php:138
+msgid "Show register button"
+msgstr ""
+
+#: widgets/pe-login-popup.php:140
+msgid "Welcome text"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:16
+msgid "Displays short information with image."
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:18
+msgid "PE Short Info"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:94
+msgid "Read more"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:144
+msgid "Pull right"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:147
+msgid "Introduction Heading"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:149
+msgid "H1"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:150
+msgid "H2"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:153
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:156
+msgid "Subtitle URL"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:159
+msgid "Description"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:162
+msgid "Info icon"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:165
+msgid "Info name"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:168
+msgid "Readmore name"
+msgstr ""
+
+#: widgets/pe-short-info-widget.php:171
+msgid "Readmore URL"
+msgstr ""
+
+#: widgets/pe-social-widget.php:21
+msgid "Displays Social Icons."
+msgstr ""
+
+#: widgets/pe-social-widget.php:22
+msgid "PE Social"
+msgstr ""
+
+#: widgets/pe-social-widget.php:166
+msgid "Name:"
+msgstr ""
+
+#: widgets/pe-social-widget.php:171
+msgid "Icon:"
+msgstr ""
+
+#: widgets/pe-social-widget.php:176
+msgid "Icon background:"
+msgstr ""
+
+#: widgets/pe-social-widget.php:192
+msgid "Target"
+msgstr ""
+
+#: widgets/pe-social-widget.php:194
+msgid "_blank"
+msgstr ""
+
+#: widgets/pe-social-widget.php:195
+msgid "_self"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:16
+msgid "Display Team Members carousel."
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:18
+msgid "PE Testimonial Carousel"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:93
+msgid "Indicators"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:102
+msgid "Testimonial "
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:117
+msgid "No Testimonials Found!"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:151
+msgid "Number of testimonials to show"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:156
+msgid "Testimonial opinion limit"
+msgstr ""
+
+#: widgets/pe-testimonial-carousel-widget.php:162
+msgid "Show/Hide Testimonial Occupation."
+msgstr ""

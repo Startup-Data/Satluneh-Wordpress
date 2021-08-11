@@ -1,0 +1,200 @@
+/*--------------------------------------------------------------
+ Copyright (C) pixelemu.com
+ License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+ Website: http://www.pixelemu.com
+ Support: info@pixelemu.com
+---------------------------------------------------------------*/
+
+/* Opening Hours */
+
+.format-setting.type-opening_hours .option-tree-ui-opening-hours-label {
+	font-weight: bold;
+	margin: 10px 0 0;
+	display: block;
+}
+
+.format-setting.type-opening_hours .clearfix {
+	clear: both;
+	overflow: hidden;
+}
+
+.format-setting.type-opening_hours .row-from,
+.format-setting.type-opening_hours .row-to {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.format-setting.type-opening_hours .row-from {
+	padding-right: 15px;
+}
+
+.format-setting.type-opening_hours .row-to {
+	padding-left: 15px;
+}
+
+/* Display Widgets SEO */
+
+#widgets-right h4.dwsp_toggle {
+	text-decoration: none;
+	font-weight: 400;
+	margin: 0;
+}
+
+#widgets-right .dwsp_collapse > div {
+	margin-top: 10px;
+}
+
+#widgets-right .dwsp_collapse li {
+	line-height: 1.1em;
+}
+
+label[for*='-dw_include'] {
+	display: block;
+	text-align: center;
+	margin: 0 0 5px;
+}
+
+label[for*='-dw_include'] strong {
+	font-weight: 400;
+}
+
+label[for*='-dw_include'] a {
+	text-decoration: none;
+}
+
+/* buttons */
+
+.wp-core-ui .button-primary.green {
+	background: #5cb85c;
+	border-color: #5cb85c #419641 #419641;
+	-webkit-box-shadow: 0 1px 0 #419641;
+	box-shadow: 0 1px 0 #419641;
+	text-shadow: 0 -1px 1px #419641, 1px 0 1px #419641, 0 1px 1px #419641, -1px 0 1px #419641;
+}
+
+.wp-core-ui .button-primary.green:hover {
+	background: #65c665;
+	border-color: #419641;
+}
+
+.wp-core-ui .button-primary.green:focus {
+	-webkit-box-shadow: 0 1px 0 #419641, 0 0 2px 1px #419641;
+	box-shadow: 0 1px 0 #419641, 0 0 2px 1px #419641;
+}
+
+.wp-core-ui .button-primary.green:active {
+	background: #5aab5a;
+	border-color: #419641;
+	-webkit-box-shadow: inset 0 2px 0 #419641;
+	box-shadow: inset 0 2px 0 #419641;
+}
+
+.wp-core-ui .button-primary.red {
+	background: #d9534f;
+	border-color: #d9534f #c9302c #c9302c;
+	-webkit-box-shadow: 0 1px 0 #c9302c;
+	box-shadow: 0 1px 0 #c9302c;
+	text-shadow: 0 -1px 1px #c9302c, 1px 0 1px #c9302c, 0 1px 1px #c9302c, -1px 0 1px #c9302c;
+}
+
+.wp-core-ui .button-primary.red:hover {
+	background: #fb716d;
+	border-color: #c9302c;
+}
+
+.wp-core-ui .button-primary.red:focus {
+	-webkit-box-shadow: 0 1px 0 #c9302c, 0 0 2px 1px #c9302c;
+	box-shadow: 0 1px 0 #c9302c, 0 0 2px 1px #c9302c;
+}
+
+.wp-core-ui .button-primary.red:active {
+	background: #cd4f4b;
+	border-color: #c9302c;
+	-webkit-box-shadow: inset 0 2px 0 #c9302c;
+	box-shadow: inset 0 2px 0 #c9302c;
+}
+
+.wp-core-ui .button-primary.purple {
+	background: #8e52a6;
+	border-color: #8e52a6 #653678 #653678;
+	-webkit-box-shadow: 0 1px 0 #653678;
+	box-shadow: 0 1px 0 #653678;
+	text-shadow: 0 -1px 1px #653678, 1px 0 1px #653678, 0 1px 1px #653678, -1px 0 1px #653678;
+}
+
+.wp-core-ui .button-primary.purple:hover {
+	background: #9b59b6;
+	border-color: #653678;
+}
+
+.wp-core-ui .button-primary.purple:focus {
+	-webkit-box-shadow: 0 1px 0 #653678, 0 0 2px 1px #653678;
+	box-shadow: 0 1px 0 #653678, 0 0 2px 1px #653678;
+}
+
+.wp-core-ui .button-primary.purple:active {
+	background: #7f4895;
+	border-color: #653678;
+	-webkit-box-shadow: inset 0 2px 0 #653678;
+	box-shadow: inset 0 2px 0 #653678;
+}
+
+/* REDUX */
+.redux-container{
+	overflow: visible;
+}
+.redux-container .redux-main .pe-hide-section .data-full li{
+	width: auto;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+/* Theme Options message */
+.pe-message-customize{
+	background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 1px 12px;
+    padding-right: 38px;
+    z-index: 9999;
+    margin: 0;
+    color: #444;
+    font-size: 14px;
+    line-height: 1.4em;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: none;
+    position: relative;
+}
+.pe-message-customize:after{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 19px 0 19px 20px;
+    border-color: transparent transparent transparent #ff0000;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.pe-message-customize p{
+      margin: .5em 0;
+      padding: 2px;
+}
+.pe-message-customize a{
+	text-decoration: none;
+}
+.pe-notice a{
+	text-decoration: none;
+}
+
+/* hide redux templates */
+
+.redux-templates-insert-library-button,
+option[value*="redux-templates"],
+.editor-block-list-item-redux-library {
+	display: none !important;
+}

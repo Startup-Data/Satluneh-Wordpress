@@ -1,0 +1,45 @@
+/*
+Theme Name: PE Terraclassic
+Theme URI: https://www.pixelemu.com/wordpress-themes/i/244-terraclassic
+Author: PixelEmu
+Author URI: https://pixelemu.com
+Description: Classified ads theme for WordPress created with TerraClassifieds plugin
+Version: 1.08
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, microformats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready
+Text Domain: pe-terraclassic
+*/
+
+/* All theme styles you will find in LESS files. Please check 'less' directory. */
+
+/* Below classes are provided for Theme Check plugin purpose only, you can find proper styles in '*.less' files */
+.bypostauthor {
+}
+
+.wp-caption {
+}
+
+.wp-caption-text {
+}
+
+.gallery-caption {
+}
+
+.sticky {
+}
+
+.alignright {
+}
+
+.alignleft {
+}
+
+.aligncenter {
+}
+
+.screen-reader-text {
+}
+
+/* You can add here your custom styles */
+

@@ -1,0 +1,507 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// RESPONSIVE
+//------------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// < 1600px
+// ---------------------------------------------------------------
+
+@media (max-width: @pullresponsiveSwitch) {
+	.pull-right-responsive() {
+		text-align: right;
+		.pull-left {
+			float: right !important;
+		}
+		.pull-right {
+			float: left !important;
+		}
+		ul:not([class]),
+		ul.color,
+		ul.color2 {
+			li:not([class]) {
+				padding: 0 30px 0 0;
+				&:before {
+					left: auto;
+					right: 10px;
+				}
+			}
+		}
+	}
+
+	.pull-left-responsive() {
+		text-align: left;
+		.pull-left {
+			float: left !important;
+		}
+		.pull-right {
+			float: right !important;
+		}
+		ul:not([class]),
+		ul.color,
+		ul.color2 {
+			li:not([class]) {
+				padding: 0 0 0 30px;
+				&:before {
+					right: auto;
+					left: 10px;
+				}
+			}
+		}
+	}
+
+	.pull-right-responsive {
+		.pull-right-responsive();
+	}
+
+	.rtl .pull-right-responsive {
+		.pull-left-responsive();
+	}
+
+	.pull-left-responsive {
+		.pull-left-responsive();
+	}
+
+	.rtl .pull-left-responsive {
+		.pull-right-responsive();
+	}
+
+}
+
+// ---------------------------------------------------------------
+// Responsive Breakpoint
+// ---------------------------------------------------------------
+
+@media (max-width: @responsiveBreakpoint) {
+	#pe-login:before {
+		display: none;
+	}
+	#pe-header-sidebar{
+	  #pe-main-menu{
+	    display:none;
+	  }
+	}
+	#pe-main #pe-bar-right .toggle-nav.open{
+    width: 30px;
+    height: 48px;
+    font-size: 28px;
+    line-height: 48px;
+	}
+	#pe-offcanvas-button{
+    margin-top: 0;
+    margin-bottom: 0;
+	}
+	#pe-bar-right{
+	  padding-top:5px;
+	  .pe-top-bar,
+	  .pe-top-bar2{
+	    margin: 8px 0 0;
+	  }
+	}
+	ul.terraclassifieds-usermenu .nav-dropdown{
+	  right: 0;
+	  left: auto;
+	}
+	#pe-bar-right .pe-top-bar2 .pe-widget:last-of-type{
+	  padding-left:0;
+	}
+	#pe-bar-right .pe-top-bar2 .pe-widget .menu > .menu-item > a{
+	  margin-left:0;
+	  margin-right:0;
+	}
+}
+
+// ---------------------------------------------------------------
+// < 1200px + baseSpace ~ 1230px @screen-lg
+// ---------------------------------------------------------------
+
+@media (max-width: @screen-lg) {
+
+	#pe-main .pe-wcag-settings .page-width {
+		display: none;
+	}
+  #pe-logo-nav .full {
+      padding-left: @baseSpace / 2;
+      padding-right: @baseSpace / 2;
+  }
+}
+
+// ---------------------------------------------------------------
+// < 992px
+// ---------------------------------------------------------------
+
+@media (max-width: @screen-md) {
+	//global
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	.btn {
+		-webkit-appearance: none;
+	}
+
+	input, select, textarea {
+		max-width: 100%;
+	}
+
+	//height suffix
+	.pe-widget[class*='height'] {
+		min-height: 0 !important;
+	}
+
+	//table
+	table,
+	#pe-main .pe-table {
+		float: none;
+		width: 100% !important;
+	}
+
+	//blog (columns)
+	.pe-blog-row {
+		margin-top: @baseSpace;
+	}
+
+	.pe-blog-row.cols-2,
+	.pe-blog-row.cols-3,
+	.pe-blog-row.cols-4 {
+		.blog-col {
+			margin: 0 0 @baseSpace;
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+
+	//author
+	.pe-author-in,
+	.pe-author-avatar,
+	.pe-author-details {
+		display: block;
+	}
+
+	.pe-author-avatar {
+		padding: 0 0 20px;
+	}
+
+	//comments
+	.pe-comments {
+		.comment-body,
+		.comment-avatar,
+		.comment-details {
+			display: block;
+		}
+		.comment-avatar {
+			padding: 0 0 20px;
+		}
+		.comment-list > li > ul.children {
+			padding-left: 20px;
+		}
+	}
+
+	.rtl .pe-comments .comment-list > li > ul.children {
+		padding-left: 0;
+		padding-right: 20px;
+	}
+
+	//members
+	.pe-row.single-member {
+		.pe-member-contact,
+		.pe-socials {
+			margin-top: @baseSpace;
+		}
+	}
+
+	.pe-widget-members {
+		.span1 .member,
+		.span2 .member,
+		.span3 .member,
+		.span4 .member,
+		.span5 .member,
+		.span6 .member,
+		.span7 .member,
+		.span8 .member,
+		.span9 .member,
+		.span10 .member {
+			width: 100%;
+		}
+	}
+
+	//best features
+	/*.pe-best-features {
+		.pe-best-features-in {
+			margin-top: -(@baseSpace * 2);
+		}
+	}*/
+
+	.pe-best-features.view-1.img.second .first-half {
+		text-align: initial;
+	}
+
+	.pe-best-features.view-1.img.second {
+		.image-col {
+			margin-top: 0;
+		}
+	}
+	.pe-best-features.style2 .pe-best-features-in .pe-row .pe-items-outer .pe-item .pe-icon{
+	  width: 25%;
+	}
+
+	.pe-contact-form {
+		max-width: 100%;
+		.pe-contact-intro-text {
+			max-width: 100%;
+		}
+		.pe-form-group {
+			width: 100% !important;
+			&.pe-button {
+				text-align: center;
+			}
+		}
+	}
+
+	//pe easy slider
+	.pe-logo-slider .slider-carousel-outer.carousel ul.thumbnails {
+		width: 20% !important;
+	}
+
+
+	//pe images carousel
+	.pe-widget-img-carousel .desc-left .pe-carousel-flipster,
+	.pe-widget-img-carousel .desc-right .pe-carousel-flipster,
+	.pe-widget-img-carousel .desc-left .pe-carousel-description,
+	.pe-widget-img-carousel .desc-right .pe-carousel-description {
+		width: 100%;
+	}
+	.pe-widget-img-carousel .desc-left .pe-carousel-description,
+	.pe-widget-img-carousel .desc-right .pe-carousel-description {
+		padding: @baseSpace 0 0;
+	}
+}
+
+// ---------------------------------------------------------------
+// < 768px
+// ---------------------------------------------------------------
+
+@media (max-width: @screen-sm) {
+
+	//blog effect
+	#pe-main .pe-blog-row figure.effect {
+		overflow: visible;
+		figcaption {
+			position: static;
+			background: none;
+			.opacity(1);
+			.intro {
+				padding: @base30 0 0;
+				color: @bodyFontColor;
+				&:before,
+				&:after {
+					display: none;
+				}
+			}
+			.pe-article-read-more .readmore {
+				color: inherit;
+				background: none;
+				border: 2px solid @border;
+				&:hover,
+				&:focus {
+					color: inherit;
+					border-color: darken(@border, 20%);
+				}
+			}
+		}
+	}
+
+	#pe-copyrights #pe-copyrights-info,
+	#pe-copyrights #pixelemu-copyrights {
+		display: block;
+	}
+
+	#pe-copyrights #pe-copyrights-info + #pixelemu-copyrights {
+		border: none;
+		padding: 0;
+		margin: 5px 0 0;
+	}
+
+	//headline shortcode
+	.cd-headline[style] {
+		font-size: 20px !important;
+	}
+
+	//gallery shortcode
+	.gallery {
+		&.gallery-columns-2,
+		&.gallery-columns-3,
+		&.gallery-columns-4,
+		&.gallery-columns-5,
+		&.gallery-columns-6,
+		&.gallery-columns-7,
+		&.gallery-columns-8,
+		&.gallery-columns-9 {
+			.gallery-item {
+				width: 100%;
+			}
+		}
+	}
+
+	.pe-widget.pe-title-left h3.pe-title,
+	.pe-widget.pe-title-right h3.pe-title {
+		float: none;
+		width: auto;
+		text-align: initial;
+		margin: 0 0 35px;
+	}
+
+	.pe-widget.pe-title-left h3.pe-title + div,
+	.pe-widget.pe-title-right h3.pe-title + div {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+
+	//pe easy slider
+	.pe-logo-slider .slider-carousel-outer.carousel ul.thumbnails {
+		width: 20% !important;
+	}
+  
+  #pe-main .terraclassifieds-search form button{
+    margin-left: 0;
+  }
+}
+
+// ---------------------------------------------------------------
+// < 480px
+// ---------------------------------------------------------------
+
+@media (max-width: @screen-xs) {
+
+	/*#pe-bar-left{
+		max-width: 75%;
+	}
+	#pe-bar-right{
+	  max-width: 25%;
+	}*/
+
+	#pe-logo-nav .container-fluid.full,
+	#pe-copyrights .container-fluid.full,
+	#pe-logo-nav .pe-container.full,
+	#pe-copyrights .pe-container.full {
+		padding-left: (@baseSpace /2);
+		padding-right: (@baseSpace /2);
+	}
+
+	#pe-copyrights-info,
+	#pixelemu-copyrights {
+		text-align: center;
+		float: none !important;
+	}
+
+	#pe-copyrights #pixelemu-copyrights {
+		border: none;
+		padding: 0;
+	}
+
+	//headline shortcode
+	#pe-main .cd-headline {
+		font-size: 1em !important;
+	}
+
+	#pe-main ul.pe-wcag-settings {
+		> li {
+			float: none;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0;
+		}
+		.separator {
+			display: none;
+		}
+	}
+  .pe-contact-form .pe-button .btn{
+    padding-left: 5px;
+    padding-right: 5px;
+    width:100%;
+  }
+  .archive .pe-blog-row:not(.style-effect) .blog-col.col-sm-12 .pe-image {
+      max-width: 100%;
+  }
+  .pe-tabs .pe-tab-links li{
+    width:100%;
+    padding-right:0;
+    a{
+      padding: 15px 0;
+    }
+  }
+  .pe-widget.pe-intro-text .pe-widget-in{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .flipster__container .flipster__item img{
+    max-width: 250px;
+  }
+  .terraclassifieds-search #searchform .search-field, #pe-search-form #searchform .search-field{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .terraclassifieds-search #searchform button, #pe-search-form #searchform button{
+    width: 100%;
+  }
+  #pe-bar-left{
+    width: 100%;
+    text-align: center;
+  }
+  #pe-bar-right{
+    width: 100%;
+  }
+  .menu-standard #pe-offcanvas-button{
+    float: right;
+  }
+  ul.terraclassifieds-usermenu .nav-dropdown{
+    left:0;
+    right: auto;
+  }
+}
+
+// ---------------------------------------------------------------
+// < 320px @screen-mi
+// ---------------------------------------------------------------
+@media (max-width: 320px) {
+  #pe-bar-right .pe-top-bar2 .pe-widget .menu > .menu-item > a{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  #pe-offcanvas-button{
+    margin-left: 5px;
+  }
+}
+
+
+// ---------------------------------------------------------------
+// >= 768px
+// ---------------------------------------------------------------
+@media (min-width: @screen-sm) {
+  #pe-header{
+    .cd-headline {
+        font-size: 4.4rem;
+        font-weight: 300;
+    } 
+  }
+}
+
+// ---------------------------------------------------------------
+// >= 1200px + baseSpace ~ 1230px @screen-lg
+// ---------------------------------------------------------------
+@media (min-width: @screen-lg) {
+  #pe-header{
+    .cd-headline {
+      font-size: 6rem;
+      line-height: 1.1;
+    }
+  }
+}

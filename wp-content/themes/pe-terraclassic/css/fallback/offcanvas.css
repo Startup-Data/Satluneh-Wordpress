@@ -1,0 +1,98 @@
+#pe-offcanvas {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  max-width: 100%;
+  top: 0;
+  z-index: 900;
+  overflow: hidden;
+}
+#pe-offcanvas.off-canvas-right {
+  -webkit-transition: right 300ms ease-in-out;
+  transition: right 300ms ease-in-out;
+  right: -300px;
+  left: auto;
+}
+#pe-offcanvas.off-canvas-left {
+  -webkit-transition: left 300ms ease-in-out;
+  transition: left 300ms ease-in-out;
+  left: -300px;
+  right: auto;
+}
+.off-canvas-opened #pe-offcanvas.off-canvas-right {
+  right: 0;
+  overflow-y: auto;
+}
+.off-canvas-opened #pe-offcanvas.off-canvas-left {
+  left: 0;
+  overflow-y: auto;
+}
+.off-canvas #pe-main {
+  -webkit-transition: filter 300ms ease-in-out;
+  transition: filter 300ms ease-in-out;
+}
+.off-canvas-opened #pe-main {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+#pe-offcanvas {
+  color: #ffffff;
+  background: #333333;
+}
+#pe-offcanvas-toolbar {
+  padding: 15px;
+}
+#pe-offcanvas-toolbar.off-canvas-left {
+  text-align: right;
+}
+#pe-offcanvas .toggle-nav.close {
+  cursor: pointer;
+}
+.x-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+.x-icon::before,
+.x-icon::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #ffffff;
+}
+.x-icon::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.x-icon::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.x-icon:hover:before,
+.x-icon:hover:after {
+  background: #ffffff;
+}
+#pe-offcanvas-content {
+  padding: 15px;
+}
+#pe-main .toggle-nav.open {
+  cursor: pointer;
+  display: block;
+  color: #454545;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+}
+#pe-main .toggle-nav.open:hover,
+#pe-main .toggle-nav.open.active {
+  color: #039ad2;
+}
+#pe-offcanvas h3.pe-title {
+  color: #ffffff;
+}
+/*# sourceMappingURL=https://watermark.pixelemu.com/pe-terraclassic/wp-content/uploads/pe-terraclassic/maps/offcanvas.map */

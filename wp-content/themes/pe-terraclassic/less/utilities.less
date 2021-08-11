@@ -1,0 +1,512 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// UTILITIES (In most cases, compatible with Bootstrap 3)
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// Floats
+// ---------------------------------------------------------------
+
+.cf() {
+	&:before,
+	&:after {
+		content: ' ';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.clearfix {
+	.cf();
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+//important in order to override font awesome styles
+.pull-right {
+	float: right !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+// ---------------------------------------------------------------
+// Toggling content
+// ---------------------------------------------------------------
+
+.hide,
+.hidden {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.text-hide {
+	font: ~"0/0" a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+// ---------------------------------------------------------------
+// Text
+// ---------------------------------------------------------------
+
+//Reset font weight
+.no-bold {
+	font-weight: normal;
+	b {
+		font-weight: normal;
+	}
+}
+
+// Alignment
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+.title-left .pe-title {
+	text-align: left;
+}
+
+.title-right .pe-title {
+	text-align: right;
+}
+
+.title-center .pe-title {
+	text-align: center;
+}
+
+// Transformation
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+// Text overflow
+// Requires inline-block or block for proper styling
+.text-overflow() {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// Responsive-utilities
+.responsive-visibility() {
+	display: block !important;
+	table& {
+		display: table !important;
+	}
+	tr& {
+		display: table-row !important;
+	}
+	th&,
+	td& {
+		display: table-cell !important;
+	}
+}
+
+.responsive-invisibility() {
+	display: none !important;
+}
+
+// Visibility utilities
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+	.responsive-invisibility();
+}
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+	display: none !important;
+}
+
+.visible-xs {
+	@media (max-width: @screen-xs-max) {
+		.responsive-visibility();
+	}
+}
+
+.visible-xs-block {
+	@media (max-width: @screen-xs-max) {
+		display: block !important;
+	}
+}
+
+.visible-xs-inline {
+	@media (max-width: @screen-xs-max) {
+		display: inline !important;
+	}
+}
+
+.visible-xs-inline-block {
+	@media (max-width: @screen-xs-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-sm {
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		.responsive-visibility();
+	}
+}
+
+.visible-sm-block {
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		display: block !important;
+	}
+}
+
+.visible-sm-inline {
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		display: inline !important;
+	}
+}
+
+.visible-sm-inline-block {
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-md {
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		.responsive-visibility();
+	}
+}
+
+.visible-md-block {
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		display: block !important;
+	}
+}
+
+.visible-md-inline {
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		display: inline !important;
+	}
+}
+
+.visible-md-inline-block {
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		display: inline-block !important;
+	}
+}
+
+.visible-lg {
+	@media (min-width: @screen-lg-min) {
+		.responsive-visibility();
+	}
+}
+
+.visible-lg-block {
+	@media (min-width: @screen-lg-min) {
+		display: block !important;
+	}
+}
+
+.visible-lg-inline {
+	@media (min-width: @screen-lg-min) {
+		display: inline !important;
+	}
+}
+
+.visible-lg-inline-block {
+	@media (min-width: @screen-lg-min) {
+		display: inline-block !important;
+	}
+}
+
+.hidden-xs {
+	@media (max-width: @screen-xs-max) {
+		.responsive-invisibility();
+	}
+}
+
+.hidden-sm {
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		.responsive-invisibility();
+	}
+}
+
+.hidden-md {
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		.responsive-invisibility();
+	}
+}
+
+.hidden-lg {
+	@media (min-width: @screen-lg-min) {
+		.responsive-invisibility();
+	}
+}
+
+// Embeds responsive
+.embed-responsive {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 0;
+	overflow: hidden;
+	&:before {
+		display: block;
+		content: '';
+	}
+	.embed-responsive-item,
+	iframe,
+	embed,
+	object,
+	video {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		border: 0;
+	}
+}
+
+// Modifier class for 16:9 aspect ratio
+.embed-responsive-16by9:before {
+	padding-top: 56.25%;
+}
+
+// Modifier class for 4:3 aspect ratio
+.embed-responsive-4by3:before {
+	padding-top: 75%;
+}
+
+// Modifier class for custom ratio
+.embed-responsive-custom:before {
+	padding-top: 38%;
+}
+
+// Figures
+figure {
+	margin: 0;
+}
+
+// ---------------------------------------------------------------
+// Images
+// ---------------------------------------------------------------
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: none;
+}
+
+// Responsive images
+// Keep images from scaling beyond the width of their parents.
+.img-responsive(@display: block) {
+	display: @display;
+	max-width: 100%; // Part 1: Set a maximum relative to the parent
+	height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}
+
+// Retina image
+// Short retina mixin for setting background-image and -size. Note that the
+// spelling of `min--moz-device-pixel-ratio` is intentional.
+.img-retina(@file-1x; @file-2x; @width-1x; @height-1x) {
+	background-image: url("@{file-1x}");
+	@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (   min--moz-device-pixel-ratio: 2), only screen and (     -o-min-device-pixel-ratio: 2/1), only screen and (        min-device-pixel-ratio: 2), only screen and (                min-resolution: 192dpi), only screen and (                min-resolution: 2dppx) {
+		background-image: url("@{file-2x}");
+		background-size: @width-1x @height-1x;
+	}
+}
+
+.img-responsive {
+	.img-responsive();
+}
+
+// Perfect circle
+.img-circle,
+.pe-img-circle {
+	.border-radius(50%); // set radius in percents
+}
+
+.img-polaroid,
+.pe-img-polaroid {
+	background: @white;
+	padding: 4px;
+	border: 1px solid @border;
+}
+
+.img-rounded,
+.pe-img-rounded {
+	.border-radius(5px);
+}
+
+// Only display content to screen readers
+// See: http://a11yproject.com/posts/how-to-hide-content/
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+	font-size: @bodyFontSize;
+	background:#000;
+	color:#fff;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+// Credit: HTML5 Boilerplate
+
+.sr-only-focusable {
+	&:active,
+	&:focus {
+		position: static;
+		width: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+		clip: auto;
+	}
+}
+
+.screen-reader-text:focus {
+	background-color: #fff;
+	border-radius: 3px;
+	clip: auto !important;
+	color: #000;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+}
+
+// iOS "clickable elements" fix for role="button"
+// Fixes "clickability" issue (and more generally, the firing of events such as focus as well)
+// for traditionally non-focusable elements with role="button"
+// see https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+
+[role="button"] {
+	cursor: pointer;
+}
+
+// ---------------------------------------------------------------
+// FontAwesome
+// ---------------------------------------------------------------
+
+.fa() {
+	display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+	font-variant: normal;
+	font-style: normal;
+	font-size: inherit;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	letter-spacing: 0;
+}
+
+// ---------------------------------------------------------------
+// Line height in pixels
+// ---------------------------------------------------------------
+
+.line-height-space(@font-size: 10px, @line-height: 1.5) {
+	@foo: ceil((@font-size * @line-height) - @font-size);
+	return: @foo;
+}
+
+// ---------------------------------------------------------------
+// Animations opacity
+// ---------------------------------------------------------------
+
+.pe-animation {
+	.opacity(0);
+}
+
+.pe-animation.animated {
+	.opacity(1);
+}
+
+// ---------------------------------------------------------------
+// background image
+// ---------------------------------------------------------------
+
+.bg-image(@a) when ( isstring(@a) ) {
+	background-image: url(@a);
+}

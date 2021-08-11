@@ -1,0 +1,133 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+// ---------------------------------------------------------------
+// IMPORT
+// ---------------------------------------------------------------
+@import "simple-mixins.less";
+//theme mixins
+@import "variables.less"; //theme variables
+
+// ---------------------------------------------------------------
+// OFFCANVAS
+// ---------------------------------------------------------------
+
+#pe-offcanvas {
+	position: fixed;
+	height: 100%;
+	width: unit(@offcanvasWidth, px);
+	max-width: 100%;
+	top: 0;
+	z-index: 900;
+	overflow: hidden;
+}
+
+#pe-offcanvas.off-canvas-right {
+	.transition(right 300ms ease-in-out);
+	right: -(unit(@offcanvasWidth, px));
+	left: auto;
+}
+
+#pe-offcanvas.off-canvas-left {
+	.transition(left 300ms ease-in-out);
+	left: -(unit(@offcanvasWidth, px));
+	right: auto;
+}
+
+.off-canvas-opened #pe-offcanvas.off-canvas-right {
+	right: 0;
+	overflow-y: auto;
+}
+
+.off-canvas-opened #pe-offcanvas.off-canvas-left {
+	left: 0;
+	overflow-y: auto;
+}
+
+.off-canvas {
+	#pe-main {
+		.transition(filter 300ms ease-in-out);
+	}
+}
+
+.off-canvas-opened #pe-main {
+	.blur(2px);
+}
+
+//background and text
+#pe-offcanvas {
+	color: @offcanvasText;
+	background: @offcanvasBackground;
+}
+
+#pe-offcanvas-toolbar {
+	padding: 15px;
+}
+
+#pe-offcanvas-toolbar.off-canvas-left {
+	text-align: right;
+}
+
+//close button
+#pe-offcanvas .toggle-nav.close {
+	cursor: pointer;
+}
+
+.x-icon {
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	&::before,
+	&::after {
+		content: '';
+		position: absolute;
+		height: 1px;
+		width: 100%;
+		top: 50%;
+		left: 0;
+		margin-top: -1px;
+		background: @offcanvasText;
+	}
+	&::before {
+		.rotate(45deg);
+	}
+	&::after {
+		.rotate(-45deg);
+	}
+	&:hover {
+		&:before,
+		&:after {
+			background: lighten(@offcanvasText, 20%);
+		}
+	}
+}
+
+#pe-offcanvas-content {
+	padding: 15px;
+}
+
+//offcanvas open
+#pe-main .toggle-nav.open {
+	cursor: pointer;
+	display: block;
+	color: @offcanvasIcon;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	&:hover,
+	&.active {
+		color: @offcanvasIconHover;
+	}
+}
+
+// ---------------------------------------------------------------
+// Overrides
+// ---------------------------------------------------------------
+
+#pe-offcanvas h3.pe-title {
+	color: @offcanvasWidgetTitle;
+}

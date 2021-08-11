@@ -1,0 +1,739 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2019-11-13 13:43+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: pe-beauty-center-plugin.php:56 pe-beauty-center-plugin.php:81
+msgid "Pixelemu News"
+msgstr ""
+
+#: pe-beauty-center-plugin.php:90
+msgid "Pixelemu WordPress Basics"
+msgstr ""
+
+#: pe-beauty-center-plugin.php:99
+msgid "Pixelemu Tutorials"
+msgstr ""
+
+#: shortcodes.php:36
+msgid "Grid"
+msgstr ""
+
+#: shortcodes.php:37
+msgid "This shortcode allows you to display a grid with row and columns."
+msgstr ""
+
+#: shortcodes.php:39
+msgid "number 1 or 0"
+msgstr ""
+
+#: shortcodes.php:39
+msgid ""
+"Enter '1' to enable or '0' to disable the horizontal gutter between columns."
+msgstr ""
+
+#: shortcodes.php:40 shortcodes.php:52 shortcodes.php:69
+msgid "custom css class"
+msgstr ""
+
+#: shortcodes.php:40
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the row."
+msgstr ""
+
+#: shortcodes.php:47
+msgid "Column"
+msgstr ""
+
+#: shortcodes.php:48
+msgid "This shortcode allows you to display a column in the grid."
+msgstr ""
+
+#: shortcodes.php:50 shortcodes.php:82 shortcodes.php:94
+msgid "number 1 to 12"
+msgstr ""
+
+#: shortcodes.php:50
+msgid ""
+"Enter a number from 1 to 12. It controls the width of the column according "
+"to the Bootstrap grid size. The sum of the numbers in a row should be equal "
+"to 12."
+msgstr ""
+
+#: shortcodes.php:51
+msgid "xs, md or lg"
+msgstr ""
+
+#: shortcodes.php:51
+msgid ""
+"Enter a class name to control the column size for specified devices. 'xs' - "
+"for extra small devices (<768px), 'md' - for medium devices (≥992px), 'lg' - "
+"for large devices (≥1200px)."
+msgstr ""
+
+#: shortcodes.php:52
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the column."
+msgstr ""
+
+#: shortcodes.php:64 custom-posts/testimonial-post-type.php:7
+msgid "Testimonial"
+msgstr ""
+
+#: shortcodes.php:65
+msgid "This shortcode allows you to display a testimonial."
+msgstr ""
+
+#: shortcodes.php:67 shortcodes.php:68
+msgid "text or empty"
+msgstr ""
+
+#: shortcodes.php:67
+msgid "Enter a title or author name for the testimonial."
+msgstr ""
+
+#: shortcodes.php:68
+msgid "Enter a subtitle or author description for the testimonial."
+msgstr ""
+
+#: shortcodes.php:69
+msgid ""
+"Enter a custom CSS class name. Such a class may be useful to add custom "
+"styles for the testimonial."
+msgstr ""
+
+#: shortcodes.php:76
+msgid "Video"
+msgstr ""
+
+#: shortcodes.php:77
+msgid "This shortcode allows you to display a video."
+msgstr ""
+
+#: shortcodes.php:79
+msgid "ID of video"
+msgstr ""
+
+#: shortcodes.php:79
+msgid ""
+"Enter an ID of the video. An example ID for a YouTube video is: 'jYjw-"
+"GDPZt8'. An example ID for a Vimeo video is: '6199030'."
+msgstr ""
+
+#: shortcodes.php:80
+msgid "youtube / vimeo"
+msgstr ""
+
+#: shortcodes.php:80
+msgid ""
+"Enter a name of the video host service. 'youtube' - for a Youtube video. "
+"'vimeo' - for a Vimeo video."
+msgstr ""
+
+#: shortcodes.php:81
+msgid "1 / 0"
+msgstr ""
+
+#: shortcodes.php:81
+msgid "Enter '1' to enable or '0' to disable the fullscreen mode."
+msgstr ""
+
+#: shortcodes.php:82
+msgid ""
+"Enter a number from 1 to 12. It controls the width of the video according to "
+"the Bootstrap grid size."
+msgstr ""
+
+#: shortcodes.php:89
+msgid "Image Gallery"
+msgstr ""
+
+#: shortcodes.php:90
+msgid "This shortcode allows you to display an image gallery."
+msgstr ""
+
+#: shortcodes.php:92
+msgid ""
+"none / ID / author / title / date / modified / parent / rand / "
+"comment_count / menu_order / post__in"
+msgstr ""
+
+#: shortcodes.php:92
+msgid ""
+"Enter an image order option. Allowed order options: 'none', 'ID', 'author', "
+"'title', 'date', 'modified', 'parent', 'rand', 'comment_count', "
+"'menu_order', 'post__in'."
+msgstr ""
+
+#: shortcodes.php:93
+msgid "image ID"
+msgstr ""
+
+#: shortcodes.php:93
+msgid "Enter an image ID. You will find the ID number in Media Manager."
+msgstr ""
+
+#: shortcodes.php:94
+msgid "Enter a number from 1 to 12 according to the Bootstrap grid size."
+msgstr ""
+
+#: shortcodes.php:95
+msgid "full / medium / thumbnail (image size)"
+msgstr ""
+
+#: shortcodes.php:95
+msgid ""
+"Enter an image thumbnail name. Default options: 'full', 'medium', "
+"'thumbnail'."
+msgstr ""
+
+#: shortcodes.php:96
+msgid "enable / disable"
+msgstr ""
+
+#: shortcodes.php:96
+msgid ""
+"Enter 'enable' to enable or 'disable' to disable displaying of full-sized "
+"image in modal window."
+msgstr ""
+
+#: shortcodes.php:103
+msgid "Accordion"
+msgstr ""
+
+#: shortcodes.php:104
+msgid "This shortcode allows you to display accordion panels."
+msgstr ""
+
+#: shortcodes.php:110
+msgid "Accordion item"
+msgstr ""
+
+#: shortcodes.php:111
+msgid ""
+"This shortcode displays an accordion item. It must be placed inside the "
+"'Accordion', do not drag & drop the 'Accordion item' outside the "
+"'Accordion', otherwise it will not work properly."
+msgstr ""
+
+#: shortcodes.php:113 shortcodes.php:131 shortcodes.php:142 shortcodes.php:153
+#: shortcodes.php:154 shortcodes.php:164 shortcodes.php:165 shortcodes.php:166
+#: shortcodes.php:167 shortcodes.php:168 shortcodes.php:169 shortcodes.php:170
+#: shortcodes.php:171 shortcodes.php:181 shortcodes.php:182 shortcodes.php:183
+#: shortcodes.php:184 shortcodes.php:194 shortcodes.php:195 shortcodes.php:196
+#: shortcodes.php:197 shortcodes.php:207 shortcodes.php:208 shortcodes.php:209
+#: shortcodes.php:210 shortcodes.php:220 shortcodes.php:221 shortcodes.php:222
+msgid "text"
+msgstr ""
+
+#: shortcodes.php:113
+msgid "Enter an accordion title."
+msgstr ""
+
+#: shortcodes.php:114
+msgid "number 1 for active panel"
+msgstr ""
+
+#: shortcodes.php:114
+msgid ""
+"Enter '1' for the 'Accordion item' which you want to be activated on start."
+msgstr ""
+
+#: shortcodes.php:121
+msgid "Tabs"
+msgstr ""
+
+#: shortcodes.php:122
+msgid "This shortcode allows you to display tabs."
+msgstr ""
+
+#: shortcodes.php:128
+msgid "Tab item"
+msgstr ""
+
+#: shortcodes.php:129
+msgid ""
+"This shortcode displays a tab item. It must be placed inside the 'Tabs', do "
+"not drag & drop the 'Tab item' outside the 'Tabs', otherwise it will not "
+"work properly."
+msgstr ""
+
+#: shortcodes.php:131
+msgid "Enter a tab title."
+msgstr ""
+
+#: shortcodes.php:132
+msgid "text active for active panel"
+msgstr ""
+
+#: shortcodes.php:132
+msgid ""
+"Enter 'active' for the 'Tab item' which you want to be activated on start."
+msgstr ""
+
+#: shortcodes.php:139
+msgid "Pricing Table"
+msgstr ""
+
+#: shortcodes.php:140
+msgid "This shortcode allows you to display Pricing Table."
+msgstr ""
+
+#: shortcodes.php:142
+msgid "Enter an table title."
+msgstr ""
+
+#: shortcodes.php:143
+msgid "width in PX or %"
+msgstr ""
+
+#: shortcodes.php:143
+msgid "Enter the table size (width) in px or %. For example: '33%'."
+msgstr ""
+
+#: shortcodes.php:150
+msgid "Table row"
+msgstr ""
+
+#: shortcodes.php:151
+msgid ""
+"This shortcode displays an table row. It must be placed inside the 'Pricing "
+"Table', do not drag & drop the 'Table row' outside the 'Pricing Table', "
+"otherwise it will not work properly."
+msgstr ""
+
+#: shortcodes.php:153
+msgid "Enter text which will be visible in table row."
+msgstr ""
+
+#: shortcodes.php:154
+msgid "Enter price which will be visible in table row."
+msgstr ""
+
+#: shortcodes.php:161
+msgid "Box"
+msgstr ""
+
+#: shortcodes.php:162
+msgid "This shortcode displays white or dark box with image"
+msgstr ""
+
+#: shortcodes.php:164
+msgid "Enter text 'white' for white design or 'dark' for dark design."
+msgstr ""
+
+#: shortcodes.php:165
+msgid ""
+"Enter text 'icon1', 'icon2' or 'icon3' to display icons (for white design "
+"only)."
+msgstr ""
+
+#: shortcodes.php:166 shortcodes.php:182 shortcodes.php:195 shortcodes.php:208
+#: shortcodes.php:221
+msgid "Enter valid URL address with http://"
+msgstr ""
+
+#: shortcodes.php:167 shortcodes.php:181 shortcodes.php:194 shortcodes.php:207
+#: shortcodes.php:220
+msgid "Enter image URL address. You will find URL in WordPress Media Manager."
+msgstr ""
+
+#: shortcodes.php:168
+msgid "Enter alt attribute for image."
+msgstr ""
+
+#: shortcodes.php:169
+msgid "Enter text which will be used for box title."
+msgstr ""
+
+#: shortcodes.php:170
+msgid "Enter text which will be used for box subtitle (for white design only)."
+msgstr ""
+
+#: shortcodes.php:171
+msgid "Enter text which will be displayed in the box (for dark design only)."
+msgstr ""
+
+#: shortcodes.php:178
+msgid "Animated box 1"
+msgstr ""
+
+#: shortcodes.php:179 shortcodes.php:192 shortcodes.php:205 shortcodes.php:218
+msgid ""
+"This shortcode allows you to display an image and its description with "
+"animated CSS3 effect."
+msgstr ""
+
+#: shortcodes.php:183 shortcodes.php:196 shortcodes.php:209 shortcodes.php:222
+msgid "Enter title text."
+msgstr ""
+
+#: shortcodes.php:184 shortcodes.php:197 shortcodes.php:210
+msgid "Enter subtitle text."
+msgstr ""
+
+#: shortcodes.php:191
+msgid "Animated box 2"
+msgstr ""
+
+#: shortcodes.php:204
+msgid "Animated box 3"
+msgstr ""
+
+#: shortcodes.php:217
+msgid "Animated box 4"
+msgstr ""
+
+#: shortcodes.php:233
+msgid "Shortcodes generator"
+msgstr ""
+
+#: shortcodes.php:234
+msgid "Drag & drop or click the item to create a shortcode."
+msgstr ""
+
+#: shortcodes.php:265
+msgid "Add another item"
+msgstr ""
+
+#: shortcodes.php:268
+msgid "Duplicate item"
+msgstr ""
+
+#: shortcodes.php:270
+msgid "Remove item"
+msgstr ""
+
+#: shortcodes.php:278
+msgid "Drop area"
+msgstr ""
+
+#: shortcodes.php:308
+msgid "Text"
+msgstr ""
+
+#: shortcodes.php:311
+msgid "Set parameters"
+msgstr ""
+
+#: shortcodes.php:315
+msgid "Show example"
+msgstr ""
+
+#: shortcodes.php:327 shortcodes.php:333
+msgid "Add shortcodes"
+msgstr ""
+
+#: shortcodes.php:341
+msgid "Shortcode preview"
+msgstr ""
+
+#: shortcodes.php:343
+msgid "Use shortcode"
+msgstr ""
+
+#: shortcodes.php:344
+msgid "Copy to clipboard"
+msgstr ""
+
+#: shortcodes.php:345
+msgid "Reset"
+msgstr ""
+
+#: update.php:164
+msgid "Theme update: Can't check XML file."
+msgstr ""
+
+#: update.php:216
+#, php-format
+msgid "Update %1$s for %2$s theme is available"
+msgstr ""
+
+#: update.php:217
+#, php-format
+msgid "Your current version %s"
+msgstr ""
+
+#: update.php:220
+msgid "Check Changelog"
+msgstr ""
+
+#: update.php:223 update.php:240
+msgid "Get Update"
+msgstr ""
+
+#: update.php:238
+msgid ""
+"Theme and Plugin version may not be compatible. Please update the plugin to "
+"the latest version."
+msgstr ""
+
+#: update.php:239
+msgid "Theme:"
+msgstr ""
+
+#: update.php:239
+msgid "Plugin:"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:6 custom-posts/faq-post-type.php:7
+msgid "FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:8 custom-posts/member-post-type.php:8
+#: custom-posts/service-post-type.php:5
+#: custom-posts/testimonial-post-type.php:8
+msgid "Add New"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:9
+msgid "Add New FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:10
+msgid "Edit FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:11
+msgid "New FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:12
+msgid "View FAQ"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:13
+msgid "Search FAQs"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:14
+msgid "No FAQs found"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:15
+msgid "No FAQs found in Trash"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:31
+msgid "faqs"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:46
+msgid "Question"
+msgstr ""
+
+#: custom-posts/faq-post-type.php:47 custom-posts/member-post-type.php:49
+#: custom-posts/service-post-type.php:31
+msgid "Date"
+msgstr ""
+
+#: custom-posts/member-post-type.php:6
+msgid "Members"
+msgstr ""
+
+#: custom-posts/member-post-type.php:7 custom-posts/member-post-type.php:47
+msgid "Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:9
+msgid "Add New Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:10
+msgid "Edit Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:11
+msgid "New Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:12
+msgid "View Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:13
+msgid "Search Member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:14
+msgid "No Member found"
+msgstr ""
+
+#: custom-posts/member-post-type.php:15
+msgid "No Member found in Trash"
+msgstr ""
+
+#: custom-posts/member-post-type.php:31
+msgid "member"
+msgstr ""
+
+#: custom-posts/member-post-type.php:46
+msgid "ID"
+msgstr ""
+
+#: custom-posts/member-post-type.php:48
+msgid "Member Position"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "Services"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5 custom-posts/service-post-type.php:31
+msgid "Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "Add New Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "Edit Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "New Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "View Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "Search Service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "No Service found"
+msgstr ""
+
+#: custom-posts/service-post-type.php:5
+msgid "No Service found in Trash"
+msgstr ""
+
+#: custom-posts/service-post-type.php:7
+msgid "service"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19 custom-posts/service-post-type.php:31
+msgid "Service Category"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Search Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Popular Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "All Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Parent Service Category"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Parent Service Category:"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Edit Service Category"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Update Service Category"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Add New Service Category"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "New Service Category Name"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Separate Service Categories with commas"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Add or remove Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:19
+msgid "Choose from the most used Service Categories"
+msgstr ""
+
+#: custom-posts/service-post-type.php:21
+msgid "service-category"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:6
+msgid "Testimonials"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:9
+msgid "Add New Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:10
+msgid "Edit Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:11
+msgid "New Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:12
+msgid "View Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:13
+msgid "Search Testimonial"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:14
+msgid "No Testimonial found"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:15
+msgid "No Testimonial found in Trash"
+msgstr ""
+
+#: custom-posts/testimonial-post-type.php:31
+msgid "testimonial"
+msgstr ""
+
+#: shortcodes/image-gallery.php:201
+msgid "Image Modal"
+msgstr ""
+
+#: shortcodes/video-gallery.php:41
+msgid ""
+"If you want to use PE Video shortcode than it is required that you "
+"provide ..."
+msgstr ""

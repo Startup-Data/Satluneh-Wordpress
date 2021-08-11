@@ -1,0 +1,208 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// LESS variables passed from backend you can find in '/inc/less.php'
+// Default values for Redux in '/inc/settings.php'
+
+// Grid
+// ----------------------
+
+@screen-mi: 320px; // Mini
+@screen-xs: 480px; // Extra small screen / phone
+@screen-sm: 768px; // Small screen / tablet
+@screen-md: 992px; // Medium screen / desktop
+@screen-lg: 1200px; // Large screen / large desktop
+
+// Media Queries
+@screen-xs-min: @screen-xs;
+@screen-sm-min: @screen-sm;
+@screen-md-min: @screen-md;
+@screen-lg-min: @screen-lg;
+
+@screen-xs-max: (@screen-sm-min - 1); // 767px
+@screen-sm-max: (@screen-md-min - 1); // 991px
+@screen-md-max: (@screen-lg-min - 1);
+
+@pullresponsiveSwitch: 1600px;
+@backgroundMobileSwitch: 1199px;
+@backgroundOpacityMobile: 0.2;
+
+// Theme
+// ----------------------
+
+//base colors
+@white: #ffffff;
+@black: #000000;
+@red: #ff0000;
+
+//line height
+@bodyFontLineHeight: 1.5;
+@lineHeight: ceil((@bodyFontSize * @bodyFontLineHeight) - @bodyFontSize);
+@halfLineHeight: ceil(@lineHeight /2);
+
+//base space
+@base20: 20px;
+@base30: 30px;
+@baseSpace: @base30;
+
+@baseHeight: @base20; //inputs, buttons, readmore
+
+//background
+@bodyBackground: @copyrightsBackground;
+@mainPageBackground: @pageBackground;
+
+//logo section
+@barHeight: 78px;
+@barHeightWCAG: 121px;
+@barPadding: 5px;
+@logoFontSize: 34px;
+
+//main scheme color
+@scheme: @mainSchemeColor;
+@scheme2: @mainSchemeColor2;
+@schemeContent: @schemeInner; // schemeInner
+
+//breadcrumb
+@breadcrumbItemActiveFontColor: inherit;
+
+//inputs
+@inputFontSize: round(@bodyFontSize * 0.8125);
+@inputFontStyle: normal;
+@inputTextTransform: none;
+@inputFontWeight: 400;
+@inputPadding: 17px 25px;
+@inputBorderWidth: 1px;
+@inputBorderColor: @border;
+@inputBorderColorFocus: @scheme;
+@inputBorderRadius: 4px;
+@inputFontColor: @bodyFontColor;
+@inputBackground: @white;
+@inputBackgroundFocus: #f7f8fa;
+
+//buttons
+@buttonFontSize: @bodyFontSize;
+@buttonFontWeight: 400;
+@buttonPaddingTop: 14px;
+@buttonPaddingLeft: 30px;
+@buttonBackground: @scheme;
+@buttonBackgroundHover: lighten(@scheme, 10%);
+@buttonBorderRadius: 2px;
+@buttonFontColor: @schemeContent;
+@buttonFontColorHover: @schemeContent;
+@buttonTextTransform: none;
+
+@headerButtonBackground: @buttonBackground;
+@headerButtonFontColor: @schemeContent;
+@headerButtonBackgroundHover: lighten(@scheme, 10%);
+@headerButtonFontColorHover: @schemeContent;
+
+//readmore
+@readmoreFontSize: @bodyFontSize;
+@readmoreFontWeight: 700;
+@readmorePaddingTop: 0;
+@readmorePaddingLeft: 0;
+@readmoreFontColor: @scheme;
+@readmoreFontColorHover: @scheme;
+@readmoreTextTransform: none;
+@readmoreBorderRadius: 24px;
+@readmoreBorderColor: @scheme;
+@readmoreBorderColorHover: @scheme2;
+
+@headerReadmoreBorderColor: @scheme;
+@headerReadmoreBorderColorHover: @schemeContent;
+@headerReadmoreFontColor: @scheme;
+@headerReadmoreFontColorHover: @schemeContent;
+
+// pagination
+@paginationFontSize: @bodyFontSize;
+@paginationSize: 28px;
+@paginationBorderRadius: 24px;
+@paginationFontColor: @bodyFontColor;
+@paginationBorderColor: @border;
+@paginationFontColorHover: @scheme;
+@paginationBorderColorHover: @scheme;
+@paginationPaddingTop: 14px;
+@paginationPaddingLeft: 30px;
+
+//menu
+@menuFontSize: @bodyFontSize * 0.9;
+@menuFontColor: inherit;
+@menuFontColorHover: @scheme;
+
+//offcanvas
+@offcanvasIcon: @topmenuFontColor;
+@offcanvasIconHover: @scheme;
+
+//quote
+@quoteBackground: lighten(@scheme, 40%);
+@quoteBorder: @scheme;
+
+//testimonials
+@testimonialBackground: darken(@pageBackground, 5%);
+@testimonialFontColor: @bodyFontColor;
+
+//posts and pages
+@postMetaFontColor: @bodyFontColor;
+
+//pricing
+
+@PEpricingTitleFontSize: @postFontSize;
+@PEpricingSubtitleFontSize: inherit;
+@PEpricingPriceSize: 136px;
+@PEpricingPriceTopSpace: 25px;
+@PEpricingPriceFontColor: @schemeInner;
+@PEpricingPriceUpDownFontSize: 16px;
+@PEpricingPriceMiddleFontSize: 40px;
+@PEpricingTitleBackground: lighten(@scheme, 10%);
+@PEpricingTitleFontColor: @schemeInner;
+@PEpricingContentBackground: @pageBackground;
+@PEpricingContentFontColor: @bodyFontColor;
+@PEpricingBottomBackground: @border;
+
+// font-switcher
+// --------------------------------------------------
+
+@fontFactor70: 0.7;
+@fontFactor80: 0.8;
+@fontFactor90: 0.9;
+@fontFactor110: 1.1;
+@fontFactor120: 1.2;
+@fontFactor130: 1.3;
+
+@fontFactorContent70: 0.7;
+@fontFactorContent80: 0.8;
+@fontFactorContent90: 0.9;
+@fontFactorContent110: 1.2;
+@fontFactorContent120: 1.5;
+@fontFactorContent130: 2;
+
+// High Contrast
+// --------------------------------------------------
+
+//black - white
+@PEhcBackground: @black;
+@PEhcFontColor: #ffffff;
+@PEhcFontColor2: #8bfffb;
+
+//black - yellow
+@PEhc2Background: @black;
+@PEhc2FontColor: #ffff00;
+@PEhc2FontColor2: #8bfffb;
+
+//yellow - black
+@PEhc3Background: #ffff00;
+@PEhc3FontColor: @black;
+@PEhc3FontColor2: #0000ff;
+
+//wide layout
+@PEwideLayoutWidth: 100%;
+
+//skip menu
+@PEskipMenuFontColor: @schemeContent;
+@PEskipMenuBackground: @scheme;
+@PEskipMenuFontColorHover: @scheme;
+@PEskipMenuBackgroundHover: @schemeContent;

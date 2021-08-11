@@ -1,0 +1,825 @@
+//--------------------------------------------------------------
+// Copyright (C) pixelemu.com
+// License: http://www.pixelemu.com/license.html PixelEmu Proprietary Use License
+// Website: http://www.pixelemu.com
+// Support: info@pixelemu.com
+// ---------------------------------------------------------------
+
+// ---------------------------------------------------------------
+// POSTS and PAGES STYLES
+// ---------------------------------------------------------------
+
+.page-header,
+.pe-article-content,
+.pe-comments {
+	word-wrap: break-word;
+}
+
+.pe-article-content {
+	ul:not([class]),
+	ul.pe-dark,
+	ul.pe-light {
+		overflow: auto;
+	}
+	a:not([class]){
+	  text-decoration: underline;
+	  &:hover,
+	  &:focus{
+	    text-decoration:none;
+	  }
+	}
+}
+
+// ---------------------------------------------------------------
+// Post rows on blog layout
+// ---------------------------------------------------------------
+
+//standard
+.pe-blog-row {
+	padding-top: @baseSpace;
+	margin-top: @baseSpace;
+	border-top: 1px solid @border;
+	&:first-of-type {
+    padding-top: 0;
+    margin-top: 0;
+    border: none;
+	}
+	.blog-col{
+    &.col-sm-12{
+      .pe-image{
+        float: left;
+        margin: 0 @baseSpace 5px 0;
+      }
+    }
+    article{
+      //padding:0 0 @baseSpace;
+    }
+	}
+}
+
+.archive{
+  .pe-blog-row:not(.style-effect){
+    .blog-col{
+      &.col-sm-12{
+        .pe-image{
+          max-width: @archive1columnImageWidth;
+        }
+      }
+    }
+  }
+}
+
+.blog{
+  .pe-blog-row:not(.style-effect){
+    .blog-col{
+      &.col-sm-12{
+        .pe-image{
+          max-width: @blog1columnImageWidth;
+        }
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------
+// Post and Page title
+// ---------------------------------------------------------------
+
+.page-header {
+	margin: 0 0 @baseSpace;
+	> h1,
+	> h2,
+	> h3,
+	> h4,
+	> h5,
+	> h6,
+	p {
+		display: block;
+		color: @postFontColor;
+		font-family: @postFontFamily;
+		font-weight: @postFontWeight;
+		font-size: @postFontSize;
+		letter-spacing: @postFontLetterSpacing;
+		text-transform: @postFontTextTransform;
+		line-height: 1.1;
+		margin: 0 0 5px;
+		a {
+			color: @postFontColor;
+			&:hover {
+				color: @scheme;
+				text-decoration: none;
+			}
+		}
+	}
+	> h2.subtitle {
+		margin: 5px 0 0;
+		font-size: @bodyFontSize;
+		font-weight: @bodyFontWeight;
+		opacity: 0.7;
+	}
+}
+
+.blog,
+.archive{
+  .page-header {
+    .page-header-main-title{
+      margin-bottom: @baseSpace;
+      text-transform: uppercase;
+    }
+  }
+}
+
+//sticky post
+.sticky .page-header h2 a {
+	position: relative;
+	&:before {
+		.fa();
+		content: '\f0a1';
+		color: @scheme;
+		margin-right: 5px;
+	}
+}
+
+//readmore in blog
+.pe-article-read-more {
+	margin: @baseSpace / 2 0 0;
+}
+
+// ---------------------------------------------------------------
+// Post info, date, author etc
+// ---------------------------------------------------------------
+
+.post-meta {
+	line-height: 1.5;
+	margin: 0;
+	font-size: 0.875em;
+	color: lighten(@postMetaFontColor, 20%);
+	text-transform: none;
+	.separator {
+		margin: 0 5px;
+	}
+}
+
+// ---------------------------------------------------------------
+// Featured image in blog / archive
+// ---------------------------------------------------------------
+
+.pe-image {
+	margin-bottom: @baseSpace;
+	figure {
+		display: inline-block;
+		vertical-align: top;
+		max-width: 100%;
+	}
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignnone,
+.aligncenter,
+.alignleft,
+.alignright {
+	margin-bottom: @baseSpace;
+}
+
+.alignright {
+	float: right;
+	margin-left: @baseSpace;
+}
+
+.alignleft {
+	float: left;
+	margin-right: @baseSpace;
+}
+
+.wp-caption {
+	text-align: center;
+	max-width: 100%;
+	color: @bodyFontColor;
+	background: darken(@pageBackground, 5%);
+	a {
+		text-align: center;
+	}
+	img {
+		margin: 0;
+	}
+	.wp-caption-text {
+		padding: 10px;
+		max-width: 100%;
+	}
+}
+
+.pull-left.pe-image {
+	margin-right: @baseSpace;
+}
+
+.pull-right.pe-image {
+	margin-left: @baseSpace;
+}
+
+// ---------------------------------------------------------------
+// figure effect
+// ---------------------------------------------------------------
+
+.pe-blog-row figure.effect {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  margin: 0 !important;
+	figcaption {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		color: @blogEffectText;
+		background: @blogEffectBackgroundRgba;
+		.backface-visibility(hidden);
+		pointer-events: none;
+		.opacity(0);
+		.transition(opacity 0.5s ease);
+	}
+	.intro {
+		.display-flex();
+		.align-content(center);
+		.flex-wrap(wrap);
+		.justify-content(center);
+		width: 100%;
+		height: 100%;
+		padding: (@base30 * 2);
+		.transition(all 0.35s ease);
+		font-size: 1em;
+		text-align: center;
+		line-height: 1.5;
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			top: @base30;
+			bottom: @base30;
+			left: 50%;
+			right: 50%;
+			border-top: 1px solid @blogEffectText;
+			border-bottom: 1px solid @blogEffectText;
+			.transition(all 0.4s ease-in-out);
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 50%;
+			bottom: 50%;
+			left: @base30;
+			right: @base30;
+			border-left: 1px solid @blogEffectText;
+			border-right: 1px solid @blogEffectText;
+			.transition(all 0.4s ease-in-out);
+		}
+		a {
+			pointer-events: auto;
+		}
+	}
+	.pe-article-read-more {
+		margin: 30px 0 0;
+		text-align: center;
+		.readmore {
+			color: @blogEffectBackgroundColor;
+			border: none;
+			background: @blogEffectText;
+			&:hover,
+			&:focus {
+				color: @blogEffectBackgroundColor;
+				background: fade(@blogEffectText, 60%);
+			}
+		}
+	}
+}
+
+.pe-blog-row figure.effect:hover {
+	figcaption {
+		.opacity(1);
+	}
+	.intro {
+		&:before {
+			left: @base30;
+			right: @base30;
+		}
+		&:after {
+			top: @base30;
+			bottom: @base30;
+		}
+	}
+}
+
+//archive
+.archive .pe-blog-row figure.effect {
+	figcaption {
+		color: @archiveEffectText;
+		background: @archiveEffectBackgroundRgba;
+		&:before {
+			background: fade(@archiveEffectBackgroundColor, 30%);
+		}
+		&:after {
+			background: fade(@archiveEffectBackgroundColor, 30%);
+		}
+	}
+	.pe-article-read-more {
+		.readmore {
+			color: @archiveEffectBackgroundColor;
+			background: @archiveEffectText;
+			padding: 5px;
+			&:hover,
+			&:focus {
+				color: @archiveEffectBackgroundColor;
+				background: fade(@archiveEffectText, 60%);
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Author info on single post
+// ---------------------------------------------------------------
+
+.pe-author-info {
+	padding-top: @baseSpace;
+}
+
+.pe-author-info .pe-title {
+	.widget-title();
+}
+
+.pe-author-name {
+	line-height: 1.1;
+	margin: 0 0 10px;
+	a {
+		display: block;
+	}
+	.url {
+		font-size: 0.9em;
+		margin: 5px 0 0;
+	}
+}
+
+.pe-author-name .name {
+	display: block;
+	color: @widgetFontColor;
+	font-weight: 700;
+}
+
+.pe-author-in {
+	display: table;
+}
+
+.pe-author-avatar {
+	display: table-cell;
+	vertical-align: top;
+	padding: 0 @baseSpace 20px 0;
+	img {
+		.box-sizing(content-box);
+		max-width: none;
+		.border-radius(100%);
+	}
+}
+
+.pe-author-details {
+	display: table-cell;
+	vertical-align: top;
+}
+
+// ---------------------------------------------------------------
+// Tags
+// ---------------------------------------------------------------
+
+.pe-post-tags {
+	padding-top: @baseSpace / 2;
+}
+
+.pe-post-tags > .title {
+	float: left;
+	font-weight: bold;
+	padding-right: 10px;
+	line-height: 2em;
+}
+
+.pe-post-tags {
+	ul {
+    margin: 0;
+    width: 100%;
+    list-style: none;
+		li {
+      display: inline-block;
+      padding-right: 5px;
+      background: none;
+      padding-bottom: 5px;
+			a {
+        font-size: 11px;
+        font-weight: bold;
+        line-height: 14px;
+        vertical-align: baseline;
+        white-space: nowrap;
+        background-color: transparent !important;
+        color: @bodyFontColor;
+        text-shadow: none;
+        border: 2px solid @border;
+        border-radius: 2px;
+        padding: 7px 10px;
+        text-transform: uppercase;
+        display: block;
+				&:hover,
+				&:focus {
+					border-color: @scheme;
+					text-decoration:none;
+				}
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Navigation
+// ---------------------------------------------------------------
+
+.post-navigation {
+	padding-top: @baseSpace;
+	.nav-links {
+		overflow: hidden;
+	}
+	.meta-nav {
+		color: @scheme;
+		padding-right: 10px;
+	}
+	.nav-next {
+		float: right;
+		a {
+			&:after {
+				.fa();
+				content: '\f105';
+				margin-left: 5px;
+				color: @scheme;
+			}
+		}
+	}
+	.nav-previous {
+		float: left;
+		a {
+			&:before {
+				.fa();
+				content: '\f104';
+				margin-right: 5px;
+				color: @scheme;
+			}
+		}
+	}
+	a {
+		position: relative;
+		color: inherit;
+		&:hover,
+		&:focus {
+			color: @scheme;
+			text-decoration: none;
+		}
+	}
+}
+
+// ---------------------------------------------------------------
+// Comments
+// ---------------------------------------------------------------
+
+.pe-comments {
+	padding-top: @baseSpace;
+	.comment-reply-title,
+	.comments-title {
+		.widget-title();
+	}
+	.comment-body {
+		display: table;
+		margin-bottom: @baseSpace;
+	}
+	ul.children {
+		margin: 0;
+	}
+	.comment-list > li > ul.children {
+		padding-left: (60 + @baseSpace);
+	}
+	.comment-avatar {
+		display: table-cell;
+		vertical-align: top;
+		padding: 0 @baseSpace 20px 0;
+		img.avatar {
+			.box-sizing(content-box);
+			max-width: none;
+			.border-radius(100%);
+		}
+	}
+	.comment-details {
+		display: table-cell;
+		vertical-align: top;
+	}
+	.comment-author {
+		line-height: 1.1;
+	}
+	.comment-meta {
+		font-size: 0.9em;
+		line-height: 1.1;
+		margin: 5px 0 0;
+		.separator {
+			font-size: 0;
+			text-indent: -999px;
+			margin: 0 3px;
+		}
+	}
+	.comment-meta + p {
+		margin-top: 10px;
+	}
+	input[type='text'],
+	textarea {
+		width: 100%;
+		margin: 0 0 @baseSpace;
+	}
+	.form-submit {
+		margin: 0;
+	}
+	.comment-respond {
+		margin: 0;
+	}
+	.comment-reply-link {
+		.btn();
+		margin-top: 5px;
+		padding: 5px 10px;
+	}
+}
+
+// ---------------------------------------------------------------
+// Single member page
+// ---------------------------------------------------------------
+
+.pe-row.single-member {
+	clear: both;
+	margin-top: @baseSpace;
+}
+
+.pe-opening-hours {
+	.pe-title {
+		.widget-title();
+	}
+	ul.pe-hours {
+		.pe-oh-day,
+		.pe-oh-hours {
+			display: block;
+			float: left;
+			width: 50%;
+		}
+		.pe-oh-day {
+			font-weight: 700;
+		}
+		.pe-separator {
+			position: relative;
+			&:after {
+				content: ' - ';
+			}
+		}
+	}
+}
+
+.pe-member-contact {
+	.pe-title {
+		.widget-title();
+	}
+}
+
+.pe-socials {
+	.pe-title {
+		.widget-title();
+	}
+}
+
+// ---------------------------------------------------------------
+// Contact page
+// ---------------------------------------------------------------
+
+.pe-contact {
+	.pe-row + .pe-row {
+		margin-top: @baseSpace;
+	}
+}
+
+// ---------------------------------------------------------------
+// Login / Register / Forgot
+// ---------------------------------------------------------------
+
+#pe-login-register-forgot,
+#pe-login-popup-html,
+#pe-register-popup-html {
+	text-align: center;
+	p {
+		margin: 1em 0;
+	}
+	.login-username,
+	.login-password {
+		label {
+			display: none;
+		}
+	}
+	input[type='text'],
+	input[type='password'] {
+		width: 100%;
+		max-width: 400px;
+	}
+	.login-submit,
+	.register-submit,
+	.forgot-submit {
+		margin-top: @base30;
+	}
+	.pe-tabs-content {
+		padding-top: 40px;
+		text-align: center;
+	}
+	.pe-info {
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: @baseSpace;
+	}
+}
+
+// ---------------------------------------------------------------
+// Error page
+// ---------------------------------------------------------------
+
+.pe-error-page {
+	text-align: center;
+	> h1,
+	> h2 {
+		color: @postFontColor;
+		font-family: @postFontFamily;
+		letter-spacing: @postFontLetterSpacing;
+		text-transform: @postFontTextTransform;
+		margin: 0 0 1em;
+	}
+	> h1 {
+		font-size: (@postFontSize * 2);
+	}
+	> h2 {
+		font-size: @postFontSize;
+	}
+	.search {
+		margin: @baseSpace 0;
+	}
+}
+
+// ---------------------------------------------------------------
+// Terraclassifieds
+// ---------------------------------------------------------------
+.terraclassifieds-category-content{
+  h1{
+    display: block;
+    color: @tcfCategoryFontColor;
+    font-family: @tcfCategoryFontFamily;
+    font-weight: @tcfCategoryFontWeight;
+    font-size: @tcfCategoryFontSize;
+    letter-spacing: @tcfCategoryFontLetterSpacing;
+    text-transform: @widgetFontTextTransform;
+    line-height: 1.1;
+    margin: 0 0 5px;
+  }
+}
+.terraclassifieds-single .terraclassifieds-main-title{
+    color: @tcfSingleFontColor;
+    font-family: @tcfSingleFontFamily;
+    font-weight: @tcfSingleFontWeight;
+    font-size: @tcfSingleFontSize;
+    letter-spacing: @tcfSingleFontLetterSpacing;
+    text-transform: @tcfSingleFontTextTransform;
+    line-height: 1.2;
+    margin: 0 0 5px;
+}
+.cmb2-id--tc-category ul.cmb2-list > li ul.cmb2-indented-hierarchy{
+  //border: 2px solid @border;
+  //box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 2px 0 0 0 rgba(0, 0, 0, 0.15), inset -2px 0 0px 0 rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+.cmb2-id--tc-category ul.cmb2-list > li > ul.cmb2-indented-hierarchy{
+  box-shadow: inset 2px 0 0 0 rgba(0, 0, 0, 0.15), inset -2px 0 0px 0 rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15), 0 -4px 2px -2px rgba(0, 0, 0, 0.15);
+}
+.cmb2-id--tc-category ul.cmb2-list li span label.active,
+.cmb2-id--tc-category ul.cmb2-list li span input[type=radio]:checked + label{
+  border-color: @buttonBackground;
+}
+.cmb2-id--tc-category ul.cmb2-list > li > ul.cmb2-indented-hierarchy .tcf-close{
+  background: @bodyFontColor;
+}
+.cmb2-wrap input, .cmb2-wrap textarea{
+    border-width: inherit;
+    border-style: inherit;
+}
+.cmb2-wrap input, .cmb2-wrap textarea{
+    border-width: 1px;
+    border-style: solid;
+    border-color: @border;
+}
+.cmb2-wrap .btn{
+    border-width: 2px;
+    border-style: solid;
+}
+.cmb2-wrap input[type="button"].cmb2-upload-button,
+.cmb2-wrap .btn{
+    line-height: 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+    padding: 4px 20px;
+    margin: 0;
+}
+.cmb-form .cmb2-wrap{
+  border-color: @border;
+}
+.terraclassifieds-registration-content hr{
+  background: @border;
+}
+a.terraclassifieds-forgot-password-link{
+    color: rgba(0, 0, 0, 0.24);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 17px 24px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    &:hover,
+    &:focus{
+      text-decoration: none;
+      color: @scheme;
+    }
+}
+.terraclassifieds-register-link-outer{
+  a{
+    padding: 17px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: @bodyFontColor;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: @scheme;
+    }
+    &:hover,
+    &:focus{
+      color: @scheme;
+    }
+  }
+}
+.terraclassifieds-phone-more{
+  color: @scheme;
+}
+ul.terraclassifieds-usermenu > .menu-item > a,
+ul.terraclassifieds-usermenu > .menu-item > span{
+    font-weight: 700;
+    font-size: 13px;
+    color: @bodyFontColor;
+    &:hover,
+    &:focus{
+      color: @scheme;
+    }
+}
+ul.terraclassifieds-usermenu .nav-dropdown .menu-item a, 
+ul.terraclassifieds-usermenu .nav-dropdown .menu-item span{
+    font-size: 13px;
+    font-weight: 400;
+}
+ul.terraclassifieds-usermenu .nav-dropdown .menu-item.menu-separator > span{
+    font-weight: 600;
+}
+ul.terraclassifieds-usermenu .nav-dropdown .menu-item:hover > a {
+    color: @bodyFontColor;
+    background: rgba(0, 0, 0, 0.05);
+}
+.terraclassifieds-contact-form form input, 
+.terraclassifieds-contact-form form textarea{
+    font-size: 14px;
+    padding: 5px;
+}
+.terraclassifieds-contact-form form textarea{
+  min-height: 100px;
+}
+.terraclassifieds-negotiable-price{
+  color: @bodyFontColor;
+}
+.terraclassifieds-single .terraclassifieds-desc{
+  color: @bodyFontColor;
+}
