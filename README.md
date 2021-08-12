@@ -10,3 +10,9 @@
 ## 5- use the *admin* (as username) and *ss123456* (as password) via [the wp-admin page](https://www.inmotionhosting.com/support/edu/wordpress/logging-into-wordpress-dashboard/):
 ![image](https://user-images.githubusercontent.com/6679151/129104974-714a98a3-2ce3-4eb3-a515-30e808058090.png)
 
+## [The Below video](https://vimeo.com/585519623) is a poor quality video about installing the Terraclassic Demo site via WordPress (With low quality English speaking and ...!), But I hope to be Useful. Some links mentioned in this video can be seen below:
+
+![image](https://user-images.githubusercontent.com/6679151/129152391-1b47a372-ec0d-4452-b7c3-5e26dc1d9df1.png)
+
+
+Thanks.
